@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import Item from "./Item";
+import Image from "./Image";
 
 function Content({ search }: { search: string }) {
   const [json, setJson] = useState<InterfaceStructure>({
@@ -12,6 +13,7 @@ function Content({ search }: { search: string }) {
   });
   const [items, setItems] = useState<JSX.Element[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
+  const [image, setImage] = useState<string>("");
 
   const itemsRef = useRef<JSX.Element[]>([]);
 
@@ -23,6 +25,10 @@ function Content({ search }: { search: string }) {
     recursiveCount: number;
     children: InterfaceStructure[] | null;
   }
+
+  const setItemImage = (url: string) => {
+    setImage(url);
+  };
 
   useEffect(() => {
     import("../assets/structure.json").then((res) => {
@@ -43,6 +49,7 @@ function Content({ search }: { search: string }) {
               key={child.path}
               path={child.path}
               name={child.name}
+              setImage={setItemImage}
               show={true}
               recursiveCount={currentCount}
               children={[...findChildren(child.children, currentCount + 1)]}
@@ -54,6 +61,7 @@ function Content({ search }: { search: string }) {
               key={child.path}
               path={child.path}
               name={child.name}
+              setImage={setItemImage}
               show={true}
               recursiveCount={currentCount}
               children={[]}
@@ -74,6 +82,7 @@ function Content({ search }: { search: string }) {
                     key={child.path}
                     path={child.path}
                     name={child.name}
+                    setImage={setItemImage}
                     show={true}
                     recursiveCount={0}
                     children={[...findChildren(child.children, 1)]}
@@ -85,6 +94,7 @@ function Content({ search }: { search: string }) {
                     key={child.path}
                     path={child.path}
                     name={child.name}
+                    setImage={setItemImage}
                     show={true}
                     recursiveCount={0}
                     children={[]}
@@ -147,6 +157,7 @@ function Content({ search }: { search: string }) {
                           path={child.props.path}
                           name={child.props.name}
                           show={localFound ? localFound : childFound}
+                          setImage={setItemImage}
                           recursiveCount={child.props.recursiveCount}
                           children={[...children]}
                         />
@@ -158,6 +169,7 @@ function Content({ search }: { search: string }) {
                           path={child.props.path}
                           name={child.props.name}
                           show={localFound}
+                          setImage={setItemImage}
                           recursiveCount={child.props.recursiveCount}
                           children={[]}
                         />
@@ -181,6 +193,7 @@ function Content({ search }: { search: string }) {
                     path={item.props.path}
                     name={item.props.name}
                     show={found}
+                    setImage={setItemImage}
                     recursiveCount={0}
                     children={[...children]}
                   />
@@ -193,6 +206,7 @@ function Content({ search }: { search: string }) {
                     name={item.props.name}
                     show={found}
                     recursiveCount={0}
+                    setImage={setItemImage}
                     children={[]}
                   />
                 );
@@ -214,8 +228,11 @@ function Content({ search }: { search: string }) {
 
   return (
     <>
-      <div className="content">
-        {(loading && <div className="loader" />) || <div className="content-list">{items}</div>}
+      <div className="content-container">
+        <div className="content">
+          {(loading && <div className="loader" />) || <div className="content-list">{items}</div>}
+        </div>
+        <Image image={image} />
       </div>
     </>
   );

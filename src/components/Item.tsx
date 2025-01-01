@@ -8,21 +8,22 @@ function Item({
   recursiveCount,
   show,
   children,
-  getChildren,
+  setImage,
 }: {
   path: string;
   name: string;
   recursiveCount: number;
   show: boolean;
   children: JSX.Element[] | undefined;
-  getChildren?: () => void | undefined;
+  setImage?: (url: string) => void | undefined;
 }) {
   const [collapsed, setCollapsed] = useState<boolean>(false);
   //{"{img:interface/Glues/Models/UIWorgen/UIWORGENCLOUDS01.PNG:512:175:l}"}
   //we have to somehow assemble the above thing from the path string
 
   const onMouseEnter = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
-    if (!path.includes(".PNG")) return;
+    if (!path.includes(".PNG") || !setImage) return;
+    setImage(`https://raw.githubusercontent.com/goobyspace/Interface/refs/heads/main/${path}`);
     console.log(`https://raw.githubusercontent.com/goobyspace/Interface/refs/heads/main/${path}`);
     console.log(e);
   };
@@ -30,7 +31,7 @@ function Item({
     <>
       <div className={show ? "item" : "hidden"}>
         <span style={{ left: `${recursiveCount * 20}px` }} onMouseEnter={onMouseEnter}>
-          {((children && children.length > 0) || getChildren) && (
+          {children && children.length > 0 && (
             <img
               src={collapsed ? ArrowRight : ArrowDown}
               alt="collapse arrow"
@@ -38,9 +39,6 @@ function Item({
               onClick={() => {
                 if (children && children.length > 0) {
                   setCollapsed(!collapsed);
-                } else if (getChildren) {
-                  getChildren();
-                  setCollapsed(false);
                 }
               }}
             />
