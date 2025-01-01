@@ -1,0 +1,14 @@
+{
+  "parent": "",
+  "path": "AnimCreate",
+  "name": "AnimCreate",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "AnimCreate",
+      "path": "AnimCreate\\AnimCreateIcons.PNG",
+      "name": "AnimCreateIcons.PNG",
+      "type": "file"
+    }
+  ]
+}

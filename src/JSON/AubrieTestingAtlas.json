@@ -1,0 +1,14 @@
+{
+  "parent": "",
+  "path": "AubrieTestingAtlas",
+  "name": "AubrieTestingAtlas",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "AubrieTestingAtlas",
+      "path": "AubrieTestingAtlas\\AubrieTestingAtlas.PNG",
+      "name": "AubrieTestingAtlas.PNG",
+      "type": "file"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "parent": "",
+  "path": "DialogFrame",
+  "name": "DialogFrame",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\Colorpicker.PNG",
+      "name": "Colorpicker.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\DialogAlertIcon.PNG",
+      "name": "DialogAlertIcon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\DialogFrame-Bot.PNG",
+      "name": "DialogFrame-Bot.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\DialogFrame-Corners.PNG",
+      "name": "DialogFrame-Corners.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\DialogFrame-Left.PNG",
+      "name": "DialogFrame-Left.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\DialogFrame-Right.PNG",
+      "name": "DialogFrame-Right.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\DialogFrame-Top.PNG",
+      "name": "DialogFrame-Top.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\DialogIcon-AlertNew-16.PNG",
+      "name": "DialogIcon-AlertNew-16.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\UI-Dialog-Icon-AlertNew.PNG",
+      "name": "UI-Dialog-Icon-AlertNew.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\UI-Dialog-Icon-AlertOther.PNG",
+      "name": "UI-Dialog-Icon-AlertOther.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\UI-DialogBox-Background-Dark.PNG",
+      "name": "UI-DialogBox-Background-Dark.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\UI-DialogBox-Background.PNG",
+      "name": "UI-DialogBox-Background.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\UI-DialogBox-Border.PNG",
+      "name": "UI-DialogBox-Border.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\UI-DialogBox-Corner.PNG",
+      "name": "UI-DialogBox-Corner.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\UI-DialogBox-Divider.PNG",
+      "name": "UI-DialogBox-Divider.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\UI-DialogBox-Gold-Background.PNG",
+      "name": "UI-DialogBox-Gold-Background.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\UI-DialogBox-Gold-Border.PNG",
+      "name": "UI-DialogBox-Gold-Border.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\UI-DialogBox-Gold-Corner.PNG",
+      "name": "UI-DialogBox-Gold-Corner.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\UI-DialogBox-Gold-Dragon.PNG",
+      "name": "UI-DialogBox-Gold-Dragon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\UI-DialogBox-Gold-Header.PNG",
+      "name": "UI-DialogBox-Gold-Header.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\UI-DialogBox-Header.PNG",
+      "name": "UI-DialogBox-Header.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\UI-DialogBox-TestWatermark-Border.PNG",
+      "name": "UI-DialogBox-TestWatermark-Border.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\UIFrameDialogBox.PNG",
+      "name": "UIFrameDialogBox.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\UIFrameDialogBoxBackground.PNG",
+      "name": "UIFrameDialogBoxBackground.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "DialogFrame",
+      "path": "DialogFrame\\UIFrameDialogBoxVertical.PNG",
+      "name": "UIFrameDialogBoxVertical.PNG",
+      "type": "file"
+    }
+  ]
+}

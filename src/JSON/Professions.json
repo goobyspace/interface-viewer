@@ -1,0 +1,584 @@
+{
+  "parent": "",
+  "path": "Professions",
+  "name": "Professions",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "Professions",
+      "path": "Professions\\CraftingOrders.PNG",
+      "name": "CraftingOrders.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionBackgroundArt.PNG",
+      "name": "ProfessionBackgroundArt.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionBackgroundArtAlchemy.PNG",
+      "name": "ProfessionBackgroundArtAlchemy.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionBackgroundArtBlacksmithing.PNG",
+      "name": "ProfessionBackgroundArtBlacksmithing.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionBackgroundArtCooking.PNG",
+      "name": "ProfessionBackgroundArtCooking.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionBackgroundArtEnchanting.PNG",
+      "name": "ProfessionBackgroundArtEnchanting.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionBackgroundArtEngineering.PNG",
+      "name": "ProfessionBackgroundArtEngineering.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionBackgroundArtFishing.PNG",
+      "name": "ProfessionBackgroundArtFishing.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionBackgroundArtHerbalism.PNG",
+      "name": "ProfessionBackgroundArtHerbalism.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionBackgroundArtInscription.PNG",
+      "name": "ProfessionBackgroundArtInscription.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionBackgroundArtJewelcrafting.PNG",
+      "name": "ProfessionBackgroundArtJewelcrafting.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionBackgroundArtLeatherworking.PNG",
+      "name": "ProfessionBackgroundArtLeatherworking.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionBackgroundArtMining.PNG",
+      "name": "ProfessionBackgroundArtMining.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionBackgroundArtSkinning.PNG",
+      "name": "ProfessionBackgroundArtSkinning.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionBackgroundArtTailoring.PNG",
+      "name": "ProfessionBackgroundArtTailoring.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\Professions.PNG",
+      "name": "Professions.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXAlchemy.PNG",
+      "name": "ProfessionsFXAlchemy.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXAlchemyDialFill.PNG",
+      "name": "ProfessionsFXAlchemyDialFill.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXBlacksmithing.PNG",
+      "name": "ProfessionsFXBlacksmithing.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXBlacksmithingDialFill.PNG",
+      "name": "ProfessionsFXBlacksmithingDialFill.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXCooking.PNG",
+      "name": "ProfessionsFXCooking.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXCraftingBar.PNG",
+      "name": "ProfessionsFXCraftingBar.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXEnchanting.PNG",
+      "name": "ProfessionsFXEnchanting.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXEnchantingDialFill.PNG",
+      "name": "ProfessionsFXEnchantingDialFill.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXEngineering.PNG",
+      "name": "ProfessionsFXEngineering.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXEngineeringDialFill.PNG",
+      "name": "ProfessionsFXEngineeringDialFill.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXFishing.PNG",
+      "name": "ProfessionsFXFishing.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXGearAugmentation.PNG",
+      "name": "ProfessionsFXGearAugmentation.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXGearAugmentationMask.PNG",
+      "name": "ProfessionsFXGearAugmentationMask.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXHerbalism.PNG",
+      "name": "ProfessionsFXHerbalism.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXHerbalismDialFill.PNG",
+      "name": "ProfessionsFXHerbalismDialFill.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXInscription.PNG",
+      "name": "ProfessionsFXInscription.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXInscriptionDialFill.PNG",
+      "name": "ProfessionsFXInscriptionDialFill.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXJewelcrafting.PNG",
+      "name": "ProfessionsFXJewelcrafting.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXJewelcraftingDialFill.PNG",
+      "name": "ProfessionsFXJewelcraftingDialFill.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXLeatherworking.PNG",
+      "name": "ProfessionsFXLeatherworking.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXLeatherworkingDialFill.PNG",
+      "name": "ProfessionsFXLeatherworkingDialFill.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXMining.PNG",
+      "name": "ProfessionsFXMining.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXMiningDialFill.PNG",
+      "name": "ProfessionsFXMiningDialFill.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXProgressBars.PNG",
+      "name": "ProfessionsFXProgressBars.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXSkinning.PNG",
+      "name": "ProfessionsFXSkinning.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXSkinningDialFill.PNG",
+      "name": "ProfessionsFXSkinningDialFill.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXTailoring.PNG",
+      "name": "ProfessionsFXTailoring.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsFXTailoringDialFill.PNG",
+      "name": "ProfessionsFXTailoringDialFill.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsMinimizedView.PNG",
+      "name": "ProfessionsMinimizedView.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationBackgroundArtAlchemy.PNG",
+      "name": "ProfessionSpecializationBackgroundArtAlchemy.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationBackgroundArtBlacksmithing.PNG",
+      "name": "ProfessionSpecializationBackgroundArtBlacksmithing.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationBackgroundArtCooking.PNG",
+      "name": "ProfessionSpecializationBackgroundArtCooking.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationBackgroundArtEnchanting.PNG",
+      "name": "ProfessionSpecializationBackgroundArtEnchanting.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationBackgroundArtEngineering.PNG",
+      "name": "ProfessionSpecializationBackgroundArtEngineering.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationBackgroundArtFishing.PNG",
+      "name": "ProfessionSpecializationBackgroundArtFishing.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationBackgroundArtHerbalism.PNG",
+      "name": "ProfessionSpecializationBackgroundArtHerbalism.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationBackgroundArtInscription.PNG",
+      "name": "ProfessionSpecializationBackgroundArtInscription.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationBackgroundArtJewelcrafting.PNG",
+      "name": "ProfessionSpecializationBackgroundArtJewelcrafting.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationBackgroundArtLeatherworking.PNG",
+      "name": "ProfessionSpecializationBackgroundArtLeatherworking.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationBackgroundArtMining.PNG",
+      "name": "ProfessionSpecializationBackgroundArtMining.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationBackgroundArtSkinning.PNG",
+      "name": "ProfessionSpecializationBackgroundArtSkinning.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationBackgroundArtTailoring.PNG",
+      "name": "ProfessionSpecializationBackgroundArtTailoring.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationMiniDialArtAlchemy.PNG",
+      "name": "ProfessionSpecializationMiniDialArtAlchemy.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationMiniDialArtBlacksmithing.PNG",
+      "name": "ProfessionSpecializationMiniDialArtBlacksmithing.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationMiniDialArtEnchanting.PNG",
+      "name": "ProfessionSpecializationMiniDialArtEnchanting.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationMiniDialArtEngineering.PNG",
+      "name": "ProfessionSpecializationMiniDialArtEngineering.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationMiniDialArtHerbalism.PNG",
+      "name": "ProfessionSpecializationMiniDialArtHerbalism.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationMiniDialArtInscription.PNG",
+      "name": "ProfessionSpecializationMiniDialArtInscription.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationMiniDialArtJewelcrafting.PNG",
+      "name": "ProfessionSpecializationMiniDialArtJewelcrafting.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationMiniDialArtLeatherworking.PNG",
+      "name": "ProfessionSpecializationMiniDialArtLeatherworking.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationMiniDialArtMining.PNG",
+      "name": "ProfessionSpecializationMiniDialArtMining.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationMiniDialArtSkinning.PNG",
+      "name": "ProfessionSpecializationMiniDialArtSkinning.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationMiniDialArtTailoring.PNG",
+      "name": "ProfessionSpecializationMiniDialArtTailoring.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationPreviewArtAlchemy.PNG",
+      "name": "ProfessionSpecializationPreviewArtAlchemy.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationPreviewArtBlacksmithing.PNG",
+      "name": "ProfessionSpecializationPreviewArtBlacksmithing.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationPreviewArtEnchanting.PNG",
+      "name": "ProfessionSpecializationPreviewArtEnchanting.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationPreviewArtEngineering.PNG",
+      "name": "ProfessionSpecializationPreviewArtEngineering.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationPreviewArtHerbalism.PNG",
+      "name": "ProfessionSpecializationPreviewArtHerbalism.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationPreviewArtInscription.PNG",
+      "name": "ProfessionSpecializationPreviewArtInscription.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationPreviewArtJewelcrafting.PNG",
+      "name": "ProfessionSpecializationPreviewArtJewelcrafting.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationPreviewArtLeatherworking.PNG",
+      "name": "ProfessionSpecializationPreviewArtLeatherworking.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationPreviewArtMining.PNG",
+      "name": "ProfessionSpecializationPreviewArtMining.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationPreviewArtSkinning.PNG",
+      "name": "ProfessionSpecializationPreviewArtSkinning.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationPreviewArtTailoring.PNG",
+      "name": "ProfessionSpecializationPreviewArtTailoring.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionSpecializationPreviewPips.PNG",
+      "name": "ProfessionSpecializationPreviewPips.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsQualityIcons.PNG",
+      "name": "ProfessionsQualityIcons.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsQualityT1.PNG",
+      "name": "ProfessionsQualityT1.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsQualityT3.PNG",
+      "name": "ProfessionsQualityT3.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsQualityT5.PNG",
+      "name": "ProfessionsQualityT5.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsQualityTier2.PNG",
+      "name": "ProfessionsQualityTier2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsQualityTier4.PNG",
+      "name": "ProfessionsQualityTier4.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsSkillBarMask.PNG",
+      "name": "ProfessionsSkillBarMask.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsSpecializationArrowLine.PNG",
+      "name": "ProfessionsSpecializationArrowLine.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsSpecializationDial.PNG",
+      "name": "ProfessionsSpecializationDial.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsSpecializationDialEdgeMask.PNG",
+      "name": "ProfessionsSpecializationDialEdgeMask.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsSpecializationDialFillMask.PNG",
+      "name": "ProfessionsSpecializationDialFillMask.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsSpecializationDialLineMaskInner.PNG",
+      "name": "ProfessionsSpecializationDialLineMaskInner.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\ProfessionsSpecializationDialLineMaskOuter.PNG",
+      "name": "ProfessionsSpecializationDialLineMaskOuter.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\TabDividerTop.PNG",
+      "name": "TabDividerTop.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Professions",
+      "path": "Professions\\TabDividerTopHighlight.PNG",
+      "name": "TabDividerTopHighlight.PNG",
+      "type": "file"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "parent": "",
+  "path": "PaperDoll",
+  "name": "PaperDoll",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\inspect-top.PNG",
+      "name": "inspect-top.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\Inspect.PNG",
+      "name": "Inspect.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-Backpack-EmptySlot.PNG",
+      "name": "UI-Backpack-EmptySlot.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDoll-Slot-Ammo.PNG",
+      "name": "UI-PaperDoll-Slot-Ammo.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDoll-Slot-Bag.PNG",
+      "name": "UI-PaperDoll-Slot-Bag.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDoll-Slot-Chest.PNG",
+      "name": "UI-PaperDoll-Slot-Chest.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDoll-Slot-Feet.PNG",
+      "name": "UI-PaperDoll-Slot-Feet.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDoll-Slot-Finger.PNG",
+      "name": "UI-PaperDoll-Slot-Finger.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDoll-Slot-Generic.PNG",
+      "name": "UI-PaperDoll-Slot-Generic.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDoll-Slot-Hands.PNG",
+      "name": "UI-PaperDoll-Slot-Hands.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDoll-Slot-Head.PNG",
+      "name": "UI-PaperDoll-Slot-Head.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDoll-Slot-Legs.PNG",
+      "name": "UI-PaperDoll-Slot-Legs.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDoll-Slot-MainHand.PNG",
+      "name": "UI-PaperDoll-Slot-MainHand.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDoll-Slot-Neck.PNG",
+      "name": "UI-PaperDoll-Slot-Neck.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDoll-Slot-Ranged.PNG",
+      "name": "UI-PaperDoll-Slot-Ranged.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDoll-Slot-REar.PNG",
+      "name": "UI-PaperDoll-Slot-REar.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDoll-Slot-Relic.PNG",
+      "name": "UI-PaperDoll-Slot-Relic.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDoll-Slot-RFinger.PNG",
+      "name": "UI-PaperDoll-Slot-RFinger.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDoll-Slot-SecondaryHand.PNG",
+      "name": "UI-PaperDoll-Slot-SecondaryHand.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDoll-Slot-Shirt.PNG",
+      "name": "UI-PaperDoll-Slot-Shirt.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDoll-Slot-Shoulder.PNG",
+      "name": "UI-PaperDoll-Slot-Shoulder.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDoll-Slot-Tabard.PNG",
+      "name": "UI-PaperDoll-Slot-Tabard.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDoll-Slot-Trinket.PNG",
+      "name": "UI-PaperDoll-Slot-Trinket.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDoll-Slot-Waist.PNG",
+      "name": "UI-PaperDoll-Slot-Waist.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDoll-Slot-Wrists.PNG",
+      "name": "UI-PaperDoll-Slot-Wrists.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDoll-SlotBackground.PNG",
+      "name": "UI-PaperDoll-SlotBackground.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDollBackground-L1.PNG",
+      "name": "UI-PaperDollBackground-L1.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDollBackground-L2.PNG",
+      "name": "UI-PaperDollBackground-L2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDollBackground-R1.PNG",
+      "name": "UI-PaperDollBackground-R1.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDoll",
+      "path": "PaperDoll\\UI-PaperDollBackground-R2.PNG",
+      "name": "UI-PaperDollBackground-R2.PNG",
+      "type": "file"
+    }
+  ]
+}

@@ -1,0 +1,602 @@
+{
+  "parent": "",
+  "path": "CHARACTERFRAME",
+  "name": "CHARACTERFRAME",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\BarFill.PNG",
+      "name": "BarFill.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\BarHighlight.PNG",
+      "name": "BarHighlight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\Button_BloodPresence_DeathKnight.PNG",
+      "name": "Button_BloodPresence_DeathKnight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\Button_ClassIcon_DeathKnight.PNG",
+      "name": "Button_ClassIcon_DeathKnight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\Button_DeathStrike_DeathKnight.PNG",
+      "name": "Button_DeathStrike_DeathKnight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\Button_FrostPresence_DeathKnight.PNG",
+      "name": "Button_FrostPresence_DeathKnight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\Button_PlagueStrike_DeathKnight.PNG",
+      "name": "Button_PlagueStrike_DeathKnight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\Button_UnholyPresence_DeathKnight.PNG",
+      "name": "Button_UnholyPresence_DeathKnight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\Char-Paperdoll-Horizontal.PNG",
+      "name": "Char-Paperdoll-Horizontal.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\Char-Paperdoll-Parts.PNG",
+      "name": "Char-Paperdoll-Parts.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\Char-Paperdoll-Vertical.PNG",
+      "name": "Char-Paperdoll-Vertical.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\Char-Stat-Middle.PNG",
+      "name": "Char-Stat-Middle.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\ComboPoint.PNG",
+      "name": "ComboPoint.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\DeathKnight-BloodRune-Desat.PNG",
+      "name": "DeathKnight-BloodRune-Desat.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\DeathKnight-BloodRune-Glow.PNG",
+      "name": "DeathKnight-BloodRune-Glow.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\DeathKnight-BloodRune-Highlight.PNG",
+      "name": "DeathKnight-BloodRune-Highlight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\DeathKnight-BloodRune.PNG",
+      "name": "DeathKnight-BloodRune.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\DeathKnight-FrostRune-Desat.PNG",
+      "name": "DeathKnight-FrostRune-Desat.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\DeathKnight-FrostRune-Glow.PNG",
+      "name": "DeathKnight-FrostRune-Glow.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\DeathKnight-FrostRune-Highlight.PNG",
+      "name": "DeathKnight-FrostRune-Highlight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\DeathKnight-FrostRune.PNG",
+      "name": "DeathKnight-FrostRune.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\DeathKnight-UnholyRune-Desat.PNG",
+      "name": "DeathKnight-UnholyRune-Desat.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\DeathKnight-UnholyRune-Glow.PNG",
+      "name": "DeathKnight-UnholyRune-Glow.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\DeathKnight-UnholyRune-Highlight.PNG",
+      "name": "DeathKnight-UnholyRune-Highlight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\DeathKnight-UnholyRune.PNG",
+      "name": "DeathKnight-UnholyRune.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\Disconnect-Icon.PNG",
+      "name": "Disconnect-Icon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\EquipmentManager.PNG",
+      "name": "EquipmentManager.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Female-BloodElf.PNG",
+      "name": "TemporaryPortrait-Female-BloodElf.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Female-DarkIronDwarf.PNG",
+      "name": "TemporaryPortrait-Female-DarkIronDwarf.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Female-Dracthyr.PNG",
+      "name": "TemporaryPortrait-Female-Dracthyr.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Female-Draenei.PNG",
+      "name": "TemporaryPortrait-Female-Draenei.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Female-Dwarf.PNG",
+      "name": "TemporaryPortrait-Female-Dwarf.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Female-Gilnean.PNG",
+      "name": "TemporaryPortrait-Female-Gilnean.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Female-Gnome.PNG",
+      "name": "TemporaryPortrait-Female-Gnome.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TEMPORARYPORTRAIT-FEMALE-GOBLIN.PNG",
+      "name": "TEMPORARYPORTRAIT-FEMALE-GOBLIN.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Female-HighmountainTauren.PNG",
+      "name": "TemporaryPortrait-Female-HighmountainTauren.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Female-Human.PNG",
+      "name": "TemporaryPortrait-Female-Human.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Female-KulTiran.PNG",
+      "name": "TemporaryPortrait-Female-KulTiran.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Female-LightforgedDraenei.PNG",
+      "name": "TemporaryPortrait-Female-LightforgedDraenei.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Female-MagharOrc.PNG",
+      "name": "TemporaryPortrait-Female-MagharOrc.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Female-Mechagnome.PNG",
+      "name": "TemporaryPortrait-Female-Mechagnome.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Female-Nightborne.PNG",
+      "name": "TemporaryPortrait-Female-Nightborne.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Female-NightElf.PNG",
+      "name": "TemporaryPortrait-Female-NightElf.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Female-Orc.PNG",
+      "name": "TemporaryPortrait-Female-Orc.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TEMPORARYPORTRAIT-FEMALE-PANDAREN.PNG",
+      "name": "TEMPORARYPORTRAIT-FEMALE-PANDAREN.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Female-Scourge.PNG",
+      "name": "TemporaryPortrait-Female-Scourge.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Female-Tauren.PNG",
+      "name": "TemporaryPortrait-Female-Tauren.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Female-Troll.PNG",
+      "name": "TemporaryPortrait-Female-Troll.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Female-VoidElf.PNG",
+      "name": "TemporaryPortrait-Female-VoidElf.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Female-Vulpera.PNG",
+      "name": "TemporaryPortrait-Female-Vulpera.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TEMPORARYPORTRAIT-FEMALE-WORGEN.PNG",
+      "name": "TEMPORARYPORTRAIT-FEMALE-WORGEN.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Female-ZandalariTroll.PNG",
+      "name": "TemporaryPortrait-Female-ZandalariTroll.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Male-BloodElf.PNG",
+      "name": "TemporaryPortrait-Male-BloodElf.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Male-DarkIronDwarf.PNG",
+      "name": "TemporaryPortrait-Male-DarkIronDwarf.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Male-Dracthyr.PNG",
+      "name": "TemporaryPortrait-Male-Dracthyr.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Male-Draenei.PNG",
+      "name": "TemporaryPortrait-Male-Draenei.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Male-Dwarf.PNG",
+      "name": "TemporaryPortrait-Male-Dwarf.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Male-Gilnean.PNG",
+      "name": "TemporaryPortrait-Male-Gilnean.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Male-Gnome.PNG",
+      "name": "TemporaryPortrait-Male-Gnome.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Male-Goblin.PNG",
+      "name": "TemporaryPortrait-Male-Goblin.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Male-HighmountainTauren.PNG",
+      "name": "TemporaryPortrait-Male-HighmountainTauren.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Male-Human.PNG",
+      "name": "TemporaryPortrait-Male-Human.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Male-KulTiran.PNG",
+      "name": "TemporaryPortrait-Male-KulTiran.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Male-LightforgedDraenei.PNG",
+      "name": "TemporaryPortrait-Male-LightforgedDraenei.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Male-MagharOrc.PNG",
+      "name": "TemporaryPortrait-Male-MagharOrc.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Male-Mechagnome.PNG",
+      "name": "TemporaryPortrait-Male-Mechagnome.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Male-Nightborne.PNG",
+      "name": "TemporaryPortrait-Male-Nightborne.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Male-NightElf.PNG",
+      "name": "TemporaryPortrait-Male-NightElf.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Male-Orc.PNG",
+      "name": "TemporaryPortrait-Male-Orc.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TEMPORARYPORTRAIT-MALE-PANDAREN.PNG",
+      "name": "TEMPORARYPORTRAIT-MALE-PANDAREN.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Male-Scourge.PNG",
+      "name": "TemporaryPortrait-Male-Scourge.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Male-Tauren.PNG",
+      "name": "TemporaryPortrait-Male-Tauren.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Male-Troll.PNG",
+      "name": "TemporaryPortrait-Male-Troll.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Male-VoidElf.PNG",
+      "name": "TemporaryPortrait-Male-VoidElf.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Male-Vulpera.PNG",
+      "name": "TemporaryPortrait-Male-Vulpera.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TEMPORARYPORTRAIT-MALE-WORGEN.PNG",
+      "name": "TEMPORARYPORTRAIT-MALE-WORGEN.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Male-ZandalariTroll.PNG",
+      "name": "TemporaryPortrait-Male-ZandalariTroll.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Monster.PNG",
+      "name": "TemporaryPortrait-Monster.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TEMPORARYPORTRAIT-PET.PNG",
+      "name": "TEMPORARYPORTRAIT-PET.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Vehicle-Mechanical.PNG",
+      "name": "TemporaryPortrait-Vehicle-Mechanical.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait-Vehicle-Organic.PNG",
+      "name": "TemporaryPortrait-Vehicle-Organic.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TemporaryPortrait.PNG",
+      "name": "TemporaryPortrait.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TempPortrait.PNG",
+      "name": "TempPortrait.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TempPortraitAlphaMask.PNG",
+      "name": "TempPortraitAlphaMask.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TempPortraitAlphaMaskSmall.PNG",
+      "name": "TempPortraitAlphaMaskSmall.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\TotemBorder.PNG",
+      "name": "TotemBorder.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\UI-BarFill-Simple.PNG",
+      "name": "UI-BarFill-Simple.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\UI-CHARACTERFRAME-GROUPINDICATOR.PNG",
+      "name": "UI-CHARACTERFRAME-GROUPINDICATOR.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\UI-DeathKnightFrame.PNG",
+      "name": "UI-DeathKnightFrame.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\UI-Party-Background.PNG",
+      "name": "UI-Party-Background.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\UI-Party-Border.PNG",
+      "name": "UI-Party-Border.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\UI-Player-PlayTimeTired.PNG",
+      "name": "UI-Player-PlayTimeTired.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\UI-Player-PlayTimeUnhealthy.PNG",
+      "name": "UI-Player-PlayTimeUnhealthy.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\UI-Player-Portrait.PNG",
+      "name": "UI-Player-Portrait.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\UI-Player-Status.PNG",
+      "name": "UI-Player-Status.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\UI-StateIcon.PNG",
+      "name": "UI-StateIcon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\UIFrameCharacterParty.PNG",
+      "name": "UIFrameCharacterParty.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\UIFrameCharacterPartyBackground.PNG",
+      "name": "UIFrameCharacterPartyBackground.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CHARACTERFRAME",
+      "path": "CHARACTERFRAME\\UIFrameCharacterPartyVertical.PNG",
+      "name": "UIFrameCharacterPartyVertical.PNG",
+      "type": "file"
+    }
+  ]
+}

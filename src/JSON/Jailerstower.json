@@ -1,0 +1,74 @@
+{
+  "parent": "",
+  "path": "Jailerstower",
+  "name": "Jailerstower",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "Jailerstower",
+      "path": "Jailerstower\\EyeoftheJailer.PNG",
+      "name": "EyeoftheJailer.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Jailerstower",
+      "path": "Jailerstower\\JailersTowerPlayerChoice.PNG",
+      "name": "JailersTowerPlayerChoice.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Jailerstower",
+      "path": "Jailerstower\\Scenariopowerlistjailerstower.PNG",
+      "name": "Scenariopowerlistjailerstower.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Jailerstower",
+      "path": "Jailerstower\\ScenarioPowerListjailerstowervertical.PNG",
+      "name": "ScenarioPowerListjailerstowervertical.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Jailerstower",
+      "path": "Jailerstower\\Scorebarjailerstower.PNG",
+      "name": "Scorebarjailerstower.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Jailerstower",
+      "path": "Jailerstower\\Scoreboardjailerstower.PNG",
+      "name": "Scoreboardjailerstower.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Jailerstower",
+      "path": "Jailerstower\\Scoreboardjailerstowergemmask.PNG",
+      "name": "Scoreboardjailerstowergemmask.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Jailerstower",
+      "path": "Jailerstower\\TalentTreejailerstower.PNG",
+      "name": "TalentTreejailerstower.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Jailerstower",
+      "path": "Jailerstower\\UIFramejailerstower.PNG",
+      "name": "UIFramejailerstower.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Jailerstower",
+      "path": "Jailerstower\\Wayfinderjailerstower.PNG",
+      "name": "Wayfinderjailerstower.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Jailerstower",
+      "path": "Jailerstower\\WayfinderTierBackgroundsjailerstower.PNG",
+      "name": "WayfinderTierBackgroundsjailerstower.PNG",
+      "type": "file"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "",
+  "path": "BarberShop",
+  "name": "BarberShop",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "BarberShop",
+      "path": "BarberShop\\Barbershop-AltForm.PNG",
+      "name": "Barbershop-AltForm.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "BarberShop",
+      "path": "BarberShop\\Barbershop.PNG",
+      "name": "Barbershop.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "BarberShop",
+      "path": "BarberShop\\DragonRidingCustomization.PNG",
+      "name": "DragonRidingCustomization.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "BarberShop",
+      "path": "BarberShop\\DragonRidingSGIcon.PNG",
+      "name": "DragonRidingSGIcon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "BarberShop",
+      "path": "BarberShop\\UI-Barbershop-Banner.PNG",
+      "name": "UI-Barbershop-Banner.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "BarberShop",
+      "path": "BarberShop\\UI-BARBERSHOP.PNG",
+      "name": "UI-BARBERSHOP.PNG",
+      "type": "file"
+    }
+  ]
+}

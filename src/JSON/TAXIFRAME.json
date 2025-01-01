@@ -1,0 +1,182 @@
+{
+  "parent": "",
+  "path": "TAXIFRAME",
+  "name": "TAXIFRAME",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\AncientWaygateTaxi.PNG",
+      "name": "AncientWaygateTaxi.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\ArgusTaxi.PNG",
+      "name": "ArgusTaxi.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\BastionTaxi.PNG",
+      "name": "BastionTaxi.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\CaveTaxi.PNG",
+      "name": "CaveTaxi.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\ProgenitorObeliskTaxi.PNG",
+      "name": "ProgenitorObeliskTaxi.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\ProgenitorTaxi.PNG",
+      "name": "ProgenitorTaxi.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\taxiassets.PNG",
+      "name": "taxiassets.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\taxiassets2.PNG",
+      "name": "taxiassets2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\TAXIMAP0.PNG",
+      "name": "TAXIMAP0.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\TAXIMAP1.PNG",
+      "name": "TAXIMAP1.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\Taximap1116.PNG",
+      "name": "Taximap1116.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\TAXIMAP1220.PNG",
+      "name": "TAXIMAP1220.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\Taximap1642.PNG",
+      "name": "Taximap1642.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\TaxiMap1643.PNG",
+      "name": "TaxiMap1643.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\TAXIMAP530.PNG",
+      "name": "TAXIMAP530.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\TAXIMAP571.PNG",
+      "name": "TAXIMAP571.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\TAXIMAP870.PNG",
+      "name": "TAXIMAP870.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\UI-Taxi-Icon-Gray.PNG",
+      "name": "UI-Taxi-Icon-Gray.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\UI-Taxi-Icon-Green.PNG",
+      "name": "UI-Taxi-Icon-Green.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\UI-Taxi-Icon-Highlight.PNG",
+      "name": "UI-Taxi-Icon-Highlight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\UI-Taxi-Icon-Nub.PNG",
+      "name": "UI-Taxi-Icon-Nub.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\UI-Taxi-Icon-Red.PNG",
+      "name": "UI-Taxi-Icon-Red.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\UI-Taxi-Icon-White.PNG",
+      "name": "UI-Taxi-Icon-White.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\UI-Taxi-Icon-Yellow.PNG",
+      "name": "UI-Taxi-Icon-Yellow.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\UI-Taxi-Line.PNG",
+      "name": "UI-Taxi-Line.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\UI-TaxiFrame-BotLeft.PNG",
+      "name": "UI-TaxiFrame-BotLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\UI-TaxiFrame-BotRight.PNG",
+      "name": "UI-TaxiFrame-BotRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\UI-TaxiFrame-TopLeft.PNG",
+      "name": "UI-TaxiFrame-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TAXIFRAME",
+      "path": "TAXIFRAME\\UI-TaxiFrame-TopRight.PNG",
+      "name": "UI-TaxiFrame-TopRight.PNG",
+      "type": "file"
+    }
+  ]
+}

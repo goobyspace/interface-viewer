@@ -3,17 +3,10 @@ import Item from "./Item";
 import Image from "./Image";
 
 function Content({ search }: { search: string }) {
-  const [json, setJson] = useState<InterfaceStructure>({
-    parent: "",
-    path: "",
-    name: "",
-    type: "",
-    recursiveCount: 0,
-    children: null,
-  });
   const [items, setItems] = useState<JSX.Element[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
-  const [image, setImage] = useState<string>("");
+  const [popupText, setPopupText] = useState<string>("");
+  const [popupClasses, setPopupClasses] = useState<string>("hidden");
 
   const itemsRef = useRef<JSX.Element[]>([]);
 
@@ -26,99 +19,153 @@ function Content({ search }: { search: string }) {
     children: InterfaceStructure[] | null;
   }
 
-  const setItemImage = (url: string) => {
-    setImage(url);
+  const setPopup = (text: string) => {
+    setPopupText(text);
+    setPopupClasses("");
+    setTimeout(() => {
+      setPopupClasses("hidden");
+    }, 5000);
   };
 
   useEffect(() => {
-    import("../assets/structure.json").then((res) => {
-      setJson(res.default as InterfaceStructure);
+    const createItemsFromJson = async (json: InterfaceStructure) => {
+      const findChildren = (children: InterfaceStructure[], currentCount: number) => {
+        return children.map((child) => {
+          if (child.children) {
+            return (
+              <Item
+                key={child.path}
+                path={child.path}
+                name={child.name}
+                show={true}
+                recursiveCount={currentCount}
+                children={[...findChildren(child.children, currentCount + 1)]}
+              />
+            );
+          } else if (child.path.includes(".PNG")) {
+            return (
+              <Image
+                key={child.path}
+                path={child.path}
+                name={child.name}
+                show={true}
+                setPopup={setPopup}
+              />
+            );
+          } else {
+            return (
+              <Item
+                key={child.path}
+                path={child.path}
+                name={child.name}
+                show={true}
+                recursiveCount={currentCount}
+                children={[]}
+              />
+            );
+          }
+        });
+      };
+
+      return new Promise<JSX.Element>((resolve) => {
+        const item = (
+          <Item
+            key={"base" + json.path}
+            path={json.path}
+            name={json.name}
+            show={true}
+            recursiveCount={0}
+            children={[]}
+          />
+        );
+
+        if (json.children) {
+          const promiseArray = json.children.map((child) => {
+            return new Promise<JSX.Element>((resolve, reject) => {
+              setTimeout(() => {
+                try {
+                  let item: JSX.Element;
+                  if (child.children) {
+                    item = (
+                      <Item
+                        key={child.path}
+                        path={child.path}
+                        name={child.name}
+                        show={true}
+                        recursiveCount={1}
+                        children={[...findChildren(child.children, 2)]}
+                      />
+                    );
+                  } else {
+                    if (child.path.includes(".PNG")) {
+                      item = (
+                        <Image
+                          key={child.path}
+                          path={child.path}
+                          name={child.name}
+                          show={true}
+                          setPopup={setPopup}
+                        />
+                      );
+                    } else {
+                      item = (
+                        <Item
+                          key={child.path}
+                          path={child.path}
+                          name={child.name}
+                          show={true}
+                          recursiveCount={1}
+                          children={[]}
+                        />
+                      );
+                    }
+                  }
+                  resolve(item);
+                } catch (error) {
+                  console.log(error);
+                  reject(error);
+                }
+              }, 0);
+            });
+          });
+
+          Promise.all(promiseArray!).then((values) => {
+            resolve(<Item {...item.props} children={[...values]} />);
+          });
+        } else resolve(item);
+      });
+    };
+
+    import("../JSON/index.json").then((res) => {
+      const index = res.default;
+      const itemPromises: Promise<JSX.Element>[] = [];
+      const promises = index.index.map((element: string) => {
+        return new Promise<InterfaceStructure>((resolve) => {
+          setTimeout(() => {
+            import(`../JSON/${element}`).then((newRes) => {
+              const json = newRes.default as InterfaceStructure;
+              itemPromises.push(createItemsFromJson(json));
+              resolve(newRes.default as InterfaceStructure);
+            });
+          });
+        });
+      });
+      return Promise.all(promises).then(() => {
+        return Promise.all(itemPromises).then((values) => {
+          setItems(
+            values.sort((a, b) => {
+              return a.props.path.localeCompare(b.props.path);
+            })
+          );
+          setLoading(false);
+        });
+      });
     });
   }, []);
 
   useEffect(() => {
     itemsRef.current = items;
-  });
-
-  useEffect(() => {
-    const findChildren = (children: InterfaceStructure[], currentCount: number) => {
-      return children.map((child) => {
-        if (child.children) {
-          return (
-            <Item
-              key={child.path}
-              path={child.path}
-              name={child.name}
-              setImage={setItemImage}
-              show={true}
-              recursiveCount={currentCount}
-              children={[...findChildren(child.children, currentCount + 1)]}
-            />
-          );
-        } else
-          return (
-            <Item
-              key={child.path}
-              path={child.path}
-              name={child.name}
-              setImage={setItemImage}
-              show={true}
-              recursiveCount={currentCount}
-              children={[]}
-            />
-          );
-      });
-    };
-
-    const createItems = async () => {
-      const promiseArray = json?.children?.map((child) => {
-        return new Promise<JSX.Element>((resolve, reject) => {
-          setTimeout(() => {
-            try {
-              let item: JSX.Element;
-              if (child.children) {
-                item = (
-                  <Item
-                    key={child.path}
-                    path={child.path}
-                    name={child.name}
-                    setImage={setItemImage}
-                    show={true}
-                    recursiveCount={0}
-                    children={[...findChildren(child.children, 1)]}
-                  />
-                );
-              } else {
-                item = (
-                  <Item
-                    key={child.path}
-                    path={child.path}
-                    name={child.name}
-                    setImage={setItemImage}
-                    show={true}
-                    recursiveCount={0}
-                    children={[]}
-                  />
-                );
-              }
-              resolve(item);
-            } catch (error) {
-              console.log(error);
-              reject(error);
-            }
-          }, 0);
-        });
-      });
-
-      Promise.all(promiseArray!).then((values) => {
-        setItems(values);
-        setLoading(false);
-      });
-    };
-    if (json.children) {
-      createItems();
-    }
-  }, [json]);
+  }, [items]);
 
   useEffect(() => {
     setLoading(true);
@@ -154,26 +201,30 @@ function Content({ search }: { search: string }) {
                       return (
                         <Item
                           key={child.props.path}
-                          path={child.props.path}
-                          name={child.props.name}
+                          {...child.props}
                           show={localFound ? localFound : childFound}
-                          setImage={setItemImage}
-                          recursiveCount={child.props.recursiveCount}
                           children={[...children]}
                         />
                       );
-                    } else
+                    } else if (child.props.path.includes(".PNG")) {
+                      return (
+                        <Image
+                          key={child.props.path}
+                          {...child.props}
+                          show={localFound}
+                          setPopup={setPopup}
+                        />
+                      );
+                    } else {
                       return (
                         <Item
                           key={child.props.path}
-                          path={child.props.path}
-                          name={child.props.name}
+                          {...child.props}
                           show={localFound}
-                          setImage={setItemImage}
-                          recursiveCount={child.props.recursiveCount}
                           children={[]}
                         />
                       );
+                    }
                   }),
                   childFound: searchChildFound,
                 };
@@ -190,26 +241,19 @@ function Content({ search }: { search: string }) {
                 resolve(
                   <Item
                     key={item.props.path}
-                    path={item.props.path}
-                    name={item.props.name}
+                    {...item.props}
                     show={found}
-                    setImage={setItemImage}
-                    recursiveCount={0}
                     children={[...children]}
                   />
                 );
               } else {
-                resolve(
-                  <Item
-                    key={item.props.path}
-                    path={item.props.path}
-                    name={item.props.name}
-                    show={found}
-                    recursiveCount={0}
-                    setImage={setItemImage}
-                    children={[]}
-                  />
-                );
+                if (item.props.path.includes(".PNG")) {
+                  resolve(<Image key={item.props.path} {...item.props} show={found} />);
+                } else {
+                  resolve(
+                    <Item key={item.props.path} {...item.props} show={found} children={[]} />
+                  );
+                }
               }
             } catch (error) {
               reject(error);
@@ -228,11 +272,11 @@ function Content({ search }: { search: string }) {
 
   return (
     <>
-      <div className="content-container">
-        <div className="content">
-          {(loading && <div className="loader" />) || <div className="content-list">{items}</div>}
+      <div className="content">
+        {(loading && <div className="loader" />) || <div className="content-list">{items}</div>}
+        <div id="popup" className={popupClasses}>
+          {popupText}
         </div>
-        <Image image={image} />
       </div>
     </>
   );

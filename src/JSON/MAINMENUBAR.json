@@ -1,0 +1,134 @@
+{
+  "parent": "",
+  "path": "MAINMENUBAR",
+  "name": "MAINMENUBAR",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "MAINMENUBAR",
+      "path": "MAINMENUBAR\\MainMenuBar.PNG",
+      "name": "MainMenuBar.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "MAINMENUBAR",
+      "path": "MAINMENUBAR\\UI-ExhaustionTickHighlight.PNG",
+      "name": "UI-ExhaustionTickHighlight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "MAINMENUBAR",
+      "path": "MAINMENUBAR\\UI-ExhaustionTickNormal.PNG",
+      "name": "UI-ExhaustionTickNormal.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "MAINMENUBAR",
+      "path": "MAINMENUBAR\\UI-MainMenu-ScrollDownButton-Disabled.PNG",
+      "name": "UI-MainMenu-ScrollDownButton-Disabled.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "MAINMENUBAR",
+      "path": "MAINMENUBAR\\UI-MainMenu-ScrollDownButton-Down.PNG",
+      "name": "UI-MainMenu-ScrollDownButton-Down.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "MAINMENUBAR",
+      "path": "MAINMENUBAR\\UI-MainMenu-ScrollDownButton-Highlight.PNG",
+      "name": "UI-MainMenu-ScrollDownButton-Highlight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "MAINMENUBAR",
+      "path": "MAINMENUBAR\\UI-MainMenu-ScrollDownButton-Up.PNG",
+      "name": "UI-MainMenu-ScrollDownButton-Up.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "MAINMENUBAR",
+      "path": "MAINMENUBAR\\UI-MainMenu-ScrollUpButton-Disabled.PNG",
+      "name": "UI-MainMenu-ScrollUpButton-Disabled.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "MAINMENUBAR",
+      "path": "MAINMENUBAR\\UI-MainMenu-ScrollUpButton-Down.PNG",
+      "name": "UI-MainMenu-ScrollUpButton-Down.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "MAINMENUBAR",
+      "path": "MAINMENUBAR\\UI-MainMenu-ScrollUpButton-Highlight.PNG",
+      "name": "UI-MainMenu-ScrollUpButton-Highlight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "MAINMENUBAR",
+      "path": "MAINMENUBAR\\UI-MainMenu-ScrollUpButton-Up.PNG",
+      "name": "UI-MainMenu-ScrollUpButton-Up.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "MAINMENUBAR",
+      "path": "MAINMENUBAR\\UI-MainMenuBar-Dwarf.PNG",
+      "name": "UI-MainMenuBar-Dwarf.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "MAINMENUBAR",
+      "path": "MAINMENUBAR\\UI-MainMenuBar-EndCap-Dwarf.PNG",
+      "name": "UI-MainMenuBar-EndCap-Dwarf.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "MAINMENUBAR",
+      "path": "MAINMENUBAR\\UI-MainMenuBar-EndCap-Human.PNG",
+      "name": "UI-MainMenuBar-EndCap-Human.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "MAINMENUBAR",
+      "path": "MAINMENUBAR\\UI-MainMenuBar-Human.PNG",
+      "name": "UI-MainMenuBar-Human.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "MAINMENUBAR",
+      "path": "MAINMENUBAR\\UI-MAINMENUBAR-KEYRING.PNG",
+      "name": "UI-MAINMENUBAR-KEYRING.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "MAINMENUBAR",
+      "path": "MAINMENUBAR\\UI-MainMenuBar-MaxLevel.PNG",
+      "name": "UI-MainMenuBar-MaxLevel.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "MAINMENUBAR",
+      "path": "MAINMENUBAR\\UI-MainMenuBar-NightElf.PNG",
+      "name": "UI-MainMenuBar-NightElf.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "MAINMENUBAR",
+      "path": "MAINMENUBAR\\UI-MAINMENUBAR-PERFORMANCEBAR.PNG",
+      "name": "UI-MAINMENUBAR-PERFORMANCEBAR.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "MAINMENUBAR",
+      "path": "MAINMENUBAR\\UI-XP-Bar.PNG",
+      "name": "UI-XP-Bar.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "MAINMENUBAR",
+      "path": "MAINMENUBAR\\UI-XP-Mid.PNG",
+      "name": "UI-XP-Mid.PNG",
+      "type": "file"
+    }
+  ]
+}

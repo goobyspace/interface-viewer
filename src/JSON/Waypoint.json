@@ -1,0 +1,14 @@
+{
+  "parent": "",
+  "path": "Waypoint",
+  "name": "Waypoint",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "Waypoint",
+      "path": "Waypoint\\WaypoinMapPinUI.PNG",
+      "name": "WaypoinMapPinUI.PNG",
+      "type": "file"
+    }
+  ]
+}

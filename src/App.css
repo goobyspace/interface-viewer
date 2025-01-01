@@ -49,6 +49,11 @@ body {
     &:hover {
       background-color: #fab03d;
       color: #1c1d26;
+
+      img {
+        filter: brightness(0) invert(8%) sepia(13%) saturate(1038%) hue-rotate(195deg)
+          brightness(97%) contrast(95%);
+      }
     }
   }
 
@@ -66,84 +71,146 @@ body {
   }
 }
 
-.content-container {
-  display: flex;
+.content {
+  border: 1px solid #f2e5bc;
+  background-color: #1c1d26;
+  padding: 1rem;
   flex-grow: 1;
+  margin-bottom: 1rem;
+  overflow: auto;
 
-  .content {
-    width: 50%;
-    border: 1px solid #f2e5bc;
-    background-color: #1c1d26;
-    height: 100%;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    overflow: auto;
+  .loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #f2e5bc;
+    border-bottom-color: #fab03d;
+    position: relative;
+    top: calc(50% - 24px);
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
 
-    .loader {
-      width: 48px;
-      height: 48px;
-      border: 5px solid #f2e5bc;
-      border-bottom-color: #fab03d;
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .content-list {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+
+    .hidden {
+      display: none; /* this is hidden because it wasnt in the search */
+    }
+
+    .item {
+      overflow: hidden;
+      transition: 0.2s;
       position: relative;
-      top: calc(50% - 24px);
-      border-radius: 50%;
-      display: inline-block;
-      box-sizing: border-box;
-      animation: rotation 1s linear infinite;
-    }
+      width: 100%;
 
-    @keyframes rotation {
-      0% {
-        transform: rotate(0deg);
-      }
-      100% {
-        transform: rotate(360deg);
-      }
-    }
-
-    .content-list {
-      display: flex;
-      text-align: left;
-      flex-direction: column;
-
-      .hidden {
-        display: none;
-      }
-
-      .item {
-        overflow: hidden;
-        transition: 0.2s;
-        position: relative;
+      .border {
+        border-bottom: 1px solid #f2e5bc;
         width: 100%;
+      }
 
-        .border {
-          border-bottom: 1px solid #f2e5bc;
-          width: 100%;
-        }
+      .item-text {
+        overflow: visible;
+        position: relative;
+        padding: 0.5rem 7px;
+        display: inline-block;
+        height: 1.3rem;
 
-        span {
-          overflow: visible;
+        .arrow {
           position: relative;
-          padding: 0.5rem 7px;
-          display: inline-block;
-          height: 1.3rem;
-
-          .arrow {
-            position: relative;
-            top: 4px;
-            margin-left: -7px;
-            cursor: pointer;
-          }
+          top: 4px;
+          margin-left: -7px;
+          cursor: pointer;
         }
+      }
 
-        .collapsed {
+      .collapsable {
+        transition: max-height 0.5s;
+        &.collapsed {
           max-height: 0;
         }
 
-        .open {
-          min-height: min-content;
+        &.open {
+          height: min-content;
+          max-height: calc-size(min-content);
+
+          .images {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 16px;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #f2e5bc;
+
+            .preview-image {
+              width: 236px;
+
+              .image {
+                aspect-ratio: 1 / 1;
+                width: 100%;
+                object-fit: contain;
+                border: 1px solid #f2e5bc;
+                background-color: #111117;
+              }
+              span {
+                margin: 0;
+                padding: 0;
+                margin-left: 22px;
+              }
+
+              button {
+                width: 0;
+                height: 0;
+                background: none;
+                border-radius: 16px;
+                border: none;
+                cursor: pointer;
+                transition: 0.2s;
+
+                img {
+                  width: 20px;
+                  height: 20px;
+
+                  &:hover {
+                    filter: brightness(0) invert(81%) sepia(52%) saturate(1298%) hue-rotate(328deg)
+                      brightness(101%) contrast(96%);
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }
+  }
+}
+
+#popup {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  border: 1px solid #f2e5bc;
+  background-color: #1c1d26;
+  width: max-content;
+  padding: 1rem;
+  border-radius: 4px;
+  color: #fab03d;
+  transition: 0.3s ease-in-out;
+  z-index: 1000;
+
+  &.hidden {
+    top: -4rem;
   }
 }

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ArrowDown from "./../assets/arrow_down.svg";
 import ArrowRight from "./../assets/arrow_right.svg";
 
@@ -8,29 +8,39 @@ function Item({
   recursiveCount,
   show,
   children,
-  setImage,
 }: {
   path: string;
   name: string;
   recursiveCount: number;
   show: boolean;
   children: JSX.Element[] | undefined;
-  setImage?: (url: string) => void | undefined;
 }) {
-  const [collapsed, setCollapsed] = useState<boolean>(false);
-  //{"{img:interface/Glues/Models/UIWorgen/UIWORGENCLOUDS01.PNG:512:175:l}"}
-  //we have to somehow assemble the above thing from the path string
+  const [collapsed, setCollapsed] = useState<boolean>(true);
+  const [headers, setHeaders] = useState<JSX.Element[]>([]);
+  const [images, setImages] = useState<JSX.Element[]>([]);
 
-  const onMouseEnter = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
-    if (!path.includes(".PNG") || !setImage) return;
-    setImage(`https://raw.githubusercontent.com/goobyspace/Interface/refs/heads/main/${path}`);
-    console.log(`https://raw.githubusercontent.com/goobyspace/Interface/refs/heads/main/${path}`);
-    console.log(e);
-  };
+  useEffect(() => {
+    const newHeaders: JSX.Element[] = [];
+    const newImages: JSX.Element[] = [];
+
+    if (children && children.length > 0) {
+      children.forEach((child) => {
+        if (child.props.path.includes(".PNG")) {
+          newImages.push(child);
+        } else {
+          newHeaders.push(child);
+        }
+      });
+    }
+
+    setImages(newImages);
+    setHeaders(newHeaders);
+  }, [children]);
+
   return (
     <>
       <div className={show ? "item" : "hidden"}>
-        <span style={{ left: `${recursiveCount * 20}px` }} onMouseEnter={onMouseEnter}>
+        <span className="item-text" style={{ left: `${recursiveCount * 20}px` }}>
           {children && children.length > 0 && (
             <img
               src={collapsed ? ArrowRight : ArrowDown}
@@ -56,7 +66,10 @@ function Item({
           )}
         </span>
         <div className="border" />
-        <div className={collapsed ? "collapsed" : "open"}>{children}</div>
+        <div className={`collapsable ${collapsed ? "collapsed" : "open"}`}>
+          <div className="headers">{headers}</div>
+          <div className="images">{images}</div>
+        </div>
       </div>
     </>
   );

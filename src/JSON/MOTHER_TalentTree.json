@@ -1,0 +1,14 @@
+{
+  "parent": "",
+  "path": "MOTHER_TalentTree",
+  "name": "MOTHER_TalentTree",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "MOTHER_TalentTree",
+      "path": "MOTHER_TalentTree\\MOTHERtalenttree.PNG",
+      "name": "MOTHERtalenttree.PNG",
+      "type": "file"
+    }
+  ]
+}

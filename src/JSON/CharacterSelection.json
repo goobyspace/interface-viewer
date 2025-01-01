@@ -1,0 +1,74 @@
+{
+  "parent": "",
+  "path": "CharacterSelection",
+  "name": "CharacterSelection",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "CharacterSelection",
+      "path": "CharacterSelection\\CharacterSelectionAssets.PNG",
+      "name": "CharacterSelectionAssets.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CharacterSelection",
+      "path": "CharacterSelection\\CharacterSelectionHordeAllianceIcon.PNG",
+      "name": "CharacterSelectionHordeAllianceIcon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CharacterSelection",
+      "path": "CharacterSelection\\TimerunningFX.PNG",
+      "name": "TimerunningFX.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CharacterSelection",
+      "path": "CharacterSelection\\TimerunningFXActiveEventMask.PNG",
+      "name": "TimerunningFXActiveEventMask.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CharacterSelection",
+      "path": "CharacterSelection\\TimerunningFXButtonMask.PNG",
+      "name": "TimerunningFXButtonMask.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CharacterSelection",
+      "path": "CharacterSelection\\TimerunningFXFixedSizeFrameMask.PNG",
+      "name": "TimerunningFXFixedSizeFrameMask.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CharacterSelection",
+      "path": "CharacterSelection\\TimerunningFXFlipbook.PNG",
+      "name": "TimerunningFXFlipbook.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CharacterSelection",
+      "path": "CharacterSelection\\TimerunningFXFrameMask.PNG",
+      "name": "TimerunningFXFrameMask.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CharacterSelection",
+      "path": "CharacterSelection\\TimerunningFXTopHUDMask.PNG",
+      "name": "TimerunningFXTopHUDMask.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CharacterSelection",
+      "path": "CharacterSelection\\TimerunningGlues.PNG",
+      "name": "TimerunningGlues.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "CharacterSelection",
+      "path": "CharacterSelection\\TimerunningGluesFX.PNG",
+      "name": "TimerunningGluesFX.PNG",
+      "type": "file"
+    }
+  ]
+}

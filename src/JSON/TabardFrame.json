@@ -1,0 +1,26 @@
+{
+  "parent": "",
+  "path": "TabardFrame",
+  "name": "TabardFrame",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "TabardFrame",
+      "path": "TabardFrame\\TabardFrameBackground.PNG",
+      "name": "TabardFrameBackground.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TabardFrame",
+      "path": "TabardFrame\\TabardFrameCustomizationFrame.PNG",
+      "name": "TabardFrameCustomizationFrame.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TabardFrame",
+      "path": "TabardFrame\\TabardFrameOuterFrame.PNG",
+      "name": "TabardFrameOuterFrame.PNG",
+      "type": "file"
+    }
+  ]
+}

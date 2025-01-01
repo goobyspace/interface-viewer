@@ -1,0 +1,14 @@
+{
+  "parent": "",
+  "path": "SelectionCircle",
+  "name": "SelectionCircle",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "SelectionCircle",
+      "path": "SelectionCircle\\Selection_SelectionA.PNG",
+      "name": "Selection_SelectionA.PNG",
+      "type": "file"
+    }
+  ]
+}

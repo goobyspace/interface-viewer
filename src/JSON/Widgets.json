@@ -1,0 +1,128 @@
+{
+  "parent": "",
+  "path": "Widgets",
+  "name": "Widgets",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "Widgets",
+      "path": "Widgets\\azsharawards-red-fill.PNG",
+      "name": "azsharawards-red-fill.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Widgets",
+      "path": "Widgets\\azsharawards-state-red-fill.PNG",
+      "name": "azsharawards-state-red-fill.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Widgets",
+      "path": "Widgets\\azsharawards-state1-fill.PNG",
+      "name": "azsharawards-state1-fill.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Widgets",
+      "path": "Widgets\\azsharawards-state2-fill.PNG",
+      "name": "azsharawards-state2-fill.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Widgets",
+      "path": "Widgets\\CosmicEnergyBar.PNG",
+      "name": "CosmicEnergyBar.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Widgets",
+      "path": "Widgets\\CosmicEnergyBarSparkMask.PNG",
+      "name": "CosmicEnergyBarSparkMask.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Widgets",
+      "path": "Widgets\\DragonridingSGVigorWidget2x.PNG",
+      "name": "DragonridingSGVigorWidget2x.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Widgets",
+      "path": "Widgets\\DragonridingSGVigorWidgetMask.PNG",
+      "name": "DragonridingSGVigorWidgetMask.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Widgets",
+      "path": "Widgets\\DragonridingVigorWidgetMask.PNG",
+      "name": "DragonridingVigorWidgetMask.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Widgets",
+      "path": "Widgets\\DragonridingVigorWidgets.PNG",
+      "name": "DragonridingVigorWidgets.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Widgets",
+      "path": "Widgets\\DragonridingWidgetRacePosition.PNG",
+      "name": "DragonridingWidgetRacePosition.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Widgets",
+      "path": "Widgets\\DragonridingWidgets.PNG",
+      "name": "DragonridingWidgets.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Widgets",
+      "path": "Widgets\\GenericWidgetBar.PNG",
+      "name": "GenericWidgetBar.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Widgets",
+      "path": "Widgets\\MapPinWidget.PNG",
+      "name": "MapPinWidget.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Widgets",
+      "path": "Widgets\\pvpcapturewidgeticons.PNG",
+      "name": "pvpcapturewidgeticons.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Widgets",
+      "path": "Widgets\\RadiantEchoes.PNG",
+      "name": "RadiantEchoes.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Widgets",
+      "path": "Widgets\\StormCaptureBar.PNG",
+      "name": "StormCaptureBar.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Widgets",
+      "path": "Widgets\\UnitPowerBarWidget.PNG",
+      "name": "UnitPowerBarWidget.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Widgets",
+      "path": "Widgets\\WidgetStatusBar.PNG",
+      "name": "WidgetStatusBar.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Widgets",
+      "path": "Widgets\\worldstateuitextures.PNG",
+      "name": "worldstateuitextures.PNG",
+      "type": "file"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "",
+  "path": "Navigation",
+  "name": "Navigation",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "Navigation",
+      "path": "Navigation\\IngameNavigationUI.PNG",
+      "name": "IngameNavigationUI.PNG",
+      "type": "file"
+    }
+  ]
+}

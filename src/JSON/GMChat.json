@@ -1,0 +1,26 @@
+{
+  "parent": "",
+  "path": "GMChat",
+  "name": "GMChat",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "GMChat",
+      "path": "GMChat\\UIFrameGMChat.PNG",
+      "name": "UIFrameGMChat.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "GMChat",
+      "path": "GMChat\\UIFrameGMChatVertical.PNG",
+      "name": "UIFrameGMChatVertical.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "GMChat",
+      "path": "GMChat\\UIFrameGMChatWatermark.PNG",
+      "name": "UIFrameGMChatWatermark.PNG",
+      "type": "file"
+    }
+  ]
+}

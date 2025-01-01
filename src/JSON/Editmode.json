@@ -1,0 +1,32 @@
+{
+  "parent": "",
+  "path": "Editmode",
+  "name": "Editmode",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "Editmode",
+      "path": "Editmode\\EditModeUI.PNG",
+      "name": "EditModeUI.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Editmode",
+      "path": "Editmode\\EditModeUIHighlightBackground.PNG",
+      "name": "EditModeUIHighlightBackground.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Editmode",
+      "path": "Editmode\\EditModeUISelectedBackground.PNG",
+      "name": "EditModeUISelectedBackground.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Editmode",
+      "path": "Editmode\\EditModeUIVertical.PNG",
+      "name": "EditModeUIVertical.PNG",
+      "type": "file"
+    }
+  ]
+}
