@@ -136,25 +136,18 @@ function Content({ search }: { search: string }) {
       });
     };
 
-    import("./../assets/index.json").then((res) => {
-      const index = res.default;
+    import("./../assets/structure.json").then((res) => {
+      const json = res.default as InterfaceStructure;
       const itemPromises: Promise<JSX.Element>[] = [];
-      const promises = index.index.map((element: string) => {
+      const promises = json?.children?.map((element: InterfaceStructure) => {
         return new Promise<InterfaceStructure>((resolve) => {
           setTimeout(() => {
-            import(`/interface-viewer/json/${element}`, { with: { type: "json" } })
-              .catch((error) => {
-                console.log(error);
-              })
-              .then((newRes) => {
-                const json = newRes.default as InterfaceStructure;
-                itemPromises.push(createItemsFromJson(json));
-                resolve(newRes.default as InterfaceStructure);
-              });
+            itemPromises.push(createItemsFromJson(element));
+            resolve(element);
           });
         });
       });
-      return Promise.all(promises).then(() => {
+      return Promise.all(promises || []).then(() => {
         return Promise.all(itemPromises).then((values) => {
           setItems(
             values.sort((a, b) => {
