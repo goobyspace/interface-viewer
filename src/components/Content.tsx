@@ -136,17 +136,21 @@ function Content({ search }: { search: string }) {
       });
     };
 
-    import("./../JSON/index.json").then((res) => {
+    import("./../assets/index.json").then((res) => {
       const index = res.default;
       const itemPromises: Promise<JSX.Element>[] = [];
       const promises = index.index.map((element: string) => {
         return new Promise<InterfaceStructure>((resolve) => {
           setTimeout(() => {
-            import(`./../JSON/${element}`).then((newRes) => {
-              const json = newRes.default as InterfaceStructure;
-              itemPromises.push(createItemsFromJson(json));
-              resolve(newRes.default as InterfaceStructure);
-            });
+            import(`/interface-viewer/json/${element}`, { with: { type: "json" } })
+              .catch((error) => {
+                console.log(error);
+              })
+              .then((newRes) => {
+                const json = newRes.default as InterfaceStructure;
+                itemPromises.push(createItemsFromJson(json));
+                resolve(newRes.default as InterfaceStructure);
+              });
           });
         });
       });
