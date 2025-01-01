@@ -1,0 +1,26 @@
+{
+  "parent": "",
+  "path": "ShapeshiftBar",
+  "name": "ShapeshiftBar",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "ShapeshiftBar",
+      "path": "ShapeshiftBar\\ShapeshiftBar.PNG",
+      "name": "ShapeshiftBar.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ShapeshiftBar",
+      "path": "ShapeshiftBar\\ShapeshiftBarEnds.PNG",
+      "name": "ShapeshiftBarEnds.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ShapeshiftBar",
+      "path": "ShapeshiftBar\\SHAPESHIFTBARMIDDLE.PNG",
+      "name": "SHAPESHIFTBARMIDDLE.PNG",
+      "type": "file"
+    }
+  ]
+}

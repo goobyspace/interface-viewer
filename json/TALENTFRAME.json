@@ -1,0 +1,1520 @@
+{
+  "parent": "",
+  "path": "TALENTFRAME",
+  "name": "TALENTFRAME",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-deathknight-blood.PNG",
+      "name": "bg-deathknight-blood.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-deathknight-frost.PNG",
+      "name": "bg-deathknight-frost.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-deathknight-unholy.PNG",
+      "name": "bg-deathknight-unholy.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-druid-balance.PNG",
+      "name": "bg-druid-balance.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-druid-bear.PNG",
+      "name": "bg-druid-bear.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-druid-cat.PNG",
+      "name": "bg-druid-cat.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-druid-restoration.PNG",
+      "name": "bg-druid-restoration.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-hunter-beastmaster.PNG",
+      "name": "bg-hunter-beastmaster.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-hunter-marksman.PNG",
+      "name": "bg-hunter-marksman.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-hunter-survival.PNG",
+      "name": "bg-hunter-survival.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-mage-arcane.PNG",
+      "name": "bg-mage-arcane.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-mage-fire.PNG",
+      "name": "bg-mage-fire.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-mage-frost.PNG",
+      "name": "bg-mage-frost.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-monk-battledancer.PNG",
+      "name": "bg-monk-battledancer.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-monk-brewmaster.PNG",
+      "name": "bg-monk-brewmaster.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-monk-mistweaver.PNG",
+      "name": "bg-monk-mistweaver.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-paladin-holy.PNG",
+      "name": "bg-paladin-holy.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-paladin-protection.PNG",
+      "name": "bg-paladin-protection.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-paladin-retribution.PNG",
+      "name": "bg-paladin-retribution.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-priest-discipline.PNG",
+      "name": "bg-priest-discipline.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-priest-holy.PNG",
+      "name": "bg-priest-holy.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-priest-shadow.PNG",
+      "name": "bg-priest-shadow.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-rogue-assassination.PNG",
+      "name": "bg-rogue-assassination.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-rogue-combat.PNG",
+      "name": "bg-rogue-combat.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-rogue-subtlety.PNG",
+      "name": "bg-rogue-subtlety.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-shaman-elemental.PNG",
+      "name": "bg-shaman-elemental.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-shaman-enhancement.PNG",
+      "name": "bg-shaman-enhancement.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-shaman-restoration.PNG",
+      "name": "bg-shaman-restoration.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-warlock-affliction.PNG",
+      "name": "bg-warlock-affliction.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-warlock-demonology.PNG",
+      "name": "bg-warlock-demonology.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-warlock-destruction.PNG",
+      "name": "bg-warlock-destruction.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-warrior-arms.PNG",
+      "name": "bg-warrior-arms.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-warrior-fury.PNG",
+      "name": "bg-warrior-fury.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\bg-warrior-protection.PNG",
+      "name": "bg-warrior-protection.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DeathKnightBlood-BottomLeft.PNG",
+      "name": "DeathKnightBlood-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DeathKnightBlood-BottomRight.PNG",
+      "name": "DeathKnightBlood-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DeathKnightBlood-TopLeft.PNG",
+      "name": "DeathKnightBlood-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DeathKnightBlood-TopRight.PNG",
+      "name": "DeathKnightBlood-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DeathKnightFrost-BottomLeft.PNG",
+      "name": "DeathKnightFrost-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DeathKnightFrost-BottomRight.PNG",
+      "name": "DeathKnightFrost-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DeathKnightFrost-TopLeft.PNG",
+      "name": "DeathKnightFrost-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DeathKnightFrost-TopRight.PNG",
+      "name": "DeathKnightFrost-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DeathKnightUnholy-BottomLeft.PNG",
+      "name": "DeathKnightUnholy-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DeathKnightUnholy-BottomRight.PNG",
+      "name": "DeathKnightUnholy-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DeathKnightUnholy-TopLeft.PNG",
+      "name": "DeathKnightUnholy-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DeathKnightUnholy-TopRight.PNG",
+      "name": "DeathKnightUnholy-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DruidBalance-BottomLeft.PNG",
+      "name": "DruidBalance-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DruidBalance-BottomRight.PNG",
+      "name": "DruidBalance-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DruidBalance-TopLeft.PNG",
+      "name": "DruidBalance-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DruidBalance-TopRight.PNG",
+      "name": "DruidBalance-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DruidFeralCombat-BottomLeft.PNG",
+      "name": "DruidFeralCombat-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DruidFeralCombat-BottomRight.PNG",
+      "name": "DruidFeralCombat-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DruidFeralCombat-TopLeft.PNG",
+      "name": "DruidFeralCombat-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DruidFeralCombat-TopRight.PNG",
+      "name": "DruidFeralCombat-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DruidRestoration-BottomLeft.PNG",
+      "name": "DruidRestoration-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DruidRestoration-BottomRight.PNG",
+      "name": "DruidRestoration-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DruidRestoration-TopLeft.PNG",
+      "name": "DruidRestoration-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\DruidRestoration-TopRight.PNG",
+      "name": "DruidRestoration-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\glyph-bg.PNG",
+      "name": "glyph-bg.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\glyph-main.PNG",
+      "name": "glyph-main.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\glyph-side-bg.PNG",
+      "name": "glyph-side-bg.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\glyph-speccover.PNG",
+      "name": "glyph-speccover.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HunterBeastMastery-BottomLeft.PNG",
+      "name": "HunterBeastMastery-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HunterBeastMastery-BottomRight.PNG",
+      "name": "HunterBeastMastery-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HunterBeastMastery-TopLeft.PNG",
+      "name": "HunterBeastMastery-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HunterBeastMastery-TopRight.PNG",
+      "name": "HunterBeastMastery-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HunterMarksmanship-BottomLeft.PNG",
+      "name": "HunterMarksmanship-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HunterMarksmanship-BottomRight.PNG",
+      "name": "HunterMarksmanship-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HunterMarksmanship-TopLeft.PNG",
+      "name": "HunterMarksmanship-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HunterMarksmanship-TopRight.PNG",
+      "name": "HunterMarksmanship-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HUNTERPETCUNNING-BOTTOMLEFT.PNG",
+      "name": "HUNTERPETCUNNING-BOTTOMLEFT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HUNTERPETCUNNING-BOTTOMRIGHT.PNG",
+      "name": "HUNTERPETCUNNING-BOTTOMRIGHT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HUNTERPETCUNNING-TOPLEFT.PNG",
+      "name": "HUNTERPETCUNNING-TOPLEFT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HUNTERPETCUNNING-TOPRIGHT.PNG",
+      "name": "HUNTERPETCUNNING-TOPRIGHT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HUNTERPETFEROCITY-BOTTOMLEFT.PNG",
+      "name": "HUNTERPETFEROCITY-BOTTOMLEFT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HUNTERPETFEROCITY-BOTTOMRIGHT.PNG",
+      "name": "HUNTERPETFEROCITY-BOTTOMRIGHT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HUNTERPETFEROCITY-TOPLEFT.PNG",
+      "name": "HUNTERPETFEROCITY-TOPLEFT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HUNTERPETFEROCITY-TOPRIGHT.PNG",
+      "name": "HUNTERPETFEROCITY-TOPRIGHT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HUNTERPETTENACITY-BOTTOMLEFT.PNG",
+      "name": "HUNTERPETTENACITY-BOTTOMLEFT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HUNTERPETTENACITY-BOTTOMRIGHT.PNG",
+      "name": "HUNTERPETTENACITY-BOTTOMRIGHT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HUNTERPETTENACITY-TOPLEFT.PNG",
+      "name": "HUNTERPETTENACITY-TOPLEFT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HUNTERPETTENACITY-TOPRIGHT.PNG",
+      "name": "HUNTERPETTENACITY-TOPRIGHT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HunterSurvival-BottomLeft.PNG",
+      "name": "HunterSurvival-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HunterSurvival-BottomRight.PNG",
+      "name": "HunterSurvival-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HunterSurvival-TopLeft.PNG",
+      "name": "HunterSurvival-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\HunterSurvival-TopRight.PNG",
+      "name": "HunterSurvival-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\icon-shadow.PNG",
+      "name": "icon-shadow.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\MageArcane-BottomLeft.PNG",
+      "name": "MageArcane-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\MageArcane-BottomRight.PNG",
+      "name": "MageArcane-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\MageArcane-TopLeft.PNG",
+      "name": "MageArcane-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\MageArcane-TopRight.PNG",
+      "name": "MageArcane-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\MageFire-BottomLeft.PNG",
+      "name": "MageFire-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\MageFire-BottomRight.PNG",
+      "name": "MageFire-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\MageFire-TopLeft.PNG",
+      "name": "MageFire-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\MageFire-TopRight.PNG",
+      "name": "MageFire-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\MageFrost-BottomLeft.PNG",
+      "name": "MageFrost-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\MageFrost-BottomRight.PNG",
+      "name": "MageFrost-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\MageFrost-TopLeft.PNG",
+      "name": "MageFrost-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\MageFrost-TopRight.PNG",
+      "name": "MageFrost-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PALADINCOMBAT-BOTTOMLEFT.PNG",
+      "name": "PALADINCOMBAT-BOTTOMLEFT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PALADINCOMBAT-BOTTOMRIGHT.PNG",
+      "name": "PALADINCOMBAT-BOTTOMRIGHT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PALADINCOMBAT-TOPLEFT.PNG",
+      "name": "PALADINCOMBAT-TOPLEFT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PALADINCOMBAT-TOPRIGHT.PNG",
+      "name": "PALADINCOMBAT-TOPRIGHT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PALADINHOLY-BOTTOMLEFT.PNG",
+      "name": "PALADINHOLY-BOTTOMLEFT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PALADINHOLY-BOTTOMRIGHT.PNG",
+      "name": "PALADINHOLY-BOTTOMRIGHT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PALADINHOLY-TOPLEFT.PNG",
+      "name": "PALADINHOLY-TOPLEFT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PALADINHOLY-TOPRIGHT.PNG",
+      "name": "PALADINHOLY-TOPRIGHT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PALADINPROTECTION-BOTTOMLEFT.PNG",
+      "name": "PALADINPROTECTION-BOTTOMLEFT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PALADINPROTECTION-BOTTOMRIGHT.PNG",
+      "name": "PALADINPROTECTION-BOTTOMRIGHT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PALADINPROTECTION-TOPLEFT.PNG",
+      "name": "PALADINPROTECTION-TOPLEFT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PALADINPROTECTION-TOPRIGHT.PNG",
+      "name": "PALADINPROTECTION-TOPRIGHT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PetTalent-PetBG.PNG",
+      "name": "PetTalent-PetBG.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PetTalent-ShadowOverlay.PNG",
+      "name": "PetTalent-ShadowOverlay.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PriestDiscipline-BottomLeft.PNG",
+      "name": "PriestDiscipline-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PriestDiscipline-BottomRight.PNG",
+      "name": "PriestDiscipline-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PriestDiscipline-TopLeft.PNG",
+      "name": "PriestDiscipline-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PriestDiscipline-TopRight.PNG",
+      "name": "PriestDiscipline-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PriestHoly-BottomLeft.PNG",
+      "name": "PriestHoly-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PriestHoly-BottomRight.PNG",
+      "name": "PriestHoly-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PriestHoly-TopLeft.PNG",
+      "name": "PriestHoly-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PriestHoly-TopRight.PNG",
+      "name": "PriestHoly-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PriestShadow-BottomLeft.PNG",
+      "name": "PriestShadow-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PriestShadow-BottomRight.PNG",
+      "name": "PriestShadow-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PriestShadow-TopLeft.PNG",
+      "name": "PriestShadow-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\PriestShadow-TopRight.PNG",
+      "name": "PriestShadow-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\RogueAssassination-BottomLeft.PNG",
+      "name": "RogueAssassination-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\RogueAssassination-BottomRight.PNG",
+      "name": "RogueAssassination-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\RogueAssassination-TopLeft.PNG",
+      "name": "RogueAssassination-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\RogueAssassination-TopRight.PNG",
+      "name": "RogueAssassination-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\RogueCombat-BottomLeft.PNG",
+      "name": "RogueCombat-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\RogueCombat-BottomRight.PNG",
+      "name": "RogueCombat-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\RogueCombat-TopLeft.PNG",
+      "name": "RogueCombat-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\RogueCombat-TopRight.PNG",
+      "name": "RogueCombat-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\RogueSubtlety-BottomLeft.PNG",
+      "name": "RogueSubtlety-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\RogueSubtlety-BottomRight.PNG",
+      "name": "RogueSubtlety-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\RogueSubtlety-TopLeft.PNG",
+      "name": "RogueSubtlety-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\RogueSubtlety-TopRight.PNG",
+      "name": "RogueSubtlety-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\scroll-hider.PNG",
+      "name": "scroll-hider.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\ShamanElementalCombat-BottomLeft.PNG",
+      "name": "ShamanElementalCombat-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\ShamanElementalCombat-BottomRight.PNG",
+      "name": "ShamanElementalCombat-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\ShamanElementalCombat-TopLeft.PNG",
+      "name": "ShamanElementalCombat-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\ShamanElementalCombat-TopRight.PNG",
+      "name": "ShamanElementalCombat-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\ShamanEnhancement-BottomLeft.PNG",
+      "name": "ShamanEnhancement-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\ShamanEnhancement-BottomRight.PNG",
+      "name": "ShamanEnhancement-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\ShamanEnhancement-TopLeft.PNG",
+      "name": "ShamanEnhancement-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\ShamanEnhancement-TopRight.PNG",
+      "name": "ShamanEnhancement-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\ShamanRestoration-BottomLeft.PNG",
+      "name": "ShamanRestoration-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\ShamanRestoration-BottomRight.PNG",
+      "name": "ShamanRestoration-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\ShamanRestoration-TopLeft.PNG",
+      "name": "ShamanRestoration-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\ShamanRestoration-TopRight.PNG",
+      "name": "ShamanRestoration-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\spec-blue-bg.PNG",
+      "name": "spec-blue-bg.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\spec-filagree.PNG",
+      "name": "spec-filagree.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\spec-lock.PNG",
+      "name": "spec-lock.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\spec-paper-bg.PNG",
+      "name": "spec-paper-bg.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\Specialization.PNG",
+      "name": "Specialization.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\Specialization2.PNG",
+      "name": "Specialization2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\SpecializationClassThumbnails.PNG",
+      "name": "SpecializationClassThumbnails.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\talent-horiz.PNG",
+      "name": "talent-horiz.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\talent-main.PNG",
+      "name": "talent-main.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentFrame-Horizontal.PNG",
+      "name": "TalentFrame-Horizontal.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TALENTFRAME-HORIZONTAL2.PNG",
+      "name": "TALENTFRAME-HORIZONTAL2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentFrame-Parts.PNG",
+      "name": "TalentFrame-Parts.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentFrame-RankBorder.PNG",
+      "name": "TalentFrame-RankBorder.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentFrame-Vertical.PNG",
+      "name": "TalentFrame-Vertical.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TALENTFRAME-VERTICAL2.PNG",
+      "name": "TALENTFRAME-VERTICAL2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentFrameAtlas.PNG",
+      "name": "TalentFrameAtlas.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\Talents-HTile.PNG",
+      "name": "Talents-HTile.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\Talents-Texture.PNG",
+      "name": "Talents-Texture.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\Talents-VTile.PNG",
+      "name": "Talents-VTile.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\Talents.PNG",
+      "name": "Talents.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsAnimations2.PNG",
+      "name": "TalentsAnimations2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsAnimations3.PNG",
+      "name": "TalentsAnimations3.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsAnimations4.PNG",
+      "name": "TalentsAnimations4.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsAnimationsMaskFiligree.PNG",
+      "name": "TalentsAnimationsMaskFiligree.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsAnimationsMaskFiligreeActivate.PNG",
+      "name": "TalentsAnimationsMaskFiligreeActivate.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsAnimationsMaskFull.PNG",
+      "name": "TalentsAnimationsMaskFull.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsAnimationsMaskNodeSheenChoice.PNG",
+      "name": "TalentsAnimationsMaskNodeSheenChoice.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsAnimationsMaskNodeSheenChoiceFlyoutCircle.PNG",
+      "name": "TalentsAnimationsMaskNodeSheenChoiceFlyoutCircle.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsAnimationsMaskNodeSheenChoiceFlyoutSquare.PNG",
+      "name": "TalentsAnimationsMaskNodeSheenChoiceFlyoutSquare.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsAnimationsMaskNodeSheenCircle.PNG",
+      "name": "TalentsAnimationsMaskNodeSheenCircle.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsAnimationsMaskNodeSheenHeroClassBackplateFull.PNG",
+      "name": "TalentsAnimationsMaskNodeSheenHeroClassBackplateFull.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsAnimationsMaskNodeSheenHeroClassMainPaneRing.PNG",
+      "name": "TalentsAnimationsMaskNodeSheenHeroClassMainPaneRing.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsAnimationsMaskNodeSheenSquare.PNG",
+      "name": "TalentsAnimationsMaskNodeSheenSquare.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsAnimationsMaskSpecArt.PNG",
+      "name": "TalentsAnimationsMaskSpecArt.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsAnimationsMaskSpecArtMid.PNG",
+      "name": "TalentsAnimationsMaskSpecArtMid.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsAnimationsSheen.PNG",
+      "name": "TalentsAnimationsSheen.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsArrowLine.PNG",
+      "name": "TalentsArrowLine.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundDeathKnight1.PNG",
+      "name": "TalentsClassBackgroundDeathKnight1.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundDeathKnight2.PNG",
+      "name": "TalentsClassBackgroundDeathKnight2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundDemonHunter.PNG",
+      "name": "TalentsClassBackgroundDemonHunter.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundDruid1.PNG",
+      "name": "TalentsClassBackgroundDruid1.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundDruid2.PNG",
+      "name": "TalentsClassBackgroundDruid2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundEvoker.PNG",
+      "name": "TalentsClassBackgroundEvoker.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundEvoker2.PNG",
+      "name": "TalentsClassBackgroundEvoker2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundHunter1.PNG",
+      "name": "TalentsClassBackgroundHunter1.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundHunter2.PNG",
+      "name": "TalentsClassBackgroundHunter2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundMage1.PNG",
+      "name": "TalentsClassBackgroundMage1.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundMage2.PNG",
+      "name": "TalentsClassBackgroundMage2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundMonk1.PNG",
+      "name": "TalentsClassBackgroundMonk1.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundMonk2.PNG",
+      "name": "TalentsClassBackgroundMonk2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundPaladin1.PNG",
+      "name": "TalentsClassBackgroundPaladin1.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundPaladin2.PNG",
+      "name": "TalentsClassBackgroundPaladin2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundPriest1.PNG",
+      "name": "TalentsClassBackgroundPriest1.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundPriest2.PNG",
+      "name": "TalentsClassBackgroundPriest2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundRogue1.PNG",
+      "name": "TalentsClassBackgroundRogue1.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundRogue2.PNG",
+      "name": "TalentsClassBackgroundRogue2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundShaman1.PNG",
+      "name": "TalentsClassBackgroundShaman1.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundShaman2.PNG",
+      "name": "TalentsClassBackgroundShaman2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundWarlock1.PNG",
+      "name": "TalentsClassBackgroundWarlock1.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundWarlock2.PNG",
+      "name": "TalentsClassBackgroundWarlock2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundWarrior1.PNG",
+      "name": "TalentsClassBackgroundWarrior1.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsClassBackgroundWarrior2.PNG",
+      "name": "TalentsClassBackgroundWarrior2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsHeroClass.PNG",
+      "name": "TalentsHeroClass.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsHeroClassIcons.PNG",
+      "name": "TalentsHeroClassIcons.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsMaskNodeChoice.PNG",
+      "name": "TalentsMaskNodeChoice.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsMaskNodeChoiceFlyout.PNG",
+      "name": "TalentsMaskNodeChoiceFlyout.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsMaskNodeChoiceHalf.PNG",
+      "name": "TalentsMaskNodeChoiceHalf.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\TalentsMaskNodeCircle.PNG",
+      "name": "TalentsMaskNodeCircle.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\UI-TalentArrows.PNG",
+      "name": "UI-TalentArrows.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\UI-TalentBranches.PNG",
+      "name": "UI-TalentBranches.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\UI-TalentFrame-Active.PNG",
+      "name": "UI-TalentFrame-Active.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\UI-TalentFrame-BotLeft.PNG",
+      "name": "UI-TalentFrame-BotLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\UI-TalentFrame-BotRight.PNG",
+      "name": "UI-TalentFrame-BotRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\UI-TalentFrame-DualTalentSpec.PNG",
+      "name": "UI-TalentFrame-DualTalentSpec.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarlockCurses-BottomLeft.PNG",
+      "name": "WarlockCurses-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarlockCurses-BottomRight.PNG",
+      "name": "WarlockCurses-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarlockCurses-TopLeft.PNG",
+      "name": "WarlockCurses-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarlockCurses-TopRight.PNG",
+      "name": "WarlockCurses-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarlockDestruction-BottomLeft.PNG",
+      "name": "WarlockDestruction-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarlockDestruction-BottomRight.PNG",
+      "name": "WarlockDestruction-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarlockDestruction-TopLeft.PNG",
+      "name": "WarlockDestruction-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarlockDestruction-TopRight.PNG",
+      "name": "WarlockDestruction-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarlockSummoning-BottomLeft.PNG",
+      "name": "WarlockSummoning-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarlockSummoning-BottomRight.PNG",
+      "name": "WarlockSummoning-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarlockSummoning-TopLeft.PNG",
+      "name": "WarlockSummoning-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarlockSummoning-TopRight.PNG",
+      "name": "WarlockSummoning-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarriorArm-BottomLeft.PNG",
+      "name": "WarriorArm-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarriorArm-BottomRight.PNG",
+      "name": "WarriorArm-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarriorArm-TopLeft.PNG",
+      "name": "WarriorArm-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarriorArm-TopRight.PNG",
+      "name": "WarriorArm-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarriorArms-BottomLeft.PNG",
+      "name": "WarriorArms-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarriorArms-BottomRight.PNG",
+      "name": "WarriorArms-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarriorArms-TopLeft.PNG",
+      "name": "WarriorArms-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarriorArms-TopRight.PNG",
+      "name": "WarriorArms-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarriorFury-BottomLeft.PNG",
+      "name": "WarriorFury-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarriorFury-BottomRight.PNG",
+      "name": "WarriorFury-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarriorFury-TopLeft.PNG",
+      "name": "WarriorFury-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarriorFury-TopRight.PNG",
+      "name": "WarriorFury-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarriorProtection-BottomLeft.PNG",
+      "name": "WarriorProtection-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarriorProtection-BottomRight.PNG",
+      "name": "WarriorProtection-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarriorProtection-TopLeft.PNG",
+      "name": "WarriorProtection-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TALENTFRAME",
+      "path": "TALENTFRAME\\WarriorProtection-TopRight.PNG",
+      "name": "WarriorProtection-TopRight.PNG",
+      "type": "file"
+    }
+  ]
+}

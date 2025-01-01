@@ -1,0 +1,14 @@
+{
+  "parent": "",
+  "path": "VoidStorage",
+  "name": "VoidStorage",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "VoidStorage",
+      "path": "VoidStorage\\VoidStorage.PNG",
+      "name": "VoidStorage.PNG",
+      "type": "file"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "",
+  "path": "RecruitAFriend",
+  "name": "RecruitAFriend",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "RecruitAFriend",
+      "path": "RecruitAFriend\\RecruitAFriend.PNG",
+      "name": "RecruitAFriend.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "RecruitAFriend",
+      "path": "RecruitAFriend\\RecruitAFriendv2Assets.PNG",
+      "name": "RecruitAFriendv2Assets.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "RecruitAFriend",
+      "path": "RecruitAFriend\\RecruitAFriendV3Assets.PNG",
+      "name": "RecruitAFriendV3Assets.PNG",
+      "type": "file"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "",
+  "path": "Masks",
+  "name": "Masks",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "Masks",
+      "path": "Masks\\CircleMask.PNG",
+      "name": "CircleMask.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Masks",
+      "path": "Masks\\CircleMaskScalable.PNG",
+      "name": "CircleMaskScalable.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Masks",
+      "path": "Masks\\ProgressBarDiamondPipMask.PNG",
+      "name": "ProgressBarDiamondPipMask.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Masks",
+      "path": "Masks\\SquareMask.PNG",
+      "name": "SquareMask.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Masks",
+      "path": "Masks\\TransparentSquareMask.PNG",
+      "name": "TransparentSquareMask.PNG",
+      "type": "file"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "",
+  "path": "Mockups",
+  "name": "Mockups",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "Mockups",
+      "path": "Mockups\\10.0 Dragon Isles",
+      "name": "10.0 Dragon Isles",
+      "type": "directory",
+      "children": [
+        {
+          "parent": "Mockups\\10.0 Dragon Isles",
+          "path": "Mockups\\10.0 Dragon Isles\\Major Factions",
+          "name": "Major Factions",
+          "type": "directory",
+          "children": [
+            {
+              "parent": "Mockups\\10.0 Dragon Isles\\Major Factions",
+              "path": "Mockups\\10.0 Dragon Isles\\Major Factions\\_cut",
+              "name": "_cut",
+              "type": "directory",
+              "children": [
+                {
+                  "parent": "Mockups\\10.0 Dragon Isles\\Major Factions\\_cut",
+                  "path": "Mockups\\10.0 Dragon Isles\\Major Factions\\_cut\\MajorFactionsMapIconsCentaur.PNG",
+                  "name": "MajorFactionsMapIconsCentaur.PNG",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

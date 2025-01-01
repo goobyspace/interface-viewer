@@ -1,0 +1,20 @@
+{
+  "parent": "",
+  "path": "InGameLanguages",
+  "name": "InGameLanguages",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "InGameLanguages",
+      "path": "InGameLanguages\\InGameLanguagesTest.PNG",
+      "name": "InGameLanguagesTest.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "InGameLanguages",
+      "path": "InGameLanguages\\InGameLanguagesTest32.PNG",
+      "name": "InGameLanguagesTest32.PNG",
+      "type": "file"
+    }
+  ]
+}

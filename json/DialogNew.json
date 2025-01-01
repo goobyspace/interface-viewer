@@ -1,0 +1,14 @@
+{
+  "parent": "",
+  "path": "DialogNew",
+  "name": "DialogNew",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "DialogNew",
+      "path": "DialogNew\\UIDialogNew.PNG",
+      "name": "UIDialogNew.PNG",
+      "type": "file"
+    }
+  ]
+}

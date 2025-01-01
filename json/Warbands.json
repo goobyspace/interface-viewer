@@ -1,0 +1,20 @@
+{
+  "parent": "",
+  "path": "Warbands",
+  "name": "Warbands",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "Warbands",
+      "path": "Warbands\\UIWarbandsIcons.PNG",
+      "name": "UIWarbandsIcons.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Warbands",
+      "path": "Warbands\\UIWarbandsIcons2x.PNG",
+      "name": "UIWarbandsIcons2x.PNG",
+      "type": "file"
+    }
+  ]
+}

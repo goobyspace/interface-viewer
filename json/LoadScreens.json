@@ -1,0 +1,98 @@
+{
+  "parent": "",
+  "path": "LoadScreens",
+  "name": "LoadScreens",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "LoadScreens",
+      "path": "LoadScreens\\LoadingScreenAssets.PNG",
+      "name": "LoadingScreenAssets.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "LoadScreens",
+      "path": "LoadScreens\\LoadingScreenBottomFill.PNG",
+      "name": "LoadingScreenBottomFill.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "LoadScreens",
+      "path": "LoadScreens\\LoadingScreenHorizontal.PNG",
+      "name": "LoadingScreenHorizontal.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "LoadScreens",
+      "path": "LoadScreens\\LoadingScreenleftBackground.PNG",
+      "name": "LoadingScreenleftBackground.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "LoadScreens",
+      "path": "LoadScreens\\LoadingScreenrightBackground.PNG",
+      "name": "LoadingScreenrightBackground.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "LoadScreens",
+      "path": "LoadScreens\\LoadingScreenSideFill.PNG",
+      "name": "LoadingScreenSideFill.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "LoadScreens",
+      "path": "LoadScreens\\LoadingScreenVertical.PNG",
+      "name": "LoadingScreenVertical.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "LoadScreens",
+      "path": "LoadScreens\\LoadScreen-BottomFillTile.PNG",
+      "name": "LoadScreen-BottomFillTile.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "LoadScreens",
+      "path": "LoadScreens\\LoadScreen-BottomInnerTile.PNG",
+      "name": "LoadScreen-BottomInnerTile.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "LoadScreens",
+      "path": "LoadScreens\\LoadScreen-BottomOuterTile.PNG",
+      "name": "LoadScreen-BottomOuterTile.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "LoadScreens",
+      "path": "LoadScreens\\LoadScreen-Gradient.PNG",
+      "name": "LoadScreen-Gradient.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "LoadScreens",
+      "path": "LoadScreens\\LoadScreen-leftBackground.PNG",
+      "name": "LoadScreen-leftBackground.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "LoadScreens",
+      "path": "LoadScreens\\LoadScreen-LeftBookend.PNG",
+      "name": "LoadScreen-LeftBookend.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "LoadScreens",
+      "path": "LoadScreens\\LoadScreen-RightBackground.PNG",
+      "name": "LoadScreen-RightBackground.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "LoadScreens",
+      "path": "LoadScreens\\LoadScreen-SideFillTile.PNG",
+      "name": "LoadScreen-SideFillTile.PNG",
+      "type": "file"
+    }
+  ]
+}

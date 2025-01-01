@@ -1,0 +1,146 @@
+{
+  "parent": "",
+  "path": "Credits",
+  "name": "Credits",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "Credits",
+      "path": "Credits\\CreditsScreenAssets.PNG",
+      "name": "CreditsScreenAssets.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Credits",
+      "path": "Credits\\CreditsScreenBackground0WOW.PNG",
+      "name": "CreditsScreenBackground0WOW.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Credits",
+      "path": "Credits\\CreditsScreenBackground10TheWarWithin.PNG",
+      "name": "CreditsScreenBackground10TheWarWithin.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Credits",
+      "path": "Credits\\CreditsScreenBackground1BC.PNG",
+      "name": "CreditsScreenBackground1BC.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Credits",
+      "path": "Credits\\CreditsScreenBackground2WOTLK.PNG",
+      "name": "CreditsScreenBackground2WOTLK.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Credits",
+      "path": "Credits\\CreditsScreenBackground3Cataclysm.PNG",
+      "name": "CreditsScreenBackground3Cataclysm.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Credits",
+      "path": "Credits\\CreditsScreenBackground4MOP.PNG",
+      "name": "CreditsScreenBackground4MOP.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Credits",
+      "path": "Credits\\CreditsScreenBackground5WOD.PNG",
+      "name": "CreditsScreenBackground5WOD.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Credits",
+      "path": "Credits\\CreditsScreenBackground6Legion.PNG",
+      "name": "CreditsScreenBackground6Legion.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Credits",
+      "path": "Credits\\CreditsScreenBackground7BFA.PNG",
+      "name": "CreditsScreenBackground7BFA.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Credits",
+      "path": "Credits\\CreditsScreenBackground8Shadowlands.PNG",
+      "name": "CreditsScreenBackground8Shadowlands.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Credits",
+      "path": "Credits\\CreditsScreenBackground9Dragonflight.PNG",
+      "name": "CreditsScreenBackground9Dragonflight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Credits",
+      "path": "Credits\\CreditsScreenKeyart0WOW.PNG",
+      "name": "CreditsScreenKeyart0WOW.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Credits",
+      "path": "Credits\\CreditsScreenKeyart10TheWarWithin.PNG",
+      "name": "CreditsScreenKeyart10TheWarWithin.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Credits",
+      "path": "Credits\\CreditsScreenKeyart1BC.PNG",
+      "name": "CreditsScreenKeyart1BC.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Credits",
+      "path": "Credits\\CreditsScreenKeyart2WOTLK.PNG",
+      "name": "CreditsScreenKeyart2WOTLK.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Credits",
+      "path": "Credits\\CreditsScreenKeyart3Cataclysm.PNG",
+      "name": "CreditsScreenKeyart3Cataclysm.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Credits",
+      "path": "Credits\\CreditsScreenKeyart4MOP.PNG",
+      "name": "CreditsScreenKeyart4MOP.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Credits",
+      "path": "Credits\\CreditsScreenKeyart5WOD.PNG",
+      "name": "CreditsScreenKeyart5WOD.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Credits",
+      "path": "Credits\\CreditsScreenKeyart6Legion.PNG",
+      "name": "CreditsScreenKeyart6Legion.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Credits",
+      "path": "Credits\\CreditsScreenKeyart7BFA.PNG",
+      "name": "CreditsScreenKeyart7BFA.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Credits",
+      "path": "Credits\\CreditsScreenKeyart8Shadowlands.PNG",
+      "name": "CreditsScreenKeyart8Shadowlands.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Credits",
+      "path": "Credits\\CreditsScreenKeyart9Dragonflight.PNG",
+      "name": "CreditsScreenKeyart9Dragonflight.PNG",
+      "type": "file"
+    }
+  ]
+}

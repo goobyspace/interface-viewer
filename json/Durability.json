@@ -1,0 +1,20 @@
+{
+  "parent": "",
+  "path": "Durability",
+  "name": "Durability",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "Durability",
+      "path": "Durability\\DeathRecap.PNG",
+      "name": "DeathRecap.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Durability",
+      "path": "Durability\\UI-Durability-Icons.PNG",
+      "name": "UI-Durability-Icons.PNG",
+      "type": "file"
+    }
+  ]
+}

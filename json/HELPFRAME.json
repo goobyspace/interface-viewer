@@ -1,0 +1,284 @@
+{
+  "parent": "",
+  "path": "HELPFRAME",
+  "name": "HELPFRAME",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\CS_HELPTEXTURES.PNG",
+      "name": "CS_HELPTEXTURES.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\CS_HelpTextures_Tile.PNG",
+      "name": "CS_HelpTextures_Tile.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\DarkSandstone-Tile.PNG",
+      "name": "DarkSandstone-Tile.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HELPBUTTONS.PNG",
+      "name": "HELPBUTTONS.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HELPFRAME-BOTLEFT.PNG",
+      "name": "HELPFRAME-BOTLEFT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HelpFrame-BotLeftBig.PNG",
+      "name": "HelpFrame-BotLeftBig.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HELPFRAME-BOTRIGHT.PNG",
+      "name": "HELPFRAME-BOTRIGHT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HelpFrame-BotRightBig.PNG",
+      "name": "HelpFrame-BotRightBig.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HELPFRAME-BOTTOM.PNG",
+      "name": "HELPFRAME-BOTTOM.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HelpFrame-BottomBig.PNG",
+      "name": "HelpFrame-BottomBig.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HelpFrame-Top.PNG",
+      "name": "HelpFrame-Top.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HelpFrame-TopLeft.PNG",
+      "name": "HelpFrame-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HelpFrame-TopRight.PNG",
+      "name": "HelpFrame-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HelpFrameButton-Highlight.PNG",
+      "name": "HelpFrameButton-Highlight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HelpFrameDivider.PNG",
+      "name": "HelpFrameDivider.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HelpFrameTab-Active.PNG",
+      "name": "HelpFrameTab-Active.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HelpFrameTab-Inactive.PNG",
+      "name": "HelpFrameTab-Inactive.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HelpIcon-AccountSecurity.PNG",
+      "name": "HelpIcon-AccountSecurity.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HelpIcon-Bug-Red.PNG",
+      "name": "HelpIcon-Bug-Red.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HelpIcon-Bug.PNG",
+      "name": "HelpIcon-Bug.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HelpIcon-CharacterStuck.PNG",
+      "name": "HelpIcon-CharacterStuck.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HelpIcon-HotIssues.PNG",
+      "name": "HelpIcon-HotIssues.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HelpIcon-ItemRestoration.PNG",
+      "name": "HelpIcon-ItemRestoration.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HelpIcon-KnowledgeBase.PNG",
+      "name": "HelpIcon-KnowledgeBase.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HelpIcon-OpenTicket.PNG",
+      "name": "HelpIcon-OpenTicket.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HelpIcon-ReportAbuse.PNG",
+      "name": "HelpIcon-ReportAbuse.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HelpIcon-ReportLag.PNG",
+      "name": "HelpIcon-ReportLag.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HelpIcon-Suggestion.PNG",
+      "name": "HelpIcon-Suggestion.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\Helptip.PNG",
+      "name": "Helptip.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HelptipArrowMask.PNG",
+      "name": "HelptipArrowMask.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\HotIssueIcon.PNG",
+      "name": "HotIssueIcon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\KnowledgeBaseButtton.PNG",
+      "name": "KnowledgeBaseButtton.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\NewPlayerExperienceParts.PNG",
+      "name": "NewPlayerExperienceParts.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\OpenTicketIcon.PNG",
+      "name": "OpenTicketIcon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\ReportHarrasment-HelpImage.PNG",
+      "name": "ReportHarrasment-HelpImage.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\ReportLagIcon-AuctionHouse.PNG",
+      "name": "ReportLagIcon-AuctionHouse.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\ReportLagIcon-Chat.PNG",
+      "name": "ReportLagIcon-Chat.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\ReportLagIcon-Loot.PNG",
+      "name": "ReportLagIcon-Loot.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\ReportLagIcon-Mail.PNG",
+      "name": "ReportLagIcon-Mail.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\ReportLagIcon-Movement.PNG",
+      "name": "ReportLagIcon-Movement.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\ReportLagIcon-Spells.PNG",
+      "name": "ReportLagIcon-Spells.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\Tileable-Parchment.PNG",
+      "name": "Tileable-Parchment.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\Tileable-ParchmentEdge-Bottom.PNG",
+      "name": "Tileable-ParchmentEdge-Bottom.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\Tileable-ParchmentEdge-Left.PNG",
+      "name": "Tileable-ParchmentEdge-Left.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\Tileable-ParchmentEdge-Right.PNG",
+      "name": "Tileable-ParchmentEdge-Right.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "HELPFRAME",
+      "path": "HELPFRAME\\Tileable-ParchmentEdge-Top.PNG",
+      "name": "Tileable-ParchmentEdge-Top.PNG",
+      "type": "file"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "",
+  "path": "Scenario",
+  "name": "Scenario",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "Scenario",
+      "path": "Scenario\\ScenarioEvergreen.PNG",
+      "name": "ScenarioEvergreen.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Scenario",
+      "path": "Scenario\\ScoreboardDragonflight.PNG",
+      "name": "ScoreboardDragonflight.PNG",
+      "type": "file"
+    }
+  ]
+}

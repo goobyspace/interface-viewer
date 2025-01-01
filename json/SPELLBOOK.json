@@ -1,0 +1,338 @@
+{
+  "parent": "",
+  "path": "SPELLBOOK",
+  "name": "SPELLBOOK",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\GlyphIconSpellbook.PNG",
+      "name": "GlyphIconSpellbook.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\GuildSpellbooktabBG.PNG",
+      "name": "GuildSpellbooktabBG.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\GuildSpellbooktabIconFrame.PNG",
+      "name": "GuildSpellbooktabIconFrame.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\Professions-Book-Left.PNG",
+      "name": "Professions-Book-Left.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\Professions-Book-Right.PNG",
+      "name": "Professions-Book-Right.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\Professions-Progress-Fill.PNG",
+      "name": "Professions-Progress-Fill.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\ProfessionsBook.PNG",
+      "name": "ProfessionsBook.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\RotationIconFrame.PNG",
+      "name": "RotationIconFrame.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\Spellbook-Icon.PNG",
+      "name": "Spellbook-Icon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\Spellbook-Mounts.PNG",
+      "name": "Spellbook-Mounts.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\Spellbook-Page-1.PNG",
+      "name": "Spellbook-Page-1.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\Spellbook-Page-2.PNG",
+      "name": "Spellbook-Page-2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\Spellbook-Parts.PNG",
+      "name": "Spellbook-Parts.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\SpellBook-SkillLineTab-Glow.PNG",
+      "name": "SpellBook-SkillLineTab-Glow.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\Spellbook-SkillLineTab.PNG",
+      "name": "Spellbook-SkillLineTab.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\SpellbookBackgroundDruid.PNG",
+      "name": "SpellbookBackgroundDruid.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\SpellbookBackgroundEvergreen.PNG",
+      "name": "SpellbookBackgroundEvergreen.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\SpellbookElements.PNG",
+      "name": "SpellbookElements.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\SpellbookElementsAutoCastMask.PNG",
+      "name": "SpellbookElementsAutoCastMask.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\SpellbookElementsIconMask.PNG",
+      "name": "SpellbookElementsIconMask.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\SpellbookElementsIconSheenMask.PNG",
+      "name": "SpellbookElementsIconSheenMask.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-Glyph-Rune-1.PNG",
+      "name": "UI-Glyph-Rune-1.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-Glyph-Rune-10.PNG",
+      "name": "UI-Glyph-Rune-10.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-Glyph-Rune-11.PNG",
+      "name": "UI-Glyph-Rune-11.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-Glyph-Rune-12.PNG",
+      "name": "UI-Glyph-Rune-12.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-Glyph-Rune-13.PNG",
+      "name": "UI-Glyph-Rune-13.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-Glyph-Rune-14.PNG",
+      "name": "UI-Glyph-Rune-14.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-Glyph-Rune-15.PNG",
+      "name": "UI-Glyph-Rune-15.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-Glyph-Rune-16.PNG",
+      "name": "UI-Glyph-Rune-16.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-Glyph-Rune-17.PNG",
+      "name": "UI-Glyph-Rune-17.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-Glyph-Rune-18.PNG",
+      "name": "UI-Glyph-Rune-18.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-Glyph-Rune-19.PNG",
+      "name": "UI-Glyph-Rune-19.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-Glyph-Rune-2.PNG",
+      "name": "UI-Glyph-Rune-2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-Glyph-Rune-20.PNG",
+      "name": "UI-Glyph-Rune-20.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-Glyph-Rune-3.PNG",
+      "name": "UI-Glyph-Rune-3.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-Glyph-Rune-4.PNG",
+      "name": "UI-Glyph-Rune-4.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-Glyph-Rune-5.PNG",
+      "name": "UI-Glyph-Rune-5.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-Glyph-Rune-6.PNG",
+      "name": "UI-Glyph-Rune-6.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-Glyph-Rune-7.PNG",
+      "name": "UI-Glyph-Rune-7.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-Glyph-Rune-8.PNG",
+      "name": "UI-Glyph-Rune-8.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-Glyph-Rune-9.PNG",
+      "name": "UI-Glyph-Rune-9.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-Glyph-Rune1.PNG",
+      "name": "UI-Glyph-Rune1.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-GlyphFrame-Glow.PNG",
+      "name": "UI-GlyphFrame-Glow.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-GlyphFrame-Locked.PNG",
+      "name": "UI-GlyphFrame-Locked.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-GLYPHFRAME.PNG",
+      "name": "UI-GLYPHFRAME.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-Spellbook-SpellBackground.PNG",
+      "name": "UI-Spellbook-SpellBackground.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-SpellBook-Tab-Unselected.PNG",
+      "name": "UI-SpellBook-Tab-Unselected.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-SpellBook-Tab1-Selected.PNG",
+      "name": "UI-SpellBook-Tab1-Selected.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-SpellBook-Tab3-Selected.PNG",
+      "name": "UI-SpellBook-Tab3-Selected.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-SpellbookPanel-BotLeft.PNG",
+      "name": "UI-SpellbookPanel-BotLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-SpellbookPanel-BotRight.PNG",
+      "name": "UI-SpellbookPanel-BotRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-SpellbookPanel-Tab-Highlight.PNG",
+      "name": "UI-SpellbookPanel-Tab-Highlight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-SpellbookPanel-TopLeft.PNG",
+      "name": "UI-SpellbookPanel-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UI-SpellbookPanel-TopRight.PNG",
+      "name": "UI-SpellbookPanel-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SPELLBOOK",
+      "path": "SPELLBOOK\\UIFrameTabsSpellbook.PNG",
+      "name": "UIFrameTabsSpellbook.PNG",
+      "type": "file"
+    }
+  ]
+}

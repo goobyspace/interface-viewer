@@ -1,0 +1,34 @@
+{
+  "parent": "",
+  "path": "Interface",
+  "name": "Interface",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "Interface",
+      "path": "Interface\\FrameGeneral",
+      "name": "FrameGeneral",
+      "type": "directory",
+      "children": [
+        {
+          "parent": "Interface\\FrameGeneral",
+          "path": "Interface\\FrameGeneral\\UIFrame.PNG",
+          "name": "UIFrame.PNG",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "parent": "Interface",
+      "path": "Interface\\AzeriteGoldRingRank3.PNG",
+      "name": "AzeriteGoldRingRank3.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "Interface",
+      "path": "Interface\\AzeriteGoldRingRank4.PNG",
+      "name": "AzeriteGoldRingRank4.PNG",
+      "type": "file"
+    }
+  ]
+}

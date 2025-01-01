@@ -1,0 +1,98 @@
+{
+  "parent": "",
+  "path": "OPTIONSFRAME",
+  "name": "OPTIONSFRAME",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "OPTIONSFRAME",
+      "path": "OPTIONSFRAME\\21STEPGRAYSCALE.PNG",
+      "name": "21STEPGRAYSCALE.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "OPTIONSFRAME",
+      "path": "OPTIONSFRAME\\ColorblindSettings.PNG",
+      "name": "ColorblindSettings.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "OPTIONSFRAME",
+      "path": "OPTIONSFRAME\\NvidiaLogo.PNG",
+      "name": "NvidiaLogo.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "OPTIONSFRAME",
+      "path": "OPTIONSFRAME\\Options.PNG",
+      "name": "Options.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "OPTIONSFRAME",
+      "path": "OPTIONSFRAME\\OptionsFrameTab-Active.PNG",
+      "name": "OptionsFrameTab-Active.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "OPTIONSFRAME",
+      "path": "OPTIONSFRAME\\UI-OptionsFrame-ActiveTab.PNG",
+      "name": "UI-OptionsFrame-ActiveTab.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "OPTIONSFRAME",
+      "path": "OPTIONSFRAME\\UI-OptionsFrame-InactiveTab.PNG",
+      "name": "UI-OptionsFrame-InactiveTab.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "OPTIONSFRAME",
+      "path": "OPTIONSFRAME\\UI-OptionsFrame-NewFeatureIcon.PNG",
+      "name": "UI-OptionsFrame-NewFeatureIcon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "OPTIONSFRAME",
+      "path": "OPTIONSFRAME\\UI-OptionsFrame-Spacer.PNG",
+      "name": "UI-OptionsFrame-Spacer.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "OPTIONSFRAME",
+      "path": "OPTIONSFRAME\\UIOptionsFrame-BottomLeft.PNG",
+      "name": "UIOptionsFrame-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "OPTIONSFRAME",
+      "path": "OPTIONSFRAME\\UIOptionsFrame-BottomRight.PNG",
+      "name": "UIOptionsFrame-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "OPTIONSFRAME",
+      "path": "OPTIONSFRAME\\UIOptionsFrame-TopLeft.PNG",
+      "name": "UIOptionsFrame-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "OPTIONSFRAME",
+      "path": "OPTIONSFRAME\\UIOptionsFrame-TopRight.PNG",
+      "name": "UIOptionsFrame-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "OPTIONSFRAME",
+      "path": "OPTIONSFRAME\\VoiceChat-Play.PNG",
+      "name": "VoiceChat-Play.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "OPTIONSFRAME",
+      "path": "OPTIONSFRAME\\VoiceChat-Record.PNG",
+      "name": "VoiceChat-Record.PNG",
+      "type": "file"
+    }
+  ]
+}

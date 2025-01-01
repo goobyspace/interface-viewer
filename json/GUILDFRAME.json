@@ -1,0 +1,110 @@
+{
+  "parent": "",
+  "path": "GUILDFRAME",
+  "name": "GUILDFRAME",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "GUILDFRAME",
+      "path": "GUILDFRAME\\Communities.PNG",
+      "name": "Communities.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "GUILDFRAME",
+      "path": "GUILDFRAME\\CommunitiesAddChat.PNG",
+      "name": "CommunitiesAddChat.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "GUILDFRAME",
+      "path": "GUILDFRAME\\CommunitiesFinder.PNG",
+      "name": "CommunitiesFinder.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "GUILDFRAME",
+      "path": "GUILDFRAME\\Guild.PNG",
+      "name": "Guild.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "GUILDFRAME",
+      "path": "GUILDFRAME\\GuildAchievements.PNG",
+      "name": "GuildAchievements.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "GUILDFRAME",
+      "path": "GUILDFRAME\\GuildChallenges.PNG",
+      "name": "GuildChallenges.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "GUILDFRAME",
+      "path": "GUILDFRAME\\GuildDifficulty.PNG",
+      "name": "GuildDifficulty.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "GUILDFRAME",
+      "path": "GUILDFRAME\\GUILDEMBLEMSLG_01.PNG",
+      "name": "GUILDEMBLEMSLG_01.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "GUILDFRAME",
+      "path": "GUILDFRAME\\GUILDEMBLEMS_01.PNG",
+      "name": "GUILDEMBLEMS_01.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "GUILDFRAME",
+      "path": "GUILDFRAME\\GuildExtra.PNG",
+      "name": "GuildExtra.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "GUILDFRAME",
+      "path": "GUILDFRAME\\GuildFrame.PNG",
+      "name": "GuildFrame.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "GUILDFRAME",
+      "path": "GUILDFRAME\\GuildInspect-Parts.PNG",
+      "name": "GuildInspect-Parts.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "GUILDFRAME",
+      "path": "GUILDFRAME\\GuildLevelRing.PNG",
+      "name": "GuildLevelRing.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "GUILDFRAME",
+      "path": "GUILDFRAME\\GuildLogo-NoLogo.PNG",
+      "name": "GuildLogo-NoLogo.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "GUILDFRAME",
+      "path": "GUILDFRAME\\GuildLogo-NoLogoSm.PNG",
+      "name": "GuildLogo-NoLogoSm.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "GUILDFRAME",
+      "path": "GUILDFRAME\\GuildLogoMask_L.PNG",
+      "name": "GuildLogoMask_L.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "GUILDFRAME",
+      "path": "GUILDFRAME\\GuildLogoMask_R.PNG",
+      "name": "GuildLogoMask_R.PNG",
+      "type": "file"
+    }
+  ]
+}

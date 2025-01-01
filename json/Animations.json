@@ -1,0 +1,14 @@
+{
+  "parent": "",
+  "path": "Animations",
+  "name": "Animations",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "Animations",
+      "path": "Animations\\PowerSwirlAnimation.PNG",
+      "name": "PowerSwirlAnimation.PNG",
+      "type": "file"
+    }
+  ]
+}

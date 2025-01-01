@@ -1,0 +1,362 @@
+{
+  "parent": "",
+  "path": "TUTORIALFRAME",
+  "name": "TUTORIALFRAME",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\minimap-glow.PNG",
+      "name": "minimap-glow.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\TutorialFrame-QuestionMark.PNG",
+      "name": "TutorialFrame-QuestionMark.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\TutorialFrameAlert.PNG",
+      "name": "TutorialFrameAlert.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\TutorialFrameBackground.PNG",
+      "name": "TutorialFrameBackground.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\TUTORIALFRAMEBORDER.PNG",
+      "name": "TUTORIALFRAMEBORDER.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-HELP-ALERT.PNG",
+      "name": "UI-HELP-ALERT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-HELP-FRAME-MAIN.PNG",
+      "name": "UI-HELP-FRAME-MAIN.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-HELP-FRAME-POPUP.PNG",
+      "name": "UI-HELP-FRAME-POPUP.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-HELP-PORTRAIT.PNG",
+      "name": "UI-HELP-PORTRAIT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TUTORIAL-FRAME.PNG",
+      "name": "UI-TUTORIAL-FRAME.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-AttackCursor.PNG",
+      "name": "UI-TutorialFrame-AttackCursor.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-Bag.PNG",
+      "name": "UI-TutorialFrame-Bag.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-Bag02.PNG",
+      "name": "UI-TutorialFrame-Bag02.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-Bag03.PNG",
+      "name": "UI-TutorialFrame-Bag03.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-BreathBar.PNG",
+      "name": "UI-TutorialFrame-BreathBar.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-CalloutGlow.PNG",
+      "name": "UI-TutorialFrame-CalloutGlow.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-Drink01.PNG",
+      "name": "UI-TutorialFrame-Drink01.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-Drink02.PNG",
+      "name": "UI-TutorialFrame-Drink02.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-Drink03.PNG",
+      "name": "UI-TutorialFrame-Drink03.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-DudeFull.PNG",
+      "name": "UI-TutorialFrame-DudeFull.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-DudeHealth.PNG",
+      "name": "UI-TutorialFrame-DudeHealth.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-DudeParty.PNG",
+      "name": "UI-TutorialFrame-DudeParty.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-Elite.PNG",
+      "name": "UI-TutorialFrame-Elite.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-EnemyHealth.PNG",
+      "name": "UI-TutorialFrame-EnemyHealth.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-EquipItem.PNG",
+      "name": "UI-TutorialFrame-EquipItem.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-FatigueBar.PNG",
+      "name": "UI-TutorialFrame-FatigueBar.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-FlightCursor.PNG",
+      "name": "UI-TutorialFrame-FlightCursor.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-FlightMaster.PNG",
+      "name": "UI-TutorialFrame-FlightMaster.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-Food01.PNG",
+      "name": "UI-TutorialFrame-Food01.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-Food02.PNG",
+      "name": "UI-TutorialFrame-Food02.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-Food03.PNG",
+      "name": "UI-TutorialFrame-Food03.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-FullBackpack.PNG",
+      "name": "UI-TutorialFrame-FullBackpack.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-GloveCursor.PNG",
+      "name": "UI-TutorialFrame-GloveCursor.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-Hearthstone.PNG",
+      "name": "UI-TutorialFrame-Hearthstone.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-LevelUp.PNG",
+      "name": "UI-TutorialFrame-LevelUp.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-Logo.PNG",
+      "name": "UI-TutorialFrame-Logo.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-LootCorpse.PNG",
+      "name": "UI-TutorialFrame-LootCorpse.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-LootCursor.PNG",
+      "name": "UI-TutorialFrame-LootCursor.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-LootedItem.PNG",
+      "name": "UI-TutorialFrame-LootedItem.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-OnUseItem.PNG",
+      "name": "UI-TutorialFrame-OnUseItem.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-QuestComplete.PNG",
+      "name": "UI-TutorialFrame-QuestComplete.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-QuestCompleteCursor.PNG",
+      "name": "UI-TutorialFrame-QuestCompleteCursor.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-QuestCursor.PNG",
+      "name": "UI-TutorialFrame-QuestCursor.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-QuestGiver.PNG",
+      "name": "UI-TutorialFrame-QuestGiver.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-QuestGray.PNG",
+      "name": "UI-TutorialFrame-QuestGray.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-RepairCursor.PNG",
+      "name": "UI-TutorialFrame-RepairCursor.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-Shoot01.PNG",
+      "name": "UI-TutorialFrame-Shoot01.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-Shoot02.PNG",
+      "name": "UI-TutorialFrame-Shoot02.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-Shoot03.PNG",
+      "name": "UI-TutorialFrame-Shoot03.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-Spell01.PNG",
+      "name": "UI-TutorialFrame-Spell01.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-Spell02.PNG",
+      "name": "UI-TutorialFrame-Spell02.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-Spell03.PNG",
+      "name": "UI-TutorialFrame-Spell03.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-Spellbook.PNG",
+      "name": "UI-TutorialFrame-Spellbook.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TUTORIALFRAME-SPIRITREZ.PNG",
+      "name": "UI-TUTORIALFRAME-SPIRITREZ.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-TheDude.PNG",
+      "name": "UI-TutorialFrame-TheDude.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-Threat.PNG",
+      "name": "UI-TutorialFrame-Threat.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UI-TutorialFrame-TrainerCursor.PNG",
+      "name": "UI-TutorialFrame-TrainerCursor.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UIFrameTutorialGlow.PNG",
+      "name": "UIFrameTutorialGlow.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TUTORIALFRAME",
+      "path": "TUTORIALFRAME\\UIFrameTutorialGlowVertical.PNG",
+      "name": "UIFrameTutorialGlowVertical.PNG",
+      "type": "file"
+    }
+  ]
+}

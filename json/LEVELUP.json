@@ -1,0 +1,32 @@
+{
+  "parent": "",
+  "path": "LEVELUP",
+  "name": "LEVELUP",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "LEVELUP",
+      "path": "LEVELUP\\BossBanner.PNG",
+      "name": "BossBanner.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "LEVELUP",
+      "path": "LEVELUP\\LEVELUPTEX.PNG",
+      "name": "LEVELUPTEX.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "LEVELUP",
+      "path": "LEVELUP\\LevelUpUI.PNG",
+      "name": "LevelUpUI.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "LEVELUP",
+      "path": "LEVELUP\\MinorTalents.PNG",
+      "name": "MinorTalents.PNG",
+      "type": "file"
+    }
+  ]
+}

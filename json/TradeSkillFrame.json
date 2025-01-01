@@ -1,0 +1,110 @@
+{
+  "parent": "",
+  "path": "TradeSkillFrame",
+  "name": "TradeSkillFrame",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "TradeSkillFrame",
+      "path": "TradeSkillFrame\\CapacitanceUIBlacksmithing.PNG",
+      "name": "CapacitanceUIBlacksmithing.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TradeSkillFrame",
+      "path": "TradeSkillFrame\\CapacitanceUIGeneral.PNG",
+      "name": "CapacitanceUIGeneral.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TradeSkillFrame",
+      "path": "TradeSkillFrame\\LegendaryScrapper.PNG",
+      "name": "LegendaryScrapper.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TradeSkillFrame",
+      "path": "TradeSkillFrame\\ObliterumForge.PNG",
+      "name": "ObliterumForge.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TradeSkillFrame",
+      "path": "TradeSkillFrame\\ScrappingMachine.PNG",
+      "name": "ScrappingMachine.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TradeSkillFrame",
+      "path": "TradeSkillFrame\\Tradeskills.PNG",
+      "name": "Tradeskills.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TradeSkillFrame",
+      "path": "TradeSkillFrame\\UI-Tradeskill-BlacksmithBG-Bot.PNG",
+      "name": "UI-Tradeskill-BlacksmithBG-Bot.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TradeSkillFrame",
+      "path": "TradeSkillFrame\\UI-Tradeskill-BlacksmithBG-Top.PNG",
+      "name": "UI-Tradeskill-BlacksmithBG-Top.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TradeSkillFrame",
+      "path": "TradeSkillFrame\\UI-TradeSkill-BotLeft.PNG",
+      "name": "UI-TradeSkill-BotLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TradeSkillFrame",
+      "path": "TradeSkillFrame\\UI-TradeSkill-BotRight.PNG",
+      "name": "UI-TradeSkill-BotRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TradeSkillFrame",
+      "path": "TradeSkillFrame\\UI-TradeSkill-LinkButton.PNG",
+      "name": "UI-TradeSkill-LinkButton.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TradeSkillFrame",
+      "path": "TradeSkillFrame\\UI-TradeSkill-Multiskill.PNG",
+      "name": "UI-TradeSkill-Multiskill.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TradeSkillFrame",
+      "path": "TradeSkillFrame\\UI-TradeSkill-SkillBorder.PNG",
+      "name": "UI-TradeSkill-SkillBorder.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TradeSkillFrame",
+      "path": "TradeSkillFrame\\UI-TradeSkill-TopLeft.PNG",
+      "name": "UI-TradeSkill-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TradeSkillFrame",
+      "path": "TradeSkillFrame\\UI-TradeSkill-TopRight.PNG",
+      "name": "UI-TradeSkill-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TradeSkillFrame",
+      "path": "TradeSkillFrame\\UI-TradeSkillTrainer-BotLeft.PNG",
+      "name": "UI-TradeSkillTrainer-BotLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TradeSkillFrame",
+      "path": "TradeSkillFrame\\UI-TradeSkillTrainer-BotRight.PNG",
+      "name": "UI-TradeSkillTrainer-BotRight.PNG",
+      "type": "file"
+    }
+  ]
+}

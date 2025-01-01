@@ -1,0 +1,14 @@
+{
+  "parent": "",
+  "path": "Clickcast",
+  "name": "Clickcast",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "Clickcast",
+      "path": "Clickcast\\ClickCast.PNG",
+      "name": "ClickCast.PNG",
+      "type": "file"
+    }
+  ]
+}

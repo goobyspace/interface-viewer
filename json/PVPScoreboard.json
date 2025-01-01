@@ -1,0 +1,14 @@
+{
+  "parent": "",
+  "path": "PVPScoreboard",
+  "name": "PVPScoreboard",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "PVPScoreboard",
+      "path": "PVPScoreboard\\PVPScoreboardColumnStats.PNG",
+      "name": "PVPScoreboardColumnStats.PNG",
+      "type": "file"
+    }
+  ]
+}

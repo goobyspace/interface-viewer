@@ -1,0 +1,704 @@
+{
+  "parent": "",
+  "path": "FriendsFrame",
+  "name": "FriendsFrame",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\addfriend-logos.PNG",
+      "name": "addfriend-logos.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Battlenet-Battleneticon.PNG",
+      "name": "Battlenet-Battleneticon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Battlenet-BlizzardArcadeCollectionicon.PNG",
+      "name": "Battlenet-BlizzardArcadeCollectionicon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Battlenet-CallOfDutyBlackOps4icon.PNG",
+      "name": "Battlenet-CallOfDutyBlackOps4icon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Battlenet-CallofDutyBlackOpsColdWaricon.PNG",
+      "name": "Battlenet-CallofDutyBlackOpsColdWaricon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Battlenet-CallOfDutyMW2icon.PNG",
+      "name": "Battlenet-CallOfDutyMW2icon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Battlenet-CallOfDutyMWicon.PNG",
+      "name": "Battlenet-CallOfDutyMWicon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Battlenet-CallOfDutyVanguardicon.PNG",
+      "name": "Battlenet-CallOfDutyVanguardicon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Battlenet-CrashBandicoot4icon.PNG",
+      "name": "Battlenet-CrashBandicoot4icon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Battlenet-D3icon.PNG",
+      "name": "Battlenet-D3icon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Battlenet-Destiny2icon.PNG",
+      "name": "Battlenet-Destiny2icon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Battlenet-DiabloIIResurrectedicon.PNG",
+      "name": "Battlenet-DiabloIIResurrectedicon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Battlenet-DiabloImmortalicon.PNG",
+      "name": "Battlenet-DiabloImmortalicon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\battlenet-friends-main.PNG",
+      "name": "battlenet-friends-main.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Battlenet-HotSicon.PNG",
+      "name": "Battlenet-HotSicon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Battlenet-Overwatch2.PNG",
+      "name": "Battlenet-Overwatch2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Battlenet-Overwatch2icon.PNG",
+      "name": "Battlenet-Overwatch2icon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Battlenet-Overwatchicon.PNG",
+      "name": "Battlenet-Overwatchicon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Battlenet-Portrait.PNG",
+      "name": "Battlenet-Portrait.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Battlenet-Sc2icon.PNG",
+      "name": "Battlenet-Sc2icon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Battlenet-SCicon.PNG",
+      "name": "Battlenet-SCicon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\battlenet-status-offline.PNG",
+      "name": "battlenet-status-offline.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Battlenet-Warcraft3Reforged.PNG",
+      "name": "Battlenet-Warcraft3Reforged.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Battlenet-WarcraftArclightRumbleicon.PNG",
+      "name": "Battlenet-WarcraftArclightRumbleicon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Battlenet-WoWicon.PNG",
+      "name": "Battlenet-WoWicon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Battlenet-WTCGicon.PNG",
+      "name": "Battlenet-WTCGicon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\BattleNetClientIcon.PNG",
+      "name": "BattleNetClientIcon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\BlockCommunicationsIcon.PNG",
+      "name": "BlockCommunicationsIcon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\broadcast-hover.PNG",
+      "name": "broadcast-hover.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\broadcast-normal.PNG",
+      "name": "broadcast-normal.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\broadcast-press.PNG",
+      "name": "broadcast-press.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\broadcast-pressed-hover.PNG",
+      "name": "broadcast-pressed-hover.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\BroadcastIcon.PNG",
+      "name": "BroadcastIcon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\ClearBroadcastIcon.PNG",
+      "name": "ClearBroadcastIcon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\FriendsFrameScrollIcon.PNG",
+      "name": "FriendsFrameScrollIcon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\FriendsList.PNG",
+      "name": "FriendsList.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\FriendsListFavorite.PNG",
+      "name": "FriendsListFavorite.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\GuildFrame-BotLeft.PNG",
+      "name": "GuildFrame-BotLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\GuildFrame-BotRight.PNG",
+      "name": "GuildFrame-BotRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\IgnoreFrame-BotLeft.PNG",
+      "name": "IgnoreFrame-BotLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\IgnoreFrame-BotRight.PNG",
+      "name": "IgnoreFrame-BotRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\InformationIcon-Highlight.PNG",
+      "name": "InformationIcon-Highlight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\InformationIcon.PNG",
+      "name": "InformationIcon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\PendingFriendGlow.PNG",
+      "name": "PendingFriendGlow.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\PendingFriendNameBG-New.PNG",
+      "name": "PendingFriendNameBG-New.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\PendingFriendNameBG.PNG",
+      "name": "PendingFriendNameBG.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\PlusManz-Alliance.PNG",
+      "name": "PlusManz-Alliance.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\PlusManz-BattleNet.PNG",
+      "name": "PlusManz-BattleNet.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\PlusManz-BattleNetBG.PNG",
+      "name": "PlusManz-BattleNetBG.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\PlusManz-CharacterBG.PNG",
+      "name": "PlusManz-CharacterBG.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\PlusManz-Horde.PNG",
+      "name": "PlusManz-Horde.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\PlusManz-PlusManz.PNG",
+      "name": "PlusManz-PlusManz.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\Raf_Textures.PNG",
+      "name": "Raf_Textures.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\ReportSpamIcon.PNG",
+      "name": "ReportSpamIcon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\SocialQueuing.PNG",
+      "name": "SocialQueuing.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\SocialQueuingToast.PNG",
+      "name": "SocialQueuingToast.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\StatusIcon-Away.PNG",
+      "name": "StatusIcon-Away.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\StatusIcon-DnD.PNG",
+      "name": "StatusIcon-DnD.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\StatusIcon-Offline.PNG",
+      "name": "StatusIcon-Offline.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\StatusIcon-Online.PNG",
+      "name": "StatusIcon-Online.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\TravelPass-Invite.PNG",
+      "name": "TravelPass-Invite.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-ChannelFrame-BotLeft.PNG",
+      "name": "UI-ChannelFrame-BotLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-ChannelFrame-BotRight.PNG",
+      "name": "UI-ChannelFrame-BotRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-ChannelFrame-TitleBar.PNG",
+      "name": "UI-ChannelFrame-TitleBar.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-ChannelFrame-VerticalBar.PNG",
+      "name": "UI-ChannelFrame-VerticalBar.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FriendsFrame-BotLeft-bnet.PNG",
+      "name": "UI-FriendsFrame-BotLeft-bnet.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FRIENDSFRAME-BOTLEFT.PNG",
+      "name": "UI-FRIENDSFRAME-BOTLEFT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FriendsFrame-BotRight-bnet.PNG",
+      "name": "UI-FriendsFrame-BotRight-bnet.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FRIENDSFRAME-BOTRIGHT.PNG",
+      "name": "UI-FRIENDSFRAME-BOTRIGHT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FriendsFrame-ButtonsPatch.PNG",
+      "name": "UI-FriendsFrame-ButtonsPatch.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FriendsFrame-HighlightBar-Blue.PNG",
+      "name": "UI-FriendsFrame-HighlightBar-Blue.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FriendsFrame-HighlightBar.PNG",
+      "name": "UI-FriendsFrame-HighlightBar.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FriendsFrame-Link.PNG",
+      "name": "UI-FriendsFrame-Link.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FriendsFrame-Note.PNG",
+      "name": "UI-FriendsFrame-Note.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FriendsFrame-OnlineDivider.PNG",
+      "name": "UI-FriendsFrame-OnlineDivider.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FriendsFrame-Pending-BotLeft.PNG",
+      "name": "UI-FriendsFrame-Pending-BotLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FriendsFrame-Pending-BotRight.PNG",
+      "name": "UI-FriendsFrame-Pending-BotRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FriendsFrame-TopLeft-bnet.PNG",
+      "name": "UI-FriendsFrame-TopLeft-bnet.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FRIENDSFRAME-TOPLEFT.PNG",
+      "name": "UI-FRIENDSFRAME-TOPLEFT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FriendsFrame-TopRight-bnet.PNG",
+      "name": "UI-FriendsFrame-TopRight-bnet.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FRIENDSFRAME-TOPRIGHT.PNG",
+      "name": "UI-FRIENDSFRAME-TOPRIGHT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FriendsFrameMute-BotLeft-bnet.PNG",
+      "name": "UI-FriendsFrameMute-BotLeft-bnet.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FriendsFrameMute-BotRight-bnet.PNG",
+      "name": "UI-FriendsFrameMute-BotRight-bnet.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FriendsFrameTab-InactiveTab.PNG",
+      "name": "UI-FriendsFrameTab-InactiveTab.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FriendsFrameTab.PNG",
+      "name": "UI-FriendsFrameTab.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FriendsFrameThree-BotLeft-bnet.PNG",
+      "name": "UI-FriendsFrameThree-BotLeft-bnet.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FriendsFrameThree-BotRight-bnet.PNG",
+      "name": "UI-FriendsFrameThree-BotRight-bnet.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FriendsList-Highlight.PNG",
+      "name": "UI-FriendsList-Highlight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FriendsList-Large-Down.PNG",
+      "name": "UI-FriendsList-Large-Down.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FriendsList-Large-Up.PNG",
+      "name": "UI-FriendsList-Large-Up.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FriendsList-Small-Down.PNG",
+      "name": "UI-FriendsList-Small-Down.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-FriendsList-Small-Up.PNG",
+      "name": "UI-FriendsList-Small-Up.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-GuildMember-Patch.PNG",
+      "name": "UI-GuildMember-Patch.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-IgnoreFrame-BotLeft.PNG",
+      "name": "UI-IgnoreFrame-BotLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-IgnoreFrame-BotRight.PNG",
+      "name": "UI-IgnoreFrame-BotRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-SearchBoxBG-left.PNG",
+      "name": "UI-SearchBoxBG-left.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-SearchBoxBG-mid.PNG",
+      "name": "UI-SearchBoxBG-mid.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-SearchBoxBG-right.PNG",
+      "name": "UI-SearchBoxBG-right.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-Toast-Background.PNG",
+      "name": "UI-Toast-Background.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-Toast-Border.PNG",
+      "name": "UI-Toast-Border.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-Toast-BroadcastIcon.PNG",
+      "name": "UI-Toast-BroadcastIcon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-Toast-ChatInviteIcon.PNG",
+      "name": "UI-Toast-ChatInviteIcon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-Toast-CloseButton-Down.PNG",
+      "name": "UI-Toast-CloseButton-Down.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-Toast-CloseButton-Highlight.PNG",
+      "name": "UI-Toast-CloseButton-Highlight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-Toast-CloseButton-Up.PNG",
+      "name": "UI-Toast-CloseButton-Up.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-Toast-Flair.PNG",
+      "name": "UI-Toast-Flair.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-Toast-FriendOnlineIcon.PNG",
+      "name": "UI-Toast-FriendOnlineIcon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-Toast-FriendRequestIcon.PNG",
+      "name": "UI-Toast-FriendRequestIcon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UI-Toast-ToastIcons.PNG",
+      "name": "UI-Toast-ToastIcons.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UIFrameFriendsToastBackground.PNG",
+      "name": "UIFrameFriendsToastBackground.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UIFrameFriendsToastVertical.PNG",
+      "name": "UIFrameFriendsToastVertical.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\UIFrameFriendToast.PNG",
+      "name": "UIFrameFriendToast.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\WhoFrame-BotLeft.PNG",
+      "name": "WhoFrame-BotLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\WhoFrame-BotRight.PNG",
+      "name": "WhoFrame-BotRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\WhoFrame-ColumnTabs.PNG",
+      "name": "WhoFrame-ColumnTabs.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "FriendsFrame",
+      "path": "FriendsFrame\\WowshareTextures.PNG",
+      "name": "WowshareTextures.PNG",
+      "type": "file"
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "parent": "",
+  "path": "PETBATTLES",
+  "name": "PETBATTLES",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\!BattleSlotFrame-Left.PNG",
+      "name": "!BattleSlotFrame-Left.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\!PetJournalVertTile.PNG",
+      "name": "!PetJournalVertTile.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\BattleBar-AbilityBadge-Neutral.PNG",
+      "name": "BattleBar-AbilityBadge-Neutral.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\BattleBar-AbilityBadge-Strong-Small.PNG",
+      "name": "BattleBar-AbilityBadge-Strong-Small.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\BattleBar-AbilityBadge-Strong.PNG",
+      "name": "BattleBar-AbilityBadge-Strong.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\BattleBar-AbilityBadge-Weak-Small.PNG",
+      "name": "BattleBar-AbilityBadge-Weak-Small.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\BattleBar-AbilityBadge-Weak.PNG",
+      "name": "BattleBar-AbilityBadge-Weak.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\DeadPetIcon.PNG",
+      "name": "DeadPetIcon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\MountEquipment.PNG",
+      "name": "MountEquipment.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\MountJournal-BG.PNG",
+      "name": "MountJournal-BG.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\MountJournal-NoMounts.PNG",
+      "name": "MountJournal-NoMounts.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\MountJournalEmptyIcon.PNG",
+      "name": "MountJournalEmptyIcon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\MountJournalicons.PNG",
+      "name": "MountJournalicons.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\PadEffect-HealingRain.PNG",
+      "name": "PadEffect-HealingRain.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\PassButtonFrame.PNG",
+      "name": "PassButtonFrame.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\PetBattle-GoldSpeedFrame.PNG",
+      "name": "PetBattle-GoldSpeedFrame.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\PetBattle-LockIcon.PNG",
+      "name": "PetBattle-LockIcon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\PetBattle-SelectedPetGlow.PNG",
+      "name": "PetBattle-SelectedPetGlow.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\PetBattle-StatIcons.PNG",
+      "name": "PetBattle-StatIcons.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\PETBATTLEHUD.PNG",
+      "name": "PETBATTLEHUD.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\PetBattleHUDAtlas.PNG",
+      "name": "PetBattleHUDAtlas.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\PetBattlesQueue.PNG",
+      "name": "PetBattlesQueue.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\PetIcon-Beast.PNG",
+      "name": "PetIcon-Beast.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\PetIcon-Critter.PNG",
+      "name": "PetIcon-Critter.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\PetIcon-Dragon.PNG",
+      "name": "PetIcon-Dragon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\PetIcon-Elemental.PNG",
+      "name": "PetIcon-Elemental.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\PetIcon-Flying.PNG",
+      "name": "PetIcon-Flying.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\PetIcon-Humanoid.PNG",
+      "name": "PetIcon-Humanoid.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\PetIcon-Magical.PNG",
+      "name": "PetIcon-Magical.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\PetIcon-Mechanical.PNG",
+      "name": "PetIcon-Mechanical.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\PetIcon-Undead.PNG",
+      "name": "PetIcon-Undead.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\PetIcon-Water.PNG",
+      "name": "PetIcon-Water.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\PETJOURNAL.PNG",
+      "name": "PETJOURNAL.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\PetJournalBigChunks.PNG",
+      "name": "PetJournalBigChunks.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\PetJournalBits.PNG",
+      "name": "PetJournalBits.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\Weather-ArcaneStorm.PNG",
+      "name": "Weather-ArcaneStorm.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\Weather-Blizzard.PNG",
+      "name": "Weather-Blizzard.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\Weather-BurntEarth.PNG",
+      "name": "Weather-BurntEarth.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\Weather-Darkness.PNG",
+      "name": "Weather-Darkness.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\Weather-Moonlight.PNG",
+      "name": "Weather-Moonlight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\Weather-Mud.PNG",
+      "name": "Weather-Mud.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\Weather-Rain.PNG",
+      "name": "Weather-Rain.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\Weather-Sandstorm.PNG",
+      "name": "Weather-Sandstorm.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\Weather-StaticField.PNG",
+      "name": "Weather-StaticField.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\Weather-Sunlight.PNG",
+      "name": "Weather-Sunlight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\Weather-ToxicFumes.PNG",
+      "name": "Weather-ToxicFumes.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\Weather-Windy.PNG",
+      "name": "Weather-Windy.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\_PetBattleHorizTile.PNG",
+      "name": "_PetBattleHorizTile.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PETBATTLES",
+      "path": "PETBATTLES\\_PetJournalHorizTile.PNG",
+      "name": "_PetJournalHorizTile.PNG",
+      "type": "file"
+    }
+  ]
+}

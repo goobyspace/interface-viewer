@@ -1,0 +1,74 @@
+{
+  "parent": "",
+  "path": "SpellShadow",
+  "name": "SpellShadow",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "SpellShadow",
+      "path": "SpellShadow\\ConeSplat_Static_30d_30yd.PNG",
+      "name": "ConeSplat_Static_30d_30yd.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SpellShadow",
+      "path": "SpellShadow\\ConeSplat_Static_90d_30yd.PNG",
+      "name": "ConeSplat_Static_90d_30yd.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SpellShadow",
+      "path": "SpellShadow\\LineSplat_Arrow.PNG",
+      "name": "LineSplat_Arrow.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SpellShadow",
+      "path": "SpellShadow\\LineSplat_BottomFoot.PNG",
+      "name": "LineSplat_BottomFoot.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SpellShadow",
+      "path": "SpellShadow\\LineSplat_Side.PNG",
+      "name": "LineSplat_Side.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SpellShadow",
+      "path": "SpellShadow\\LineSplat_TopExtend.PNG",
+      "name": "LineSplat_TopExtend.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SpellShadow",
+      "path": "SpellShadow\\LineSplat_TopLeftCorner.PNG",
+      "name": "LineSplat_TopLeftCorner.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SpellShadow",
+      "path": "SpellShadow\\LineSplat_TopRightCorner.PNG",
+      "name": "LineSplat_TopRightCorner.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SpellShadow",
+      "path": "SpellShadow\\LineSplat_Whole.PNG",
+      "name": "LineSplat_Whole.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SpellShadow",
+      "path": "SpellShadow\\Spell-Shadow-Acceptable.PNG",
+      "name": "Spell-Shadow-Acceptable.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "SpellShadow",
+      "path": "SpellShadow\\Spell-Shadow-Unacceptable.PNG",
+      "name": "Spell-Shadow-Unacceptable.PNG",
+      "type": "file"
+    }
+  ]
+}

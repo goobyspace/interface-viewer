@@ -1,0 +1,230 @@
+{
+  "parent": "",
+  "path": "ContainerFrame",
+  "name": "ContainerFrame",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\Bags.PNG",
+      "name": "Bags.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\BagsItemBankSlot2x.PNG",
+      "name": "BagsItemBankSlot2x.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\BagsItemSlot2x.PNG",
+      "name": "BagsItemSlot2x.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\BagSlots.PNG",
+      "name": "BagSlots.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\BagSlots2x.PNG",
+      "name": "BagSlots2x.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\BagsPennyBag2x.PNG",
+      "name": "BagsPennyBag2x.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\BagsSlot2x.PNG",
+      "name": "BagsSlot2x.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\CosmeticIconBorder.PNG",
+      "name": "CosmeticIconBorder.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\KeyRing-Bag-Icon.PNG",
+      "name": "KeyRing-Bag-Icon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Backpack-TokenFrame.PNG",
+      "name": "UI-Backpack-TokenFrame.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-BackpackBackground.PNG",
+      "name": "UI-BackpackBackground.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-1Slot.PNG",
+      "name": "UI-Bag-1Slot.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-1x4+2-Bank.PNG",
+      "name": "UI-Bag-1x4+2-Bank.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-1x4+2.PNG",
+      "name": "UI-Bag-1x4+2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-1x4-Bank.PNG",
+      "name": "UI-Bag-1x4-Bank.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-1x4.PNG",
+      "name": "UI-Bag-1x4.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-2x4+2-Bank.PNG",
+      "name": "UI-Bag-2x4+2-Bank.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-2x4+2.PNG",
+      "name": "UI-Bag-2x4+2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-2x4-Bank.PNG",
+      "name": "UI-Bag-2x4-Bank.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-2x4.PNG",
+      "name": "UI-Bag-2x4.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-3x4+2-Bank.PNG",
+      "name": "UI-Bag-3x4+2-Bank.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-3x4+2.PNG",
+      "name": "UI-Bag-3x4+2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-3x4-Bank.PNG",
+      "name": "UI-Bag-3x4-Bank.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-3x4.PNG",
+      "name": "UI-Bag-3x4.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-4x4+2-Bank.PNG",
+      "name": "UI-Bag-4x4+2-Bank.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-4x4+2.PNG",
+      "name": "UI-Bag-4x4+2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-4x4-Bank.PNG",
+      "name": "UI-Bag-4x4-Bank.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-4x4.PNG",
+      "name": "UI-Bag-4x4.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-5x4-Bank.PNG",
+      "name": "UI-Bag-5x4-Bank.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-5x4.PNG",
+      "name": "UI-Bag-5x4.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-Components-Bank.PNG",
+      "name": "UI-Bag-Components-Bank.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-Components-Keyring.PNG",
+      "name": "UI-Bag-Components-Keyring.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-Components.PNG",
+      "name": "UI-Bag-Components.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-Middle-Bank.PNG",
+      "name": "UI-Bag-Middle-Bank.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Bag-Middle.PNG",
+      "name": "UI-Bag-Middle.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Icon-QuestBang.PNG",
+      "name": "UI-Icon-QuestBang.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ContainerFrame",
+      "path": "ContainerFrame\\UI-Icon-QuestBorder.PNG",
+      "name": "UI-Icon-QuestBorder.PNG",
+      "type": "file"
+    }
+  ]
+}

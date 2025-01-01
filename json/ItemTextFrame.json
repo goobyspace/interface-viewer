@@ -1,0 +1,170 @@
+{
+  "parent": "",
+  "path": "ItemTextFrame",
+  "name": "ItemTextFrame",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\Book.PNG",
+      "name": "Book.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Bronze-BotLeft.PNG",
+      "name": "ItemText-Bronze-BotLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Bronze-BotRight.PNG",
+      "name": "ItemText-Bronze-BotRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Bronze-TopLeft.PNG",
+      "name": "ItemText-Bronze-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Bronze-TopRight.PNG",
+      "name": "ItemText-Bronze-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Marble-BotLeft.PNG",
+      "name": "ItemText-Marble-BotLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Marble-BotRight.PNG",
+      "name": "ItemText-Marble-BotRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Marble-TopLeft.PNG",
+      "name": "ItemText-Marble-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Marble-TopRight.PNG",
+      "name": "ItemText-Marble-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Progenitor-BotLeft.PNG",
+      "name": "ItemText-Progenitor-BotLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Progenitor-BotRight.PNG",
+      "name": "ItemText-Progenitor-BotRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Progenitor-TopLeft.PNG",
+      "name": "ItemText-Progenitor-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Progenitor-TopRight.PNG",
+      "name": "ItemText-Progenitor-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Silver-BotLeft.PNG",
+      "name": "ItemText-Silver-BotLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Silver-BotRight.PNG",
+      "name": "ItemText-Silver-BotRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Silver-TopLeft.PNG",
+      "name": "ItemText-Silver-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Silver-TopRight.PNG",
+      "name": "ItemText-Silver-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Stone-BotLeft.PNG",
+      "name": "ItemText-Stone-BotLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Stone-BotRight.PNG",
+      "name": "ItemText-Stone-BotRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Stone-TopLeft.PNG",
+      "name": "ItemText-Stone-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Stone-TopRight.PNG",
+      "name": "ItemText-Stone-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Valentine-BotLeft.PNG",
+      "name": "ItemText-Valentine-BotLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Valentine-BotRight.PNG",
+      "name": "ItemText-Valentine-BotRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Valentine-TopLeft.PNG",
+      "name": "ItemText-Valentine-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\ItemText-Valentine-TopRight.PNG",
+      "name": "ItemText-Valentine-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\UI-ItemText-BotLeft.PNG",
+      "name": "UI-ItemText-BotLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "ItemTextFrame",
+      "path": "ItemTextFrame\\UI-ItemText-TopLeft.PNG",
+      "name": "UI-ItemText-TopLeft.PNG",
+      "type": "file"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "",
+  "path": "PetitionFrame",
+  "name": "PetitionFrame",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "PetitionFrame",
+      "path": "PetitionFrame\\GuildCharter-Icon.PNG",
+      "name": "GuildCharter-Icon.PNG",
+      "type": "file"
+    }
+  ]
+}

@@ -1,0 +1,440 @@
+{
+  "parent": "",
+  "path": "PaperDollInfoFrame",
+  "name": "PaperDollInfoFrame",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\Character-Plus.PNG",
+      "name": "Character-Plus.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\PaperDollInfoPart1.PNG",
+      "name": "PaperDollInfoPart1.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\PaperDollInfoPart2.PNG",
+      "name": "PaperDollInfoPart2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\PaperDollSidebarTabs.PNG",
+      "name": "PaperDollSidebarTabs.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\ParagonReputation.PNG",
+      "name": "ParagonReputation.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\SkillFrame-BotLeft.PNG",
+      "name": "SkillFrame-BotLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\SkillFrame-BotRight.PNG",
+      "name": "SkillFrame-BotRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\SpellSchoolIcon2.PNG",
+      "name": "SpellSchoolIcon2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\SpellSchoolIcon3.PNG",
+      "name": "SpellSchoolIcon3.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\SpellSchoolIcon4.PNG",
+      "name": "SpellSchoolIcon4.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\SpellSchoolIcon5.PNG",
+      "name": "SpellSchoolIcon5.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\SpellSchoolIcon6.PNG",
+      "name": "SpellSchoolIcon6.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\SpellSchoolIcon7.PNG",
+      "name": "SpellSchoolIcon7.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\StatSortArrows.PNG",
+      "name": "StatSortArrows.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-CHARACTER-ACTIVETAB.PNG",
+      "name": "UI-CHARACTER-ACTIVETAB.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-AmmoSlot.PNG",
+      "name": "UI-Character-AmmoSlot.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-CharacterTab-BottomLeft.PNG",
+      "name": "UI-Character-CharacterTab-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-CharacterTab-BottomRight.PNG",
+      "name": "UI-Character-CharacterTab-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-CharacterTab-L1.PNG",
+      "name": "UI-Character-CharacterTab-L1.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-CharacterTab-L2.PNG",
+      "name": "UI-Character-CharacterTab-L2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-CharacterTab-R1.PNG",
+      "name": "UI-Character-CharacterTab-R1.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-CharacterTab-R2.PNG",
+      "name": "UI-Character-CharacterTab-R2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-ClassSkillsTab-L1.PNG",
+      "name": "UI-Character-ClassSkillsTab-L1.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-ClassSkillsTab-L2.PNG",
+      "name": "UI-Character-ClassSkillsTab-L2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-ClassSkillsTab-R1.PNG",
+      "name": "UI-Character-ClassSkillsTab-R1.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-ClassSkillsTab-R2.PNG",
+      "name": "UI-Character-ClassSkillsTab-R2.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-General-BottomLeft.PNG",
+      "name": "UI-Character-General-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-General-BottomRight.PNG",
+      "name": "UI-Character-General-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-General-TopLeft.PNG",
+      "name": "UI-Character-General-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-General-TopRight.PNG",
+      "name": "UI-Character-General-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-Honor-BottomLeft.PNG",
+      "name": "UI-Character-Honor-BottomLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-Honor-BottomRight.PNG",
+      "name": "UI-Character-Honor-BottomRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-Honor-TopLeft.PNG",
+      "name": "UI-Character-Honor-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-Honor-TopRight.PNG",
+      "name": "UI-Character-Honor-TopRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-CHARACTER-INACTIVETAB.PNG",
+      "name": "UI-CHARACTER-INACTIVETAB.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-Reputation-DetailBackground.PNG",
+      "name": "UI-Character-Reputation-DetailBackground.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-ReputationBar-Highlight.PNG",
+      "name": "UI-Character-ReputationBar-Highlight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-CHARACTER-REPUTATIONBAR.PNG",
+      "name": "UI-CHARACTER-REPUTATIONBAR.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-ReputationLines.PNG",
+      "name": "UI-Character-ReputationLines.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-ResistanceIcons.PNG",
+      "name": "UI-Character-ResistanceIcons.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-ScrollBar.PNG",
+      "name": "UI-Character-ScrollBar.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-Skills-Bar.PNG",
+      "name": "UI-Character-Skills-Bar.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-Skills-BarBorder.PNG",
+      "name": "UI-Character-Skills-BarBorder.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-Skills-BarBorderHighlight.PNG",
+      "name": "UI-Character-Skills-BarBorderHighlight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-SkillsPageDown-Disabled.PNG",
+      "name": "UI-Character-SkillsPageDown-Disabled.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-SkillsPageDown-Down.PNG",
+      "name": "UI-Character-SkillsPageDown-Down.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-SkillsPageDown-Up.PNG",
+      "name": "UI-Character-SkillsPageDown-Up.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-SkillsPageUp-Disabled.PNG",
+      "name": "UI-Character-SkillsPageUp-Disabled.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-SkillsPageUp-Down.PNG",
+      "name": "UI-Character-SkillsPageUp-Down.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-SkillsPageUp-Up.PNG",
+      "name": "UI-Character-SkillsPageUp-Up.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-StatBackground.PNG",
+      "name": "UI-Character-StatBackground.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-Tab-Highlight-yellow.PNG",
+      "name": "UI-Character-Tab-Highlight-yellow.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-Tab-Highlight.PNG",
+      "name": "UI-Character-Tab-Highlight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-Character-Tab-RealHighlight.PNG",
+      "name": "UI-Character-Tab-RealHighlight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-EquipmentManager-Toggle-Highlight.PNG",
+      "name": "UI-EquipmentManager-Toggle-Highlight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-EquipmentManager-Toggle.PNG",
+      "name": "UI-EquipmentManager-Toggle.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-GearManager-Border.PNG",
+      "name": "UI-GearManager-Border.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-GearManager-Button-Pushed.PNG",
+      "name": "UI-GearManager-Button-Pushed.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-GearManager-Button.PNG",
+      "name": "UI-GearManager-Button.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-GearManager-Collapsed.PNG",
+      "name": "UI-GearManager-Collapsed.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-GEARMANAGER-FLYOUT.PNG",
+      "name": "UI-GEARMANAGER-FLYOUT.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-GearManager-FlyoutButton.PNG",
+      "name": "UI-GearManager-FlyoutButton.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-GearManager-ItemButton-Highlight.PNG",
+      "name": "UI-GearManager-ItemButton-Highlight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-GearManager-ItemIntoBag.PNG",
+      "name": "UI-GearManager-ItemIntoBag.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-GearManager-LeaveItem-Opaque.PNG",
+      "name": "UI-GearManager-LeaveItem-Opaque.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-GearManager-LeaveItem-Transparent.PNG",
+      "name": "UI-GearManager-LeaveItem-Transparent.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-GearManager-RuneCarving-Flyout.PNG",
+      "name": "UI-GearManager-RuneCarving-Flyout.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-GearManager-RuneCarvingUpgrade-Flyout.PNG",
+      "name": "UI-GearManager-RuneCarvingUpgrade-Flyout.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-GearManager-Title-Background.PNG",
+      "name": "UI-GearManager-Title-Background.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-GearManager-Undo.PNG",
+      "name": "UI-GearManager-Undo.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UI-ReputationWatchBar.PNG",
+      "name": "UI-ReputationWatchBar.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "PaperDollInfoFrame",
+      "path": "PaperDollInfoFrame\\UIFrameTabsPaperDollInfo.PNG",
+      "name": "UIFrameTabsPaperDollInfo.PNG",
+      "type": "file"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "",
+  "path": "GroupOrganizer",
+  "name": "GroupOrganizer",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "GroupOrganizer",
+      "path": "GroupOrganizer\\UIGroupOrganizer.PNG",
+      "name": "UIGroupOrganizer.PNG",
+      "type": "file"
+    }
+  ]
+}

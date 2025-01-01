@@ -1,0 +1,124 @@
+{
+  "parent": "",
+  "path": "TradeFrame",
+  "name": "TradeFrame",
+  "type": "directory",
+  "children": [
+    {
+      "parent": "TradeFrame",
+      "path": "TradeFrame\\ScaledDown",
+      "name": "ScaledDown",
+      "type": "directory",
+      "children": [
+        {
+          "parent": "TradeFrame\\ScaledDown",
+          "path": "TradeFrame\\ScaledDown\\TradePlayerL_Accept.PNG",
+          "name": "TradePlayerL_Accept.PNG",
+          "type": "file"
+        },
+        {
+          "parent": "TradeFrame\\ScaledDown",
+          "path": "TradeFrame\\ScaledDown\\TradePlayerL_Normal.PNG",
+          "name": "TradePlayerL_Normal.PNG",
+          "type": "file"
+        },
+        {
+          "parent": "TradeFrame\\ScaledDown",
+          "path": "TradeFrame\\ScaledDown\\TradePlayerR_Accept.PNG",
+          "name": "TradePlayerR_Accept.PNG",
+          "type": "file"
+        },
+        {
+          "parent": "TradeFrame\\ScaledDown",
+          "path": "TradeFrame\\ScaledDown\\TradePlayerR_Normal.PNG",
+          "name": "TradePlayerR_Normal.PNG",
+          "type": "file"
+        },
+        {
+          "parent": "TradeFrame\\ScaledDown",
+          "path": "TradeFrame\\ScaledDown\\TradeTargetBotL_Accept.PNG",
+          "name": "TradeTargetBotL_Accept.PNG",
+          "type": "file"
+        },
+        {
+          "parent": "TradeFrame\\ScaledDown",
+          "path": "TradeFrame\\ScaledDown\\TradeTargetBotL_Normal.PNG",
+          "name": "TradeTargetBotL_Normal.PNG",
+          "type": "file"
+        },
+        {
+          "parent": "TradeFrame\\ScaledDown",
+          "path": "TradeFrame\\ScaledDown\\TradeTargetBotR_Accept.PNG",
+          "name": "TradeTargetBotR_Accept.PNG",
+          "type": "file"
+        },
+        {
+          "parent": "TradeFrame\\ScaledDown",
+          "path": "TradeFrame\\ScaledDown\\TradeTargetBotR_Normal.PNG",
+          "name": "TradeTargetBotR_Normal.PNG",
+          "type": "file"
+        },
+        {
+          "parent": "TradeFrame\\ScaledDown",
+          "path": "TradeFrame\\ScaledDown\\TradeTargetTopL_Accept.PNG",
+          "name": "TradeTargetTopL_Accept.PNG",
+          "type": "file"
+        },
+        {
+          "parent": "TradeFrame\\ScaledDown",
+          "path": "TradeFrame\\ScaledDown\\TradeTargetTopL_Normal.PNG",
+          "name": "TradeTargetTopL_Normal.PNG",
+          "type": "file"
+        },
+        {
+          "parent": "TradeFrame\\ScaledDown",
+          "path": "TradeFrame\\ScaledDown\\TradeTargetTopR_Accept.PNG",
+          "name": "TradeTargetTopR_Accept.PNG",
+          "type": "file"
+        },
+        {
+          "parent": "TradeFrame\\ScaledDown",
+          "path": "TradeFrame\\ScaledDown\\TradeTargetTopR_Normal.PNG",
+          "name": "TradeTargetTopR_Normal.PNG",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "parent": "TradeFrame",
+      "path": "TradeFrame\\UI-TradeFrame-BotLeft.PNG",
+      "name": "UI-TradeFrame-BotLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TradeFrame",
+      "path": "TradeFrame\\UI-TradeFrame-BotRight.PNG",
+      "name": "UI-TradeFrame-BotRight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TradeFrame",
+      "path": "TradeFrame\\UI-TradeFrame-EnchantIcon.PNG",
+      "name": "UI-TradeFrame-EnchantIcon.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TradeFrame",
+      "path": "TradeFrame\\UI-TradeFrame-Highlight.PNG",
+      "name": "UI-TradeFrame-Highlight.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TradeFrame",
+      "path": "TradeFrame\\UI-TradeFrame-TopLeft.PNG",
+      "name": "UI-TradeFrame-TopLeft.PNG",
+      "type": "file"
+    },
+    {
+      "parent": "TradeFrame",
+      "path": "TradeFrame\\UI-TradeFrame-TopRight.PNG",
+      "name": "UI-TradeFrame-TopRight.PNG",
+      "type": "file"
+    }
+  ]
+}
