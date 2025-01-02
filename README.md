@@ -1,3 +1,3 @@
-# Manifest converter
+# Interface Viewer
 
-This small website/tool converts manifest exports from [wow.export](https://www.kruithne.net/wow.export/) to patch .json files for use in Epsilon WoW.
+This website is essentially a file explorer for the github repo [goobyspace/interface](https://github.com/goobyspace/Interface) that contains the WoW interface files.
