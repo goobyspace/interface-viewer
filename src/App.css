@@ -16,8 +16,9 @@ body {
 #container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 100vh;
-  gap: 8px;
+  gap: 1rem;
 }
 
 .description {
@@ -25,8 +26,10 @@ body {
 }
 
 #top-bar {
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  gap: 1rem;
+  justify-content: center;
 
   a {
     background-color: #1c1d26;
@@ -57,6 +60,83 @@ body {
     }
   }
 
+  .settings {
+    .settings-button {
+      cursor: pointer;
+      background-color: #1c1d26;
+      color: #fab03d;
+      border: 1px solid #f2e5bc;
+      border-radius: 4px;
+      padding: 0.6rem;
+      font-size: 16px;
+      transition: 0.3s;
+      img {
+        width: 18px;
+        height: 18px;
+        position: relative;
+        top: 3px;
+        filter: brightness(0%) invert(82%) sepia(34%) saturate(2659%) hue-rotate(330deg)
+          brightness(105%) contrast(96%);
+      }
+
+      &:hover {
+        background-color: #fab03d;
+        color: #1c1d26;
+
+        img {
+          filter: brightness(0) invert(8%) sepia(13%) saturate(1038%) hue-rotate(195deg)
+            brightness(97%) contrast(95%);
+        }
+      }
+    }
+  }
+
+  .settings-window {
+    position: absolute;
+    background-color: #1c1d26;
+    border: 1px solid #f2e5bc;
+    z-index: 300;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+
+    .settings-header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0.5rem;
+
+      span {
+        margin-left: 0.2rem;
+      }
+
+      .settings-close {
+        cursor: pointer;
+        background: none;
+        border: none;
+        img {
+          width: 16px;
+          height: 16px;
+
+          &:hover {
+            filter: brightness(0) invert(81%) sepia(52%) saturate(1298%) hue-rotate(328deg)
+              brightness(101%) contrast(96%);
+          }
+        }
+      }
+    }
+
+    .settings-body {
+      padding: 1rem;
+
+      .setting {
+        .setting-label {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: -0.5rem;
+        }
+      }
+    }
+  }
+
   input {
     box-sizing: border-box;
     background-color: #21222d;
@@ -64,10 +144,19 @@ body {
     width: 250px;
     border: 1px solid #f2e5bc;
     font-size: 16px;
-    padding: 0.5rem;
+    padding: 0.6rem;
     padding-left: 32px;
     background: url("./assets/search.svg") no-repeat 5px;
     background-size: 24px;
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
 
@@ -79,25 +168,21 @@ body {
   margin-bottom: 1rem;
   overflow: auto;
 
-  .loader {
-    width: 48px;
-    height: 48px;
-    border: 5px solid #f2e5bc;
-    border-bottom-color: #fab03d;
-    position: relative;
-    top: calc(50% - 24px);
-    border-radius: 50%;
-    display: inline-block;
-    box-sizing: border-box;
-    animation: rotation 1s linear infinite;
-  }
-
-  @keyframes rotation {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
+  .loader-overlay {
+    height: 100%;
+    width: 100%;
+    .loader {
+      width: 48px;
+      height: 48px;
+      border: 5px solid #fff;
+      border-bottom-color: #fab03d;
+      border-radius: 50%;
+      display: inline-block;
+      box-sizing: border-box;
+      animation: rotation 1s linear infinite;
+      -webkit-animation: rotation 1s linear infinite;
+      position: relative;
+      top: calc(50% - 28px);
     }
   }
 
@@ -150,13 +235,11 @@ body {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            gap: 16px;
+            gap: 1.2%;
             padding: 0.5rem 0;
             border-bottom: 1px solid #f2e5bc;
 
             .preview-image {
-              width: 236px;
-
               .image {
                 aspect-ratio: 1 / 1;
                 width: 100%;
@@ -167,17 +250,20 @@ body {
               span {
                 margin: 0;
                 padding: 0;
-                margin-left: 22px;
+                box-sizing: border-box;
+                display: inline-block;
+                word-break: break-all;
               }
 
               button {
-                width: 0;
-                height: 0;
+                width: 24px;
+                height: 24px;
                 background: none;
+                display: inline-block;
                 border-radius: 16px;
                 border: none;
                 cursor: pointer;
-                transition: 0.2s;
+                margin-right: 5px;
 
                 img {
                   width: 20px;

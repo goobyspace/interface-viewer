@@ -37,10 +37,12 @@ function Description({
           />
         </a>
 
-        <button onClick={onClick}>
-          <img src={copy} alt="copy" />
-        </button>
-        <span>{name}</span>
+        <span>
+          <button onClick={onClick}>
+            <img src={copy} alt="copy" />
+          </button>
+          {name}
+        </span>
       </div>
     </>
   );
