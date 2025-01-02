@@ -22,7 +22,7 @@ body {
 }
 
 .description {
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 #top-bar {
@@ -144,7 +144,7 @@ body {
     width: 250px;
     border: 1px solid #f2e5bc;
     font-size: 16px;
-    padding: 0.6rem;
+    padding: 0.65rem;
     padding-left: 32px;
     background: url("./assets/search.svg") no-repeat 5px;
     background-size: 24px;
@@ -164,6 +164,7 @@ body {
   border: 1px solid #f2e5bc;
   background-color: #1c1d26;
   padding: 1rem;
+  padding-top: 0;
   flex-grow: 1;
   margin-bottom: 1rem;
   overflow: auto;
