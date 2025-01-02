@@ -10,7 +10,7 @@ function Description() {
         The copy button under the image will copy a TRP compatible tag of your image, set to the
         image size so the image will be displayed in the correct size in TRP.
         <br />
-        For an explanation on the copied text , click on one of the carrd links above.
+        For an explanation on the copied text, click on one of the carrd links above.
       </div>
     </>
   );
