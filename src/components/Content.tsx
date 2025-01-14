@@ -52,6 +52,7 @@ function Content({
 
           if (child.children) {
             const [headers, images, found] = findChildren(child.children, currentCount + 1);
+            if (found) localFound = true;
             headerArray.push(
               <Item
                 key={child.path}
