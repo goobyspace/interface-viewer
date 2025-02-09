@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import Item from "./Item";
 import Image from "./Image";
+import Config from "./Config";
 
 function Content({
   search,
@@ -16,6 +17,8 @@ function Content({
   const [popupText, setPopupText] = useState<string>("");
   const [popupClasses, setPopupClasses] = useState<string>("hidden");
   const [json, setJson] = useState<InterfaceStructure>();
+  const [configUrl, setConfigUrl] = useState<string>("");
+  const [configOpen, setConfigOpen] = useState<boolean>(false);
 
   const itemsRef = useRef<JSX.Element[]>([]);
 
@@ -27,6 +30,11 @@ function Content({
     recursiveCount: number;
     children: InterfaceStructure[] | null;
   }
+
+  const setConfig = (url: string, open: boolean) => {
+    setConfigUrl(url);
+    setConfigOpen(open);
+  };
 
   const setPopup = (text: string) => {
     setPopupText(text);
@@ -72,6 +80,7 @@ function Content({
                 name={child.name}
                 show={personalFound}
                 setPopup={setPopup}
+                setConfig={setConfig}
               />
             );
           } else {
@@ -136,6 +145,7 @@ function Content({
                           name={child.name}
                           show={currentTrue}
                           setPopup={setPopup}
+                          setConfig={setConfig}
                         />
                       );
                     } else {
@@ -228,6 +238,7 @@ function Content({
 
   return (
     <>
+      <Config path={configUrl} open={configOpen} setPopup={setPopup} setConfig={setConfig} />
       <div className="content" style={{ width: `${width}px` }}>
         {loading ? (
           <div key="loader" className="loader-overlay">

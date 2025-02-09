@@ -1,28 +1,30 @@
 import copy from "./../assets/copy.svg";
-
-function Description({
+import exportImage from "./../assets/export.svg";
+import { ExportImage } from "../Utility";
+//weird name because of the conflict with the built-in Image
+function ImageComponent({
   path,
   name,
   show,
   setPopup,
+  setConfig,
 }: {
   path: string;
   name: string;
   show: boolean;
   setPopup: (text: string) => void;
+  setConfig: (url: string, open: boolean) => void;
 }) {
   //{"{img:interface/Glues/Models/UIWorgen/UIWORGENCLOUDS01.PNG:512:175:l}"}
 
   const imageRef = `https://raw.githubusercontent.com/goobyspace/Interface/refs/heads/main/${path}`;
 
-  const onClick = () => {
-    const img = new Image();
-    img.onload = function () {
-      const TRPString = `{img:interface/${path}:${img.width}:${img.height}:l}`;
-      setPopup(`Copied: ${TRPString}`);
-      navigator.clipboard.writeText(TRPString);
-    };
-    img.src = imageRef;
+  const copyImage = () => {
+    ExportImage(path, imageRef, setPopup);
+  };
+
+  const configureImage = () => {
+    setConfig(path, true);
   };
 
   return (
@@ -38,8 +40,11 @@ function Description({
         </a>
 
         <span>
-          <button onClick={onClick}>
+          <button onClick={copyImage}>
             <img src={copy} alt="copy" />
+          </button>
+          <button onClick={configureImage}>
+            <img src={exportImage} alt="export" />
           </button>
           {name}
         </span>
@@ -48,4 +53,4 @@ function Description({
   );
 }
 
-export default Description;
+export default ImageComponent;

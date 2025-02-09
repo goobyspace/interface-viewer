@@ -51,6 +51,8 @@ function Settings({
 
   return (
     <>
+      <div className={open ? "settings-canvas" : "hidden"} onClick={() => setOpen(!open)} />
+
       <div className="settings">
         <button className="settings-button" onClick={() => setOpen(!open)}>
           <img src={Tune} alt="tune icon" /> Settings
