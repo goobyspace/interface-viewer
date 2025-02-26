@@ -1,7 +1,7 @@
 {
   "name": "interface",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://gooby.space/interface-viewer/",
   "type": "module",
   "scripts": {
