@@ -6,11 +6,11 @@ import Config from "./Config";
 function Content({
   search,
   width,
-  percentage,
+  imageCount,
 }: {
   search: string;
   width: number;
-  percentage: number;
+  imageCount: number;
 }) {
   const [items, setItems] = useState<JSX.Element[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
@@ -249,7 +249,7 @@ function Content({
             <style>
               {`
               .preview-image {
-                width: ${percentage}%;
+                width: ${100 / imageCount}%;
               }
               `}
             </style>

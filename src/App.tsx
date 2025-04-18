@@ -8,15 +8,15 @@ import { useState } from "react";
 function App() {
   const [search, setSearch] = useState<string>("");
   const [width, setWidth] = useState<number>(0);
-  const [percentage, setPercentage] = useState<number>(0);
+  const [imageCount, setImageCount] = useState<number>(0);
 
   const setSearchValue = (value: string) => {
     setSearch(value);
   };
 
-  const setSettings = (width: number, percentage: number) => {
+  const setSettings = (width: number, imageCount: number) => {
     setWidth(width);
-    setPercentage(percentage);
+    setImageCount(imageCount);
   };
 
   //quick summary of the application:
@@ -49,7 +49,7 @@ function App() {
             Interface files
           </a>
         </div>
-        <Content search={search} width={width} percentage={percentage} />
+        <Content search={search} width={width} imageCount={imageCount} />
       </div>
     </>
   );

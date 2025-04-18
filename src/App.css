@@ -134,11 +134,27 @@ body {
     .settings-body {
       padding: 1rem;
 
+      h6 {
+        margin: 0;
+        margin-bottom: 0.6rem;
+        font-weight: 800;
+        font-size: 1rem;
+        text-align: left;
+        border-bottom: 1px solid #f2e5bc;
+      }
+
       .setting {
         .setting-label {
           display: flex;
           justify-content: space-between;
           margin-bottom: -0.5rem;
+
+          input {
+            width: 4rem;
+            padding: 0.1rem;
+            margin: 0;
+            background: none;
+          }
         }
       }
     }
@@ -243,43 +259,94 @@ body {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            gap: 1.2%;
             padding: 0.5rem 0;
             border-bottom: 1px solid #f2e5bc;
 
             .preview-image {
+              container-type: inline-size;
+              .image-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                padding: 0;
+              }
               .image {
                 aspect-ratio: 1 / 1;
                 width: 100%;
                 object-fit: contain;
-                border: 1px solid #f2e5bc;
                 background-color: #111117;
-              }
-              span {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-                display: inline-block;
-                word-break: break-all;
+                transition: 0.3s;
+                border: 1px solid #111117;
+
+                &.image-hover {
+                  mask-image: linear-gradient(transparent 50%, #181921);
+                }
               }
 
-              button {
-                width: 24px;
-                height: 24px;
+              .title-hover {
+                position: absolute;
+                font-size: 5cqw;
+                word-break: break-all;
+                padding: 0;
+                margin: 0;
+                z-index: 2;
+              }
+
+              .button-hover {
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 2;
+              }
+
+              a {
+                width: 30cqw;
+                height: 30cqw;
+                padding: 0 2cqw;
+                margin: 0;
                 background: none;
                 display: inline-block;
                 border-radius: 16px;
                 border: none;
                 cursor: pointer;
-                margin-right: 5px;
 
                 img {
-                  width: 20px;
-                  height: 20px;
+                  width: 30cqw;
+                  height: 30cqw;
+                  transition: 0.1s;
+                  filter: brightness(0%) invert(82%) sepia(34%) saturate(2659%) hue-rotate(330deg)
+                    brightness(105%) contrast(96%);
 
                   &:hover {
-                    filter: brightness(0) invert(81%) sepia(52%) saturate(1298%) hue-rotate(328deg)
-                      brightness(101%) contrast(96%);
+                    filter: brightness(0%) invert(93%) sepia(19%) saturate(469%) hue-rotate(345deg)
+                      brightness(101%) contrast(90%);
+                  }
+                }
+              }
+
+              button {
+                width: 30cqw;
+                height: 30cqw;
+                padding: 0;
+                margin: 0;
+                background: none;
+                display: inline-block;
+                border-radius: 16px;
+                border: none;
+                cursor: pointer;
+
+                img {
+                  width: 30cqw;
+                  height: 30cqw;
+                  transition: 0.1s;
+                  filter: brightness(0%) invert(82%) sepia(34%) saturate(2659%) hue-rotate(330deg)
+                    brightness(105%) contrast(96%);
+
+                  &:hover {
+                    filter: brightness(0%) invert(93%) sepia(19%) saturate(469%) hue-rotate(345deg)
+                      brightness(101%) contrast(90%);
                   }
                 }
               }
@@ -315,7 +382,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 2;
+  z-index: 3;
 }
 
 .config-menu {
@@ -335,10 +402,10 @@ body {
       border: 1px solid #f2e5bc;
       border-radius: 4px;
       padding: 1rem;
-      box-shadow: 0 0 20px 20px #181818;
+      box-shadow: 0 0 20px 20px #181921;
       width: 80vw;
       height: 80vh;
-      z-index: 2;
+      z-index: 5;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -363,6 +430,14 @@ body {
             justify-content: center;
             margin-bottom: 0.5rem;
             gap: 1rem;
+
+            input {
+              width: 4rem;
+              color: #fab03d;
+              padding: 0.1rem;
+              margin: 0;
+              background: none;
+            }
           }
         }
 

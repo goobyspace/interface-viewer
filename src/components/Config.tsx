@@ -78,7 +78,14 @@ function Config({
             <div className="config-setting">
               <span className="config-label">
                 <label htmlFor="width">Image Scale:</label>
-                <span>{scale}%</span>
+                <input
+                  type="number"
+                  name="scale"
+                  min="1"
+                  max="1000"
+                  value={scale}
+                  onChange={handleScaleChange}
+                />
               </span>
               <input
                 type="range"

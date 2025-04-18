@@ -6,13 +6,13 @@ import Cookies from "universal-cookie";
 function Settings({
   setSettings,
 }: {
-  setSettings: (width: number, percentage: number) => void | undefined;
+  setSettings: (width: number, imageCount: number) => void | undefined;
 }) {
   const [open, setOpen] = useState<boolean>(false);
   const [width, setWidth] = useState<number>(
     document.body.clientWidth < 1280 ? document.body.clientWidth : 1280
   );
-  const [percentage, setPercentage] = useState<number>(19);
+  const [imageCount, setImageCount] = useState<number>(5);
   const [cookies, setCookies] = useState<Cookies>();
 
   const handleWidthChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -20,16 +20,17 @@ function Settings({
     cookies?.set("width", event.target.value);
   };
 
-  const handlePercentageChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setPercentage(parseInt(event.target.value));
-    cookies?.set("percentage", event.target.value);
+  const handleImageCountChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const value = parseInt(event.target.value);
+    setImageCount(value);
+    cookies?.set("imageCount", value);
   };
 
   useEffect(() => {
     if (setSettings) {
-      setSettings(width, percentage);
+      setSettings(width, imageCount);
     }
-  }, [width, percentage, setSettings]);
+  }, [width, imageCount, setSettings]);
 
   useEffect(() => {
     if (cookies) {
@@ -38,9 +39,13 @@ function Settings({
       if (cookieWidth) {
         setWidth(parseInt(cookieWidth));
       }
-      const cookiePercentage = cookies.get("percentage");
-      if (cookiePercentage) {
-        setPercentage(parseInt(cookiePercentage));
+      const cookieImageCount = cookies.get("imageCount");
+      if (cookieImageCount) {
+        setImageCount(parseInt(cookieImageCount));
+      }
+
+      if (cookieImageCount < 1 || cookieImageCount > 20) {
+        setImageCount(5);
       }
     }
   }, [cookies]);
@@ -67,10 +72,17 @@ function Settings({
             </div>
 
             <div className="settings-body">
+              <h6>Page Settings</h6>
               <div className="setting">
                 <span className="setting-label">
                   <label htmlFor="width">Table Width</label>
-                  <span>{width}px</span>
+                  <input
+                    type="number"
+                    name="width"
+                    min="450"
+                    value={width}
+                    onChange={handleWidthChange}
+                  />
                 </span>
                 <input
                   type="range"
@@ -84,17 +96,24 @@ function Settings({
               </div>
               <div className="setting">
                 <span className="setting-label">
-                  <label htmlFor="width">Image %</label>
-                  <span>{percentage}%</span>
+                  <label htmlFor="width">Images Per Row</label>
+                  <input
+                    type="number"
+                    name="imageCount"
+                    min="1"
+                    max="30"
+                    value={imageCount}
+                    onChange={handleImageCountChange}
+                  />
                 </span>
                 <input
                   type="range"
-                  id="width"
-                  name="width"
-                  min="5"
-                  max="100"
-                  value={percentage}
-                  onChange={handlePercentageChange}
+                  id="imageCount"
+                  name="imageCount"
+                  min="1"
+                  max="30"
+                  value={imageCount}
+                  onChange={handleImageCountChange}
                 />
               </div>
             </div>
