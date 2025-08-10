@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "name": "interface-json",
+  "dependencies": {
+    "dir-to-json": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node script"
+  }
+}
