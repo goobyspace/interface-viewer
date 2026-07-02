@@ -8,4 +8,4 @@ This website is essentially a file explorer for the github repo [goobyspace/inte
 - Push the new .PNGs to Github
 - Use the `script.js` file & package.json found in the `/script` folder inside of the interface repo to create an index.json file of all the art in the repo (Using the `npm start` command, for more info check out node & NPM)
 - Put the index.json file in `src/assets`
-- Build and publish
+- Build and publish using `npm run build` and `npm run deploy`
