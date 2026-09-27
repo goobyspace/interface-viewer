@@ -1,35 +1,24 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import Item from "./Item";
-import Image from "./Image";
 import Config from "./Config";
+import type { InterfaceStructure } from "../InterfaceStructure";
+import { matchesSearch } from "../InterfaceStructure";
 
 function Content({
   search,
-  width,
   imageCount,
+  forever,
 }: {
   search: string;
-  width: number;
   imageCount: number;
+  forever: boolean;
 }) {
-  const [items, setItems] = useState<JSX.Element[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [popupText, setPopupText] = useState<string>("");
   const [popupClasses, setPopupClasses] = useState<string>("hidden");
-  const [json, setJson] = useState<InterfaceStructure>();
+  const [json, setJson] = useState<{ data: InterfaceStructure; forever: boolean }>();
   const [configUrl, setConfigUrl] = useState<string>("");
   const [configOpen, setConfigOpen] = useState<boolean>(false);
-
-  const itemsRef = useRef<JSX.Element[]>([]);
-
-  interface InterfaceStructure {
-    parent: string;
-    path: string;
-    name: string;
-    type: string;
-    recursiveCount: number;
-    children: InterfaceStructure[] | null;
-  }
 
   const setConfig = (url: string, open: boolean) => {
     setConfigUrl(url);
@@ -45,215 +34,53 @@ function Content({
   };
 
   useEffect(() => {
-    const createItemsFromJson = async (json: InterfaceStructure) => {
-      const findChildren = (children: InterfaceStructure[], currentCount: number) => {
-        const imageArray: JSX.Element[] = [];
-        const headerArray: JSX.Element[] = [];
-        let localFound = false;
+    let cancelled = false;
+    setLoading(true);
 
-        children.map((child) => {
-          let personalFound = false;
-          if (child.path.toLowerCase().includes(search.toLowerCase())) {
-            personalFound = true;
-            localFound = true;
-          }
+    const indexImport = forever
+      ? import("./../assets/forever/index.json")
+      : import("./../assets/retail/index.json");
 
-          if (child.children) {
-            const [headers, images, found] = findChildren(child.children, currentCount + 1);
-            if (found) localFound = true;
-            headerArray.push(
-              <Item
-                key={child.path}
-                path={child.path}
-                name={child.name}
-                show={personalFound ? personalFound : (found as boolean)}
-                recursiveCount={currentCount}
-                headers={headers as JSX.Element[]}
-                images={images as JSX.Element[]}
-              />
-            );
-          } else if (child.path.includes(".PNG")) {
-            imageArray.push(
-              <Image
-                key={child.path}
-                path={child.path}
-                name={child.name}
-                show={personalFound}
-                setPopup={setPopup}
-                setConfig={setConfig}
-              />
-            );
-          } else {
-            headerArray.push(
-              <Item
-                key={child.path}
-                path={child.path}
-                name={child.name}
-                show={personalFound}
-                recursiveCount={currentCount}
-                headers={[]}
-                images={[]}
-              />
-            );
-          }
-        });
-
-        return [headerArray, imageArray, localFound];
-      };
-
-      return new Promise<JSX.Element>((resolve) => {
-        let mainFound = false;
-        if (json.path.toLowerCase().includes(search.toLowerCase())) {
-          mainFound = true;
-        }
-
-        if (json.children) {
-          const promiseArray = json.children.map((child) => {
-            return new Promise<JSX.Element>((resolve, reject) => {
-              setTimeout(() => {
-                try {
-                  let item: JSX.Element;
-                  let currentTrue = false;
-
-                  currentTrue = child.path.toLowerCase().includes(search.toLowerCase());
-
-                  if (currentTrue) {
-                    mainFound = mainFound || currentTrue;
-                  }
-
-                  if (child.children) {
-                    const [headers, images, found] = findChildren(child.children, 2);
-                    mainFound = mainFound || currentTrue || (found as boolean);
-
-                    item = (
-                      <Item
-                        key={child.path}
-                        path={child.path}
-                        name={child.name}
-                        show={currentTrue ? currentTrue : (found as boolean)}
-                        recursiveCount={1}
-                        headers={headers as JSX.Element[]}
-                        images={images as JSX.Element[]}
-                      />
-                    );
-                  } else {
-                    if (child.path.includes(".PNG")) {
-                      item = (
-                        <Image
-                          key={child.path}
-                          path={child.path}
-                          name={child.name}
-                          show={currentTrue}
-                          setPopup={setPopup}
-                          setConfig={setConfig}
-                        />
-                      );
-                    } else {
-                      item = (
-                        <Item
-                          key={child.path}
-                          path={child.path}
-                          name={child.name}
-                          show={currentTrue}
-                          recursiveCount={1}
-                          headers={[]}
-                          images={[]}
-                        />
-                      );
-                    }
-                  }
-                  resolve(item);
-                } catch (error) {
-                  reject(error);
-                }
-              }, 0);
-            });
-          });
-
-          Promise.all(promiseArray!).then((values) => {
-            const images = values.filter((value) => value.props.path.includes(".PNG"));
-            const headers = values.filter((value) => !value.props.path.includes(".PNG"));
-
-            resolve(
-              <Item
-                key={json.path}
-                show={mainFound}
-                path={json.path}
-                name={json.name}
-                recursiveCount={0}
-                images={images}
-                headers={headers}
-              />
-            );
-          });
-        } else
-          resolve(
-            <Item
-              key={json.path}
-              path={json.path}
-              name={json.name}
-              show={mainFound}
-              recursiveCount={0}
-              headers={[]}
-              images={[]}
-            />
-          );
-      });
-    };
-
-    const createItems = async () => {
-      const itemPromises: Promise<JSX.Element>[] = [];
-      const promises = json?.children?.map((element: InterfaceStructure) => {
-        return new Promise<InterfaceStructure>((resolve) => {
-          setTimeout(() => {
-            itemPromises.push(createItemsFromJson(element));
-            resolve(element);
-          });
-        });
-      });
-      return Promise.all(promises || []).then(() => {
-        return Promise.all(itemPromises).then((values) => {
-          setItems(
-            values.sort((a, b) => {
-              return a.props.path.localeCompare(b.props.path);
-            })
-          );
-          setLoading(false);
-        });
-      });
-    };
-
-    createItems();
-  }, [search, json]);
-
-  useEffect(() => {
-    import("./../assets/index.json").then((res) => {
-      setJson(res.default as InterfaceStructure);
+    indexImport.then((res) => {
+      if (!cancelled) {
+        setJson({ data: res.default as InterfaceStructure, forever });
+        setLoading(false);
+      }
     });
-  }, []);
 
-  useEffect(() => {
-    itemsRef.current = items;
-  }, [items]);
+    return () => {
+      cancelled = true;
+    };
+  }, [forever]);
+
+  const normalizedSearch = search.toLowerCase();
+  const topLevelItems = (json?.data.children ?? [])
+    .filter((node) => matchesSearch(node, normalizedSearch))
+    .sort((a, b) => a.path.localeCompare(b.path));
 
   return (
     <>
-      <Config path={configUrl} open={configOpen} setPopup={setPopup} setConfig={setConfig} />
-      <div className="content" style={{ width: `${width}px` }}>
+      <Config path={configUrl} open={configOpen} setPopup={setPopup} setConfig={setConfig} forever={forever} />
+      <div className="content">
         {loading ? (
           <div key="loader" className="loader-overlay">
             <div className="loader" />
+            <p>Loading {forever ? "Forever" : "Retail"}...</p>
           </div>
         ) : (
           <div className="content-list" key={"content-list"}>
-            <style>
-              {`
-              .preview-image {
-                width: ${100 / imageCount}%;
-              }
-              `}
-            </style>
-            {items}
+            {topLevelItems.map((node) => (
+              <Item
+                key={node.path}
+                node={node}
+                recursiveCount={0}
+                search={normalizedSearch}
+                forever={json?.forever ?? forever}
+                imageCount={imageCount}
+                setPopup={setPopup}
+                setConfig={setConfig}
+              />
+            ))}
           </div>
         )}
         <div id="popup" className={popupClasses}>

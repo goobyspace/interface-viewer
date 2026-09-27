@@ -6,20 +6,21 @@ import { useState } from "react";
 function ImageComponent({
   path,
   name,
-  show,
+  forever,
   setPopup,
   setConfig,
 }: {
   path: string;
   name: string;
-  show: boolean;
+  forever: boolean;
   setPopup: (text: string) => void;
   setConfig: (url: string, open: boolean) => void;
 }) {
   //{"{img:interface/Glues/Models/UIWorgen/UIWORGENCLOUDS01.PNG:512:175:l}"}
   const [hovering, setHovering] = useState(false);
+  const [loaded, setLoaded] = useState(false);
 
-  const imageRef = `https://raw.githubusercontent.com/goobyspace/Interface/refs/heads/main/${path}`;
+  const imageRef = `https://raw.githubusercontent.com/goobyspace/Interface/refs/heads/${forever ? 'forever' : 'main'}/${path}`;
 
   const copyImage = () => {
     ExportImage(path, imageRef, setPopup);
@@ -32,7 +33,7 @@ function ImageComponent({
   return (
     <>
       <div
-        className={show ? "preview-image" : "hidden"}
+        className="preview-image"
         onMouseEnter={() => setHovering(true)}
         onMouseLeave={() => setHovering(false)}
       >
@@ -45,15 +46,17 @@ function ImageComponent({
             <button onClick={configureImage}>
               <img src={exportImage} alt="export" />
             </button>
-            <a href={`https://github.com/goobyspace/Interface/blob/main/${path}`} target="_blank">
+            <a href={`https://github.com/goobyspace/Interface/blob/${forever ? 'forever' : 'main'}/${path}`} target="_blank">
               <img src="https://github.githubassets.com/favicons/favicon-dark.svg" alt="github" />
             </a>
           </div>
           <img
-            className={`image ${hovering ? "image-hover" : ""}`}
+            className={`image ${loaded ? "image-loaded" : "image-loading"} ${hovering ? "image-hover" : ""}`}
             src={imageRef}
             alt={name}
-            loading="lazy" //this should only load images when theyre in view
+            loading="lazy"
+            decoding="async"
+            onLoad={() => setLoaded(true)}
           />
         </div>
       </div>

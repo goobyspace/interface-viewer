@@ -1,57 +1,88 @@
 import { useState } from "react";
 import ArrowDown from "./../assets/arrow_down.svg";
 import ArrowRight from "./../assets/arrow_right.svg";
+import type { InterfaceStructure } from "../InterfaceStructure";
+import { matchesSearch } from "../InterfaceStructure";
+import ImageGrid from "./VirtualImageGrid";
 
 function Item({
-  path,
-  name,
+  node,
   recursiveCount,
-  show,
-  headers,
-  images,
+  search,
+  forever,
+  imageCount,
+  setPopup,
+  setConfig,
 }: {
-  path: string;
-  name: string;
+  node: InterfaceStructure;
   recursiveCount: number;
-  show: boolean;
-  headers: JSX.Element[] | undefined;
-  images: JSX.Element[] | undefined;
+  search: string;
+  forever: boolean;
+  imageCount: number;
+  setPopup: (text: string) => void;
+  setConfig: (url: string, open: boolean) => void;
 }) {
   const [collapsed, setCollapsed] = useState<boolean>(true);
-  const [firstOpen, setFirstOpen] = useState<boolean>(false);
+  const children = node.children?.filter((child) => matchesSearch(child, search)) ?? [];
+  const headers = children.filter((child) => !child.path.includes(".PNG"));
+  const images = children.filter((child) => child.path.includes(".PNG"));
 
   return (
     <>
-      <div className={show ? "item" : "hidden"}>
+      <div className="item">
         <span className="item-text" style={{ left: `${recursiveCount * 20}px` }}>
-          {((headers && headers.length > 0) || (images && images.length > 0)) && (
+          {children.length > 0 && (
             <img
               src={collapsed ? ArrowRight : ArrowDown}
               alt="collapse arrow"
               className="arrow"
               onClick={() => {
-                if (!firstOpen) setFirstOpen(true);
                 setCollapsed(!collapsed);
               }}
             />
           )}
-          {path.includes(".PNG") ? (
+          {node.path.includes(".PNG") ? (
             <a
-              href={`https://raw.githubusercontent.com/goobyspace/Interface/refs/heads/main/${path}`}
+              href={`https://raw.githubusercontent.com/goobyspace/Interface/refs/heads/${forever ? 'forever' : 'main'}/${node.path}`}
               target="_blank"
               rel="noreferrer"
             >
-              {name}
+              {node.name}
             </a>
           ) : (
-            name
+            node.name
           )}
         </span>
         <div className="border" />
-        <div className={`collapsable ${collapsed ? "collapsed" : "open"}`}>
-          {firstOpen ? <div className="headers">{headers}</div> : null}
-          {firstOpen ? <div className="images">{images}</div> : null}
-        </div>
+        {!collapsed && (
+          <div className="collapsable open">
+            <div className="headers">
+              {headers.map((child) => (
+                <Item
+                  key={child.path}
+                  node={child}
+                  recursiveCount={recursiveCount + 1}
+                  search={search}
+                  forever={forever}
+                  imageCount={imageCount}
+                  setPopup={setPopup}
+                  setConfig={setConfig}
+                />
+              ))}
+            </div>
+            {images.length > 0 && (
+              <div className="images">
+                <ImageGrid
+                  images={images}
+                  imageCount={imageCount}
+                  forever={forever}
+                  setPopup={setPopup}
+                  setConfig={setConfig}
+                />
+              </div>
+            )}
+          </div>
+        )}
       </div>
     </>
   );

@@ -4,11 +4,13 @@ import { ExportImage, GetImage } from "../Utility";
 function Config({
   path,
   open,
+  forever,
   setPopup,
   setConfig,
 }: {
   path: string;
   open: boolean;
+  forever: boolean;
   setPopup: (text: string) => void;
   setConfig: (path: string, open: boolean) => void;
 }) {
@@ -22,9 +24,10 @@ function Config({
   const options = useRef(["l", "c", "r"]);
   const optionsTranslated = useRef(["Left", "Center", "Right"]);
 
-  const imageRef = `https://raw.githubusercontent.com/goobyspace/Interface/refs/heads/main/${path}`;
+  const imageRef = `https://raw.githubusercontent.com/goobyspace/Interface/refs/heads/${forever ? 'forever' : 'main'}/${path}`;
 
   useEffect(() => {
+    if (!path) return;
     async function getTRPString() {
       const values = await GetImage(path, imageRef, direction, scale);
       if (typeof values === "object" && values !== null) {
@@ -65,14 +68,16 @@ function Config({
                 | "center",
             }}
           >
-            <img
-              src={imageRef}
-              alt={path}
-              style={{
-                width: `${width}px`,
-                height: `${height}px`,
-              }}
-            />
+            {path && (
+              <img
+                src={imageRef}
+                alt={path}
+                style={{
+                  width: `${width}px`,
+                  height: `${height}px`,
+                }}
+              />
+            )}
           </div>
           <div className="config-settings">
             <div className="config-setting">
@@ -113,7 +118,7 @@ function Config({
               />
             </div>
             <p>{copyString}</p>
-            <button onClick={copyImage}>Export</button>
+            <button onClick={copyImage}>Copy</button>
           </div>
         </div>
       </div>

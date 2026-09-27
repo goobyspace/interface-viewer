@@ -2,13 +2,37 @@ import Description from "./components/Description";
 import SearchBar from "./components/SearchBar";
 import Settings from "./components/Settings";
 import Content from "./components/Content";
+import ModeToggle from "./components/ModeToggle";
+import CookieConsent from "./components/CookieConsent";
+import Export from "./assets/export.svg";
 import "./App.css";
 import { useState } from "react";
+import type { CSSProperties } from "react";
+import Cookies from "universal-cookie";
+
+const cookies = new Cookies(null, { path: "/", sameSite: "strict", maxAge: 60 * 60 * 24 * 365 });
 
 function App() {
   const [search, setSearch] = useState<string>("");
-  const [width, setWidth] = useState<number>(0);
+  const [width, setWidth] = useState<number>(1280);
   const [imageCount, setImageCount] = useState<number>(0);
+  const [forever, setForever] = useState<boolean>(false);
+  const [cookieConsent, setCookieConsent] = useState<boolean | undefined>(() => {
+    const consent = cookies.get("cookieConsent");
+    return typeof consent === "boolean" ? consent : undefined;
+  });
+
+  const updateCookieConsent = (accepted: boolean) => {
+    setCookieConsent(accepted);
+    cookies.set("cookieConsent", accepted);
+    if (accepted) {
+      cookies.set("width", width);
+      cookies.set("imageCount", imageCount);
+      cookies.set("retail", forever);
+    } else {
+      ["width", "imageCount", "retail"].forEach((name) => cookies.remove(name, { path: "/" }));
+    }
+  };
 
   const setSearchValue = (value: string) => {
     setSearch(value);
@@ -36,21 +60,38 @@ function App() {
 
   return (
     <>
-      <div id="container">
+      <div
+        id="container"
+        style={{ "--content-max-width": `${width / 16}rem` } as CSSProperties}
+      >
         <Description />
         <div id="top-bar">
           <SearchBar setSearchValue={setSearchValue} />
-          <Settings setSettings={setSettings} />
-          <a href="https://github.com/goobyspace/Interface">
-            <img
-              src="https://github.githubassets.com/favicons/favicon-dark.svg"
-              alt="GitHub logo"
+          <div className="toolbar-actions">
+            <ModeToggle
+              forever={forever}
+              setForever={setForever}
+              cookiesEnabled={cookieConsent === true}
             />
-            Interface files
-          </a>
+            <Settings
+              setSettings={setSettings}
+              cookiesEnabled={cookieConsent === true}
+              setCookiesEnabled={updateCookieConsent}
+            />
+            <a
+              className="interface-link"
+              href="https://github.com/goobyspace/Interface"
+              aria-label="Interface files"
+              title="Interface files"
+            >
+              <img src={Export} alt="" />
+              <span className="control-label">Interface files</span>
+            </a>
+          </div>
         </div>
-        <Content search={search} width={width} imageCount={imageCount} />
+        <Content search={search} imageCount={imageCount} forever={forever} />
       </div>
+      {cookieConsent === undefined && <CookieConsent setConsent={updateCookieConsent} />}
     </>
   );
 }
