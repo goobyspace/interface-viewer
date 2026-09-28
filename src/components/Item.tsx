@@ -26,20 +26,30 @@ function Item({
   const children = node.children?.filter((child) => matchesSearch(child, search)) ?? [];
   const headers = children.filter((child) => !child.path.includes(".PNG"));
   const images = children.filter((child) => child.path.includes(".PNG"));
+  const expandable = children.length > 0;
+  const toggle = () => setCollapsed(!collapsed);
 
   return (
     <>
       <div className="item">
-        <span className="item-text" style={{ left: `${recursiveCount * 20}px` }}>
-          {children.length > 0 && (
-            <img
-              src={collapsed ? ArrowRight : ArrowDown}
-              alt="collapse arrow"
-              className="arrow"
-              onClick={() => {
-                setCollapsed(!collapsed);
-              }}
-            />
+        <div
+          className={expandable ? "item-text expandable" : "item-text"}
+          style={{ paddingLeft: `calc(0.4375rem + ${recursiveCount * 20}px)` }}
+          {...(expandable && {
+            role: "button",
+            tabIndex: 0,
+            "aria-expanded": !collapsed,
+            onClick: toggle,
+            onKeyDown: (event: React.KeyboardEvent) => {
+              if (event.key === "Enter" || event.key === " ") {
+                event.preventDefault();
+                toggle();
+              }
+            },
+          })}
+        >
+          {expandable && (
+            <img src={collapsed ? ArrowRight : ArrowDown} alt="" className="arrow" />
           )}
           {node.path.includes(".PNG") ? (
             <a
@@ -52,7 +62,7 @@ function Item({
           ) : (
             node.name
           )}
-        </span>
+        </div>
         <div className="border" />
         {!collapsed && (
           <div className="collapsable open">

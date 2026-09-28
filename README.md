@@ -7,5 +7,5 @@ This website is essentially a file explorer for the github repo [goobyspace/inte
 - Use [BLPC](https://www.wowinterface.com/downloads/info18810-Blpc.html) to batch convert the files to .PNG
 - Push the new .PNGs to Github
 - Use the `script.js` file & package.json found in the `/script` folder inside of the interface repo to create an index.json file of all the art in the repo (Using the `npm start` command, for more info check out node & NPM)
-- Put the index.json file in `src/assets`
+- Put the index.json file in `src/assets/version` for the version that updated
 - Build and publish using `npm run build` and `npm run deploy`

@@ -15,7 +15,8 @@ function Settings({
   const [open, setOpen] = useState<boolean>(false);
   const [width, setWidth] = useState<number>(1280);
   const [appliedWidth, setAppliedWidth] = useState<number>(1280);
-  const [imageCount, setImageCount] = useState<number>(5);
+  const defaultImageCount = window.matchMedia("(max-width: 40rem)").matches ? 1 : 5;
+  const [imageCount, setImageCount] = useState<number>(defaultImageCount);
   const [cookies, setCookies] = useState<Cookies>();
   const maximumWidth = Math.max(600, window.screen.availWidth);
 
@@ -62,10 +63,10 @@ function Settings({
       }
 
       if (cookieImageCount < 1 || cookieImageCount > 20) {
-        setImageCount(5);
+        setImageCount(defaultImageCount);
       }
     }
-  }, [cookies, cookiesEnabled, maximumWidth]);
+  }, [cookies, cookiesEnabled, maximumWidth, defaultImageCount]);
 
   useEffect(() => {
     setCookies(new Cookies(null, { path: "/", sameSite: "strict", maxAge: 60 * 60 * 24 * 365 }));
